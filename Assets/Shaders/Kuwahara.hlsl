@@ -1,0 +1,58 @@
+float2 texelSize = _ScreenSize.zw;
+
+int RADIUS = 3;
+
+float3 mean[4] = {
+    {0, 0, 0},
+    {0, 0, 0},
+    {0, 0, 0},
+    {0, 0, 0},
+};
+
+float3 sigma[4] = {
+    {0, 0, 0},
+    {0, 0, 0},
+    {0, 0, 0},
+    {0, 0, 0},
+};
+
+float2 offsets[4] = {{-RADIUS, -RADIUS}, {-RADIUS, 0}, {0, -RADIUS}, {0, 0}};
+
+float2 pos;
+float3 col;
+
+for (int i = 0; i < 4; i++)
+{
+    for (int j = 0; j <= RADIUS; j++)
+    {
+        for (int k = 0; k <= RADIUS; k++)
+        {
+            pos = float2(j, k) + offsets[i];
+            float2 uvpos = varyings.positionCS.xy + pos;
+            col = CustomPassLoadCameraColor(samplePosition, 0);
+            
+            mean[i] += col;
+            sigma[i] += col * col;
+        }
+    }
+}
+
+float n = pow(RADIUS + 1, 2);
+float sigma_f;
+
+float min = 1e10;
+
+for (int i = 0; i < 4; i++)
+{
+    mean[i] /= n;
+    sigma[i] = abs(sigma[i] / n - mean[i] * mean[i]);
+    sigma_f = sigma[i].r + sigma[i].g + sigma[i].b;
+    
+    if (sigma_f < min)
+    {
+        min = sigma_f;
+        col = mean[i];
+    }
+}
+
+return col;
