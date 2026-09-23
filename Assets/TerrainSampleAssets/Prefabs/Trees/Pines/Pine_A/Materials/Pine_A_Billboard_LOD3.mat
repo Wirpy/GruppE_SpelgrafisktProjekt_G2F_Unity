@@ -90,7 +90,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - Diffusion_Profile: 3.5648174
+    - Diffusion_Profile: 3.99017
     - EFFECT_BILLBOARD: 1
     - EFFECT_EXTRA_TEX: 1
     - _AddPrecomputedVelocity: 0
@@ -161,7 +161,7 @@ Material:
     - _ZTestTransparent: 4
     - _ZWrite: 1
     m_Colors:
-    - Diffusion_Profile_Asset: {r: 2.2888926e+38, g: 1.2389358e-26, b: 7.69327e-37, a: 0.00018220427}
+    - Diffusion_Profile_Asset: {r: -694.41174, g: -2.8006413e+22, b: 2.7147835e-26, a: 3.4189296e+30}
     - _AO_Remap: {r: 0, g: 1, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _DoubleSidedConstants: {r: -1, g: -1, b: -1, a: 0}
@@ -170,3 +170,18 @@ Material:
     - _Smoothness_Remap: {r: 0, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
+--- !u!114 &6966246371616474604
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa486462e6be1764e89c788ba30e61f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.HighDefinition.Runtime::UnityEditor.Rendering.HighDefinition.MaterialExternalReferences
+  m_DiffusionProfileReferences:
+  - {fileID: 11400000, guid: 5a9a2dc462c7bde4f86d0615a19c2c72, type: 2}
+  m_MaterialReferences: []
