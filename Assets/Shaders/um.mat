@@ -71,7 +71,7 @@ Material:
     - _AlphaDstBlend: 0
     - _AlphaSrcBlend: 1
     - _BillboardRotationSpeed: 0.01
-    - _BillboardSize: 5.35
+    - _BillboardSize: 3.06
     - _BlendMode: 0
     - _ColorVarition: 1.06
     - _ConservativeDepthOffsetEnable: 0
@@ -86,7 +86,7 @@ Material:
     - _EnableBlendModePreserveSpecularLighting: 1
     - _EnableFogOnTransparent: 1
     - _ExcludeFromTUAndAA: 0
-    - _Inflate: 4.35
+    - _Inflate: 3.37
     - _MaterialID: 1
     - _MaterialTypeMask: 2
     - _OpaqueCullMode: 2
@@ -110,7 +110,7 @@ Material:
     - _StencilWriteMaskMV: 41
     - _SupportDecals: 1
     - _SurfaceType: 0
-    - _TextureScrollSpeed: 0.2
+    - _TextureScrollSpeed: 0.05
     - _TransmissionEnable: 1
     - _TransparentBackfaceEnable: 0
     - _TransparentCullMode: 2
@@ -126,7 +126,7 @@ Material:
     - _ZWrite: 1
     - _test: 0.5
     m_Colors:
-    - _BillboardRotation: {r: 0.03, g: 0.11, b: 0, a: 0}
+    - _BillboardRotation: {r: 0.01, g: 0.05, b: 0, a: 0}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _PrimaryLeafColor: {r: 0.6698113, g: 0.44335964, b: 0.12322002, a: 1}
