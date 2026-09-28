@@ -711,6 +711,83 @@ MonoBehaviour:
   m_ObsoleteUseShadowQualitySettings: 0
   m_ObsoleteCustomShadowResolution: 512
   m_ObsoleteContactShadows: 0
+--- !u!1001 &1500179989
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -4593742089952183846, guid: 38ec47830d2581646b844c065b972229, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: -4569481153900826773, guid: 38ec47830d2581646b844c065b972229, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: -1228813448956741939, guid: 38ec47830d2581646b844c065b972229, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.0126853
+      objectReference: {fileID: 0}
+    - target: {fileID: -1228813448956741939, guid: 38ec47830d2581646b844c065b972229, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.5186877
+      objectReference: {fileID: 0}
+    - target: {fileID: -1228813448956741939, guid: 38ec47830d2581646b844c065b972229, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 5.824773
+      objectReference: {fileID: 0}
+    - target: {fileID: -1228813448956741939, guid: 38ec47830d2581646b844c065b972229, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1228813448956741939, guid: 38ec47830d2581646b844c065b972229, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1228813448956741939, guid: 38ec47830d2581646b844c065b972229, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1228813448956741939, guid: 38ec47830d2581646b844c065b972229, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1228813448956741939, guid: 38ec47830d2581646b844c065b972229, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1228813448956741939, guid: 38ec47830d2581646b844c065b972229, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1228813448956741939, guid: 38ec47830d2581646b844c065b972229, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1969759469829360137, guid: 38ec47830d2581646b844c065b972229, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081710735850456721, guid: 38ec47830d2581646b844c065b972229, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5022722078274345139, guid: 38ec47830d2581646b844c065b972229, type: 3}
+      propertyPath: m_Name
+      value: Tent_alembic_export
+      objectReference: {fileID: 0}
+    - target: {fileID: 7144844655464883864, guid: 38ec47830d2581646b844c065b972229, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: -6065482882863524964, guid: 38ec47830d2581646b844c065b972229, type: 3}
 --- !u!1 &1522217647
 GameObject:
   m_ObjectHideFlags: 0
@@ -1039,3 +1116,4 @@ SceneRoots:
   - {fileID: 1687147024}
   - {fileID: 1522217651}
   - {fileID: 967304981}
+  - {fileID: 1500179989}
