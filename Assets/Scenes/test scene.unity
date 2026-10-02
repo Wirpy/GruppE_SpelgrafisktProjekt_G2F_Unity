@@ -6383,9 +6383,9 @@ MonoBehaviour:
         clearFlags: 0
         passFoldout: 0
         m_Version: 0
-        fullscreenPassMaterial: {fileID: 0}
+        fullscreenPassMaterial: {fileID: 2100000, guid: 7844620ae9898954c857acd7a95c5b49, type: 2}
         materialPassIndex: 0
-        materialPassName: Custom Pass 0
+        materialPassName: Blit
         fetchColorBuffer: 0
     - rid: 8610980851789070510
       type: {class: FullScreenCustomPass, ns: UnityEngine.Rendering.HighDefinition, asm: Unity.RenderPipelines.HighDefinition.Runtime}
