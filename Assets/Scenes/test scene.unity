@@ -6342,6 +6342,7 @@ GameObject:
   - component: {fileID: 1112024960}
   - component: {fileID: 1112024959}
   - component: {fileID: 1112024958}
+  - component: {fileID: 1112024961}
   m_Layer: 0
   m_Name: Sky and Fog Global Volume
   m_TagString: Untagged
@@ -6366,27 +6367,12 @@ MonoBehaviour:
   priority: 0
   customPasses:
   - rid: 8610980851789070510
-  - rid: 7732103376013885441
   injectionPoint: 1
   m_TargetCamera: {fileID: 0}
   useTargetCamera: 0
   references:
     version: 2
     RefIds:
-    - rid: 7732103376013885441
-      type: {class: FullScreenCustomPass, ns: UnityEngine.Rendering.HighDefinition, asm: Unity.RenderPipelines.HighDefinition.Runtime}
-      data:
-        m_Name: Glitch
-        enabled: 1
-        targetColorBuffer: 0
-        targetDepthBuffer: 0
-        clearFlags: 0
-        passFoldout: 0
-        m_Version: 0
-        fullscreenPassMaterial: {fileID: 0}
-        materialPassIndex: 0
-        materialPassName: Custom Pass 0
-        fetchColorBuffer: 0
     - rid: 8610980851789070510
       type: {class: FullScreenCustomPass, ns: UnityEngine.Rendering.HighDefinition, asm: Unity.RenderPipelines.HighDefinition.Runtime}
       data:
@@ -6395,7 +6381,7 @@ MonoBehaviour:
         targetColorBuffer: 0
         targetDepthBuffer: 0
         clearFlags: 0
-        passFoldout: 0
+        passFoldout: 1
         m_Version: 0
         fullscreenPassMaterial: {fileID: 2100000, guid: f79b4ae248c0d8d4299eb2eae86d332b, type: 2}
         materialPassIndex: 0
@@ -6433,6 +6419,43 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1112024961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1112024957}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26d6499a6bd256e47b859377446493a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.HighDefinition.Runtime::UnityEngine.Rendering.HighDefinition.CustomPassVolume
+  m_IsGlobal: 1
+  fadeRadius: 0
+  priority: 0
+  customPasses:
+  - rid: 7732103376013885441
+  injectionPoint: 1
+  m_TargetCamera: {fileID: 0}
+  useTargetCamera: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 7732103376013885441
+      type: {class: FullScreenCustomPass, ns: UnityEngine.Rendering.HighDefinition, asm: Unity.RenderPipelines.HighDefinition.Runtime}
+      data:
+        m_Name: Glitch
+        enabled: 1
+        targetColorBuffer: 0
+        targetDepthBuffer: 0
+        clearFlags: 0
+        passFoldout: 0
+        m_Version: 0
+        fullscreenPassMaterial: {fileID: 2100000, guid: b64fc6799a73a6a40a16c688820bb875, type: 2}
+        materialPassIndex: 0
+        materialPassName: DrawProcedural
+        fetchColorBuffer: 0
 --- !u!1001 &1191726473
 PrefabInstance:
   m_ObjectHideFlags: 0
