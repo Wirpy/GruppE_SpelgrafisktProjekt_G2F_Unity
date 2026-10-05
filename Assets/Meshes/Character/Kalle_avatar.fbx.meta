@@ -7,6 +7,16 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: CameraBase_MAT
+    second: {fileID: -4068180976370129607, guid: 483d73a4d7aa6a542aeb75f79a18e72b, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glas_MAT
+    second: {fileID: 1540681539054868477, guid: 483d73a4d7aa6a542aeb75f79a18e72b, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Kalle_MAT
     second: {fileID: 2100000, guid: da4d285374e39fe479d6747bf4da6fc0, type: 2}
   - first:
