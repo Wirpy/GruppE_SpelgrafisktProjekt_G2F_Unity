@@ -951,8 +951,9 @@ MonoBehaviour:
   largeBand1FadeToggle: 1
   ripplesFadeToggle: 1
   surfaceType: 0
-  geometryType: 3
-  meshRenderers: []
+  geometryType: 2
+  meshRenderers:
+  - {fileID: 0}
   timeMultiplier: 0.27
   scriptInteractions: 1
   cpuEvaluateRipples: 0
@@ -1107,8 +1108,8 @@ Transform:
   m_GameObject: {fileID: 572495087}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.904, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -3.75, y: 1.904, z: 6.26}
+  m_LocalScale: {x: 22.328, y: 22.328, z: 22.328}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
