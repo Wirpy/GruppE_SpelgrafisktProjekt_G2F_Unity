@@ -925,8 +925,8 @@ GameObject:
   m_Component:
   - component: {fileID: 572495089}
   - component: {fileID: 572495088}
-  m_Layer: 0
-  m_Name: Ocean
+  m_Layer: 4
+  m_Name: Lake
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -966,7 +966,7 @@ MonoBehaviour:
   tessellationFactorFadeStart: 150
   tessellationFactorFadeRange: 1850
   refractionColor: {r: 0, g: 0.35727677, b: 0.35727677, a: 1}
-  maxRefractionDistance: 2.8
+  maxRefractionDistance: 3.22
   absorptionDistance: 1.5
   scatteringColor: {r: 0.034445785, g: 0.5429713, b: 0.9162945, a: 1}
   ambientScattering: 0.588
