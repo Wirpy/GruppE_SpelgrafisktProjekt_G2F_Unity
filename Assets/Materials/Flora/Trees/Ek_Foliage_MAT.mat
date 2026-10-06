@@ -71,9 +71,9 @@ Material:
     - _AlphaDstBlend: 0
     - _AlphaSrcBlend: 1
     - _BillboardRotationSpeed: 0.01
-    - _BillboardSize: 4.9
+    - _BillboardSize: 4.69
     - _BlendMode: 0
-    - _ColorVarition: 1.06
+    - _ColorVarition: 1.69
     - _ConservativeDepthOffsetEnable: 0
     - _CullMode: 2
     - _CullModeForward: 2
@@ -86,7 +86,7 @@ Material:
     - _EnableBlendModePreserveSpecularLighting: 1
     - _EnableFogOnTransparent: 1
     - _ExcludeFromTUAndAA: 0
-    - _Inflate: 0
+    - _Inflate: -16.56
     - _MaterialID: 1
     - _MaterialTypeMask: 2
     - _OpaqueCullMode: 2
@@ -129,8 +129,8 @@ Material:
     - _BillboardRotation: {r: 0.01, g: 0.05, b: 0, a: 0}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
-    - _PrimaryLeafColor: {r: 0.6698113, g: 0.44335964, b: 0.12322002, a: 1}
-    - _SecondaryLeafColor: {r: 0.24705072, g: 0.4716981, b: 0.064524755, a: 1}
+    - _PrimaryLeafColor: {r: 1, g: 0.5208226, b: 0.0047169924, a: 1}
+    - _SecondaryLeafColor: {r: 1, g: 0.85398483, b: 0.13679248, a: 1}
     - _est: {r: 0.56, g: 0.41, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
