@@ -15,7 +15,8 @@ Material:
   - _ALPHATEST_ON
   - _ENABLE_FOG_ON_TRANSPARENT
   - _SURFACE_TYPE_TRANSPARENT
-  m_InvalidKeywords: []
+  m_InvalidKeywords:
+  - _DISABLE_SSR_TRANSPARENT
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -28,6 +29,7 @@ Material:
   - TransparentDepthPostpass
   - TransparentBackface
   - MOTIONVECTORS
+  - RayTracingPrepass
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
@@ -59,6 +61,7 @@ Material:
     - _CullMode: 2
     - _CullModeForward: 2
     - _DepthOffsetEnable: 0
+    - _DiffusionProfileHash: 0
     - _DoubleSidedEnable: 0
     - _DoubleSidedGIMode: 0
     - _DoubleSidedNormalMode: 2
@@ -67,19 +70,30 @@ Material:
     - _EnableBlendModePreserveSpecularLighting: 0
     - _EnableFogOnTransparent: 1
     - _ExcludeFromTUAndAA: 0
+    - _MaterialID: 1
+    - _MaterialTypeMask: 2
     - _OpaqueCullMode: 2
     - _PerPixelSorting: 0
+    - _RayTracing: 0
+    - _ReceivesSSR: 1
+    - _ReceivesSSRTransparent: 0
+    - _RefractionModel: 0
     - _RenderQueueType: 4
+    - _RequireSplitLighting: 0
     - _SrcBlend: 1
     - _StencilRef: 0
     - _StencilRefDepth: 1
     - _StencilRefDistortionVec: 4
+    - _StencilRefGBuffer: 2
     - _StencilRefMV: 33
     - _StencilWriteMask: 6
     - _StencilWriteMaskDepth: 9
     - _StencilWriteMaskDistortionVec: 4
+    - _StencilWriteMaskGBuffer: 15
     - _StencilWriteMaskMV: 43
+    - _SupportDecals: 1
     - _SurfaceType: 1
+    - _TransmissionEnable: 1
     - _TransparentBackfaceEnable: 0
     - _TransparentCullMode: 2
     - _TransparentDepthPostpassEnable: 0
@@ -89,11 +103,14 @@ Material:
     - _TransparentZWrite: 0
     - _UseShadowThreshold: 0
     - _ZTestDepthEqualForOpaque: 4
+    - _ZTestGBuffer: 3
     - _ZTestTransparent: 4
     - _ZWrite: 0
     m_Colors:
+    - _DiffusionProfileAsset: {r: 0, g: 0, b: 0, a: 0}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _test: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &4159514886346125721
