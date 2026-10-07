@@ -108,7 +108,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: com.williamschack.Repetitionless.Runtime::Repetitionless.Runtime.RepetitionlessTerrain
   _mainMaterial: {fileID: 2100000, guid: a5408e91d05419849a483aef9909ac3c, type: 2}
   AutoSaveTextures: 1
-  ParentTerrain: {fileID: 2057529611108517374}
+  ParentTerrain: {fileID: 0}
 --- !u!1 &2270585665182238572
 GameObject:
   m_ObjectHideFlags: 0
@@ -120,7 +120,6 @@ GameObject:
   - component: {fileID: 1113448049433344116}
   - component: {fileID: 916098425938814775}
   - component: {fileID: 4042783389132494269}
-  - component: {fileID: 2057529611108517374}
   m_Layer: 0
   m_Name: Parent_Terrain
   m_TagString: Untagged
@@ -206,21 +205,6 @@ TerrainCollider:
   serializedVersion: 2
   m_TerrainData: {fileID: 15600000, guid: e6a5d2d4dc35caf439fe928fd5a85788, type: 2}
   m_EnableTreeColliders: 1
---- !u!114 &2057529611108517374
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2270585665182238572}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8208f575f3af1555c94def75675e22a3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: com.williamschack.Repetitionless.Runtime::Repetitionless.Runtime.RepetitionlessTerrain
-  _mainMaterial: {fileID: 2100000, guid: a5408e91d05419849a483aef9909ac3c, type: 2}
-  AutoSaveTextures: 1
-  ParentTerrain: {fileID: 0}
 --- !u!1 &6835360020931010466
 GameObject:
   m_ObjectHideFlags: 0
@@ -329,7 +313,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: com.williamschack.Repetitionless.Runtime::Repetitionless.Runtime.RepetitionlessTerrain
   _mainMaterial: {fileID: 2100000, guid: a5408e91d05419849a483aef9909ac3c, type: 2}
   AutoSaveTextures: 0
-  ParentTerrain: {fileID: 2057529611108517374}
+  ParentTerrain: {fileID: 0}
 --- !u!1 &7752684641807694407
 GameObject:
   m_ObjectHideFlags: 0
@@ -438,4 +422,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: com.williamschack.Repetitionless.Runtime::Repetitionless.Runtime.RepetitionlessTerrain
   _mainMaterial: {fileID: 2100000, guid: a5408e91d05419849a483aef9909ac3c, type: 2}
   AutoSaveTextures: 0
-  ParentTerrain: {fileID: 2057529611108517374}
+  ParentTerrain: {fileID: 0}

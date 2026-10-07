@@ -1,0 +1,27 @@
+{
+    "name": "com.jbooth.microsplat.hdrp6p3",
+    "displayName": "MicroSplat-CoreHD6.3",
+    "version": "3.9.0",
+    "author": {
+        "name": "Jason Booth",
+        "email": "slipster216@gmail.com",
+        "url": "http://jdbtechservices.com/"
+    },
+    "unity": "6000.3",
+        "samples": [
+        {
+            "displayName": "HDRP6.3 Example",
+            "description": "Example of HDRP6.3",
+            "path": "Samples~/HDRP63"
+        }
+    ],
+    "dependencies" : {"com.jbooth.microsplat.core": "3.9.0" },
+    "description": "The HDRP6 module for MicroSplat allows MicroSplat to compile it's shaders for HDRP in Unity 6.3",
+    "keywords": [
+        "MicroSplat",
+        "Terrain",
+        "Shader",
+        "HDRP"
+    ],
+    "documentationUrl" : "https://docs.google.com/document/d/1ySro4sgvVBEO6LFoGiZDZbttTzA44PZwQjPR8rTxCC4/edit?usp=sharing"
+}

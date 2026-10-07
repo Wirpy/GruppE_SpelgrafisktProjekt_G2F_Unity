@@ -29,7 +29,6 @@ Material:
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - _MAX_LAYERS_8
-  - _REPETITIONLESS_TRIPLANAR
   - _TERRAIN_INSTANCED_PERPIXEL_NORMAL
   m_InvalidKeywords:
   - _DISABLE_SSR_TRANSPARENT
@@ -106,7 +105,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NSOTextures:
-        m_Texture: {fileID: 18700000, guid: 2814b4a09a249a74fb0a57502c61e7ad, type: 2}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NoiseTexture:
@@ -164,7 +163,7 @@ Material:
     - _REPETITIONLESS_DISTANCE_BLEND: 0
     - _REPETITIONLESS_MATERIAL_BLEND: 0
     - _REPETITIONLESS_NOISE_TEXTURE: 0
-    - _REPETITIONLESS_TRIPLANAR: 1
+    - _REPETITIONLESS_TRIPLANAR: 0
     - _REPETITIONLESS_VARIATION: 0
     - _RayTracing: 0
     - _ReceivesSSR: 1
