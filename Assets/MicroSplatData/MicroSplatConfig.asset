@@ -20,7 +20,7 @@ MonoBehaviour:
   clusterMode: 0
   packingMode: 0
   pbrWorkflow: 0
-  hash: -819920896
+  hash: -2007724032
   splatArray: {fileID: 0}
   diffuseArray: {fileID: 18700000, guid: a3f795a2ba7a78e4ab1b9b6e0ab5cdef, type: 2}
   normalSAOArray: {fileID: 18700000, guid: b33e15a763c40d149836dfa8b2578655, type: 2}
@@ -39,15 +39,15 @@ MonoBehaviour:
   emisArray3: {fileID: 0}
   defaultTextureSettings:
     diffuseSettings:
-      textureSize: 1024
+      textureSize: 512
       compression: 0
-      compressionQuality: 1
-      filterMode: 1
+      compressionQuality: 0
+      filterMode: 2
       Aniso: 1
     normalSettings:
-      textureSize: 1024
+      textureSize: 512
       compression: 0
-      compressionQuality: 1
+      compressionQuality: 0
       filterMode: 2
       Aniso: 1
     smoothSettings:
@@ -95,10 +95,10 @@ MonoBehaviour:
   platformOverrides: []
   sourceTextureSize: 0
   allTextureChannelHeight: 2
-  allTextureChannelSmoothness: 3
+  allTextureChannelSmoothness: 0
   allTextureChannelAO: 1
   sourceTextures:
-  - terrainLayer: {fileID: 0}
+  - terrainLayer: {fileID: 8574412962073106934, guid: 6beeb06f840c6404c8e4d1c719c8eb3b, type: 2}
     diffuse: {fileID: 2800000, guid: 25bd714db3685ad439f74aa3c3cd8ae2, type: 3}
     height: {fileID: 2800000, guid: fec55bf57826d0d4a97962e0a5ab3eb9, type: 3}
     heightChannel: 1
@@ -127,7 +127,7 @@ MonoBehaviour:
     traxAO: {fileID: 0}
     traxAOChannel: 1
     splat: {fileID: 0}
-  - terrainLayer: {fileID: 0}
+  - terrainLayer: {fileID: 8574412962073106934, guid: fb8fe104b92799c4a85e9d7b01e269d4, type: 2}
     diffuse: {fileID: 2800000, guid: 2b870242e13473a42adb5779996f1022, type: 3}
     height: {fileID: 2800000, guid: a81766360ef1fa84a9bf7121be5f8a7e, type: 3}
     heightChannel: 1
