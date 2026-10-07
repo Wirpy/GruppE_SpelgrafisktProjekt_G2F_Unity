@@ -23,6 +23,10 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _CavityMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Control0:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -43,6 +47,22 @@ Material:
         m_Texture: {fileID: 18700000, guid: a3f795a2ba7a78e4ab1b9b6e0ab5cdef, type: 2}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _GeoCurve:
+        m_Texture: {fileID: 17588142581369908, guid: 1d554b143ae343042a6bea13fadf6cc4, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GeoNormal:
+        m_Texture: {fileID: 2800000, guid: 192aaea3237044f608d663c9884e0c70, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GeoSlopeTex:
+        m_Texture: {fileID: 4182689166295169926, guid: 1d554b143ae343042a6bea13fadf6cc4, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GeoTex:
+        m_Texture: {fileID: 2800000, guid: 863f19b183b2443859f959a96f7dce32, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -57,6 +77,18 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _PerTexProps:
         m_Texture: {fileID: 5858807140828464373, guid: 1d554b143ae343042a6bea13fadf6cc4, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ProcTexCurves:
+        m_Texture: {fileID: 5011822202740395376, guid: f404775e14e94c94992c7256461672fe, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ProcTexNoise:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ProcTexParams:
+        m_Texture: {fileID: -6813194111338747227, guid: f404775e14e94c94992c7256461672fe, type: 2}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _TerrainHeightmapTexture:
@@ -101,8 +133,13 @@ Material:
     - _DstBlend: 0
     - _EnableBlendModePreserveSpecularLighting: 1
     - _EnableFogOnTransparent: 1
+    - _GeoHeightContrast: 10
+    - _GeoNormalStrength: 0.786
     - _HybridHeightBlendDistance: 40
     - _OpaqueCullMode: 2
+    - _PCLayerCount: 4
+    - _PCShowProceduralIndex: 0
+    - _ProcBiomeCurveWeight: 0.5
     - _RayTracing: 0
     - _ReceivesSSR: 1
     - _ReceivesSSRTransparent: 0
@@ -131,6 +168,7 @@ Material:
     - _TransparentSortPriority: 0
     - _TransparentWritingMotionVec: 0
     - _TransparentZWrite: 0
+    - _TriplanarContrast: 4
     - _UseShadowThreshold: 0
     - _ZTestDepthEqualForOpaque: 4
     - _ZTestGBuffer: 4
@@ -138,7 +176,11 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
+    - _GeoCurveParams: {r: 250, g: 0, b: 0, a: 0}
+    - _GeoParams: {r: 1, g: 0.01, b: 0, a: 0}
+    - _GeoRange: {r: 1476.2, g: 1476.2, b: 101.4, a: 101.4}
     - _TriplanarUVScale: {r: 1, g: 1, b: 0, a: 0}
     - _UVScale: {r: 45, g: 45, b: 0, a: 0}
+    - _WorldHeightRange: {r: 0, g: 500, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

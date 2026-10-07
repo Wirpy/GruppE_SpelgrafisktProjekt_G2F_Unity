@@ -1044,6 +1044,15 @@ MonoBehaviour:
     - serializedVersion: 3
       time: 0
       value: 0
+      inSlope: 2
+      outSlope: 2
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -1053,7 +1062,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  geoTex: {fileID: 0}
+  geoTex: {fileID: 17588142581369908}
   geoSlopeFilter:
     serializedVersion: 2
     m_Curve:
@@ -1078,7 +1087,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  geoSlopeTex: {fileID: 0}
+  geoSlopeTex: {fileID: 4182689166295169926}
   globalSlopeFilter:
     serializedVersion: 2
     m_Curve:
@@ -1105,6 +1114,98 @@ MonoBehaviour:
     m_RotationOrder: 4
   globalSlopeTex: {fileID: 0}
   maxTextures: 32
+--- !u!28 &17588142581369908
+Texture2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: geoTex
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_IsAlphaChannelOptional: 0
+  serializedVersion: 4
+  m_Width: 256
+  m_Height: 1
+  m_CompleteImageSize: 512
+  m_MipsStripped: 0
+  m_TextureFormat: 15
+  m_MipCount: 1
+  m_IsReadable: 1
+  m_IsPreProcessed: 0
+  m_IgnoreMipmapLimit: 1
+  m_MipmapLimitGroupName: 
+  m_StreamingMipmaps: 0
+  m_StreamingMipmapsPriority: 0
+  m_VTOnly: 0
+  m_AlphaIsTransparency: 0
+  m_ImageCount: 1
+  m_TextureDimension: 2
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 0
+    m_WrapV: 0
+    m_WrapW: 0
+  m_LightmapFormat: 0
+  m_ColorSpace: 0
+  m_PlatformBlob: 
+  image data: 512
+  _typelessdata: 000002200024fd25f827f828f429ee2ae82b702cec2c672de22d5c2ed62e4f2fc82f20305c309730d3300e3149318331bd31f83131326b32a432dd3216334f338733bf33f733173433344e346a348534a034bb34d634f1340c35263540355b3575358f35a935c335dc35f6350f36283641365a3673368c36a536bd36d636ee3606371e3736374e3765377d379437ab37c237d937f03704380f381a38253830383b38463851385c38673872387c38873892389c38a738b138bb38c538d038da38e438ee38f83802390b3915391f39283932393b3945394e39573961396a3973397c3985398e3997399f39a839b139b939c239ca39d339db39e439ec39f439fc39043a0c3a143a1c3a243a2b3a333a3a3a423a493a513a583a5f3a673a6e3a753a7c3a833a8a3a913a973a9e3aa53aab3ab23ab83abf3ac53acb3ad23ad83ade3ae43aea3af03af53afb3a013b073b0c3b123b173b1c3b223b273b2c3b313b363b3b3b403b453b4a3b4f3b543b583b5d3b613b663b6a3b6e3b733b773b7b3b7f3b833b873b8b3b8f3b923b963b9a3b9d3ba13ba43ba83bab3bae3bb13bb43bb73bba3bbd3bc03bc33bc63bc83bcb3bce3bd03bd33bd53bd73bd93bdc3bde3be03be23be43be63be73be93beb3bec3bee3bef3bf13bf23bf33bf53bf63bf73bf83bf93bfa3bfb3bfb3bfc3bfd3bfd3bfe3bfe3bff3bff3bff3b003c003c003c003c
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 
+--- !u!28 &4182689166295169926
+Texture2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: geoSlopeTex
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_IsAlphaChannelOptional: 0
+  serializedVersion: 4
+  m_Width: 256
+  m_Height: 1
+  m_CompleteImageSize: 256
+  m_MipsStripped: 0
+  m_TextureFormat: 1
+  m_MipCount: 1
+  m_IsReadable: 1
+  m_IsPreProcessed: 0
+  m_IgnoreMipmapLimit: 1
+  m_MipmapLimitGroupName: 
+  m_StreamingMipmaps: 0
+  m_StreamingMipmapsPriority: 0
+  m_VTOnly: 0
+  m_AlphaIsTransparency: 0
+  m_ImageCount: 1
+  m_TextureDimension: 2
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 0
+    m_WrapV: 0
+    m_WrapW: 0
+  m_LightmapFormat: 0
+  m_ColorSpace: 0
+  m_PlatformBlob: 
+  image data: 256
+  _typelessdata: 333537393b3d3f41434547494b4d4f51535557595b5d5f61636567696b6d6f71737577797b7d7f81838587898b8d8f91939597999b9d9fa1a3a5a7a9abadafb1b3b5b7b9bbbdbfc1c3c5c7c9cbcdcfd1d3d5d7d9dbdddfe1e3e5e7e9ebedeff1f3f5f7f9fbfdffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 
 --- !u!28 &5858807140828464373
 Texture2D:
   m_ObjectHideFlags: 0
