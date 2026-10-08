@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 9089572980447941899}
   - component: {fileID: 279702645082725373}
   m_Layer: 0
-  m_Name: "Bj\xF6rk"
+  m_Name: Birch_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30,7 +30,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 2579953141153645541}
+  - {fileID: 6666978071932821221}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!205 &279702645082725373
@@ -50,15 +50,15 @@ LODGroup:
   - screenRelativeHeight: 0.34530562
     fadeTransitionWidth: 0
     renderers:
-    - renderer: {fileID: 3712929180225255562}
+    - renderer: {fileID: 2972371817492215267}
   - screenRelativeHeight: 0.034059864
     fadeTransitionWidth: 0
     renderers:
-    - renderer: {fileID: 3712929180225255562}
+    - renderer: {fileID: 2972371817492215267}
   - screenRelativeHeight: 0
     fadeTransitionWidth: 0
     renderers:
-    - renderer: {fileID: 3712929180225255562}
+    - renderer: {fileID: 2972371817492215267}
   m_Enabled: 1
 --- !u!1001 &4304604271370116290
 PrefabInstance:
@@ -112,18 +112,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4287529454161221167, guid: fe2ef57979094da4393b8e871baf6da8, type: 3}
+      propertyPath: m_Name
+      value: Birch_001 Mesh
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fe2ef57979094da4393b8e871baf6da8, type: 3}
---- !u!4 &2579953141153645541 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1761139938167414567, guid: fe2ef57979094da4393b8e871baf6da8, type: 3}
+--- !u!23 &2972371817492215267 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 1333904057901017377, guid: fe2ef57979094da4393b8e871baf6da8, type: 3}
   m_PrefabInstance: {fileID: 4304604271370116290}
   m_PrefabAsset: {fileID: 0}
---- !u!23 &3712929180225255562 stripped
-MeshRenderer:
-  m_CorrespondingSourceObject: {fileID: 593348898486428744, guid: fe2ef57979094da4393b8e871baf6da8, type: 3}
+--- !u!4 &6666978071932821221 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7437936662589129255, guid: fe2ef57979094da4393b8e871baf6da8, type: 3}
   m_PrefabInstance: {fileID: 4304604271370116290}
   m_PrefabAsset: {fileID: 0}
