@@ -43,8 +43,16 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _DetailNoise:
+        m_Texture: {fileID: 2800000, guid: c3e57cb2426d34f64af1fc986aa89fcf, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Diffuse:
         m_Texture: {fileID: 18700000, guid: a3f795a2ba7a78e4ab1b9b6e0ab5cdef, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DistanceNoise:
+        m_Texture: {fileID: 2800000, guid: c3e57cb2426d34f64af1fc986aa89fcf, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _GeoCurve:
@@ -65,6 +73,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalNoise:
+        m_Texture: {fileID: 2800000, guid: cfa942d94204a4aeb970870316799af2, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalSAO:
@@ -124,7 +136,7 @@ Material:
     - _AlphaToMask: 0
     - _AlphaToMaskInspectorValue: 0
     - _BlendMode: 0
-    - _Contrast: 0.67
+    - _Contrast: 0.65
     - _CullMode: 2
     - _CullModeForward: 2
     - _DepthOffsetEnable: 0
@@ -135,7 +147,7 @@ Material:
     - _EnableFogOnTransparent: 1
     - _GeoHeightContrast: 10
     - _GeoNormalStrength: 0.786
-    - _HybridHeightBlendDistance: 40
+    - _HybridHeightBlendDistance: 100
     - _OpaqueCullMode: 2
     - _PCLayerCount: 4
     - _PCShowProceduralIndex: 0
@@ -175,10 +187,13 @@ Material:
     - _ZTestTransparent: 4
     - _ZWrite: 1
     m_Colors:
+    - _DetailNoiseScaleStrengthFade: {r: 4, g: 0.5, b: 5, a: 0}
+    - _DistanceNoiseScaleStrengthFade: {r: 0.25, g: 0.5, b: 100, a: 250}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _GeoCurveParams: {r: 250, g: 0, b: 0, a: 0}
     - _GeoParams: {r: 1, g: 0.01, b: 0, a: 0}
     - _GeoRange: {r: 1476.2, g: 1476.2, b: 101.4, a: 101.4}
+    - _NormalNoiseScaleStrength: {r: 8, g: 0.5, b: 0, a: 0}
     - _TriplanarUVScale: {r: 2, g: 2, b: 0, a: 0}
     - _UVScale: {r: 45, g: 45, b: 0, a: 0}
     - _WorldHeightRange: {r: 0, g: 500, b: 0, a: 0}
