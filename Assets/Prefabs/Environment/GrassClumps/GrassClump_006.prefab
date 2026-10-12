@@ -53,7 +53,46 @@ PrefabInstance:
       value: GrassClump_006
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: -2270844472744823334, guid: e3610507a87978e4a912eafede1ad265, type: 3}
+    - {fileID: 3536258400565228004, guid: e3610507a87978e4a912eafede1ad265, type: 3}
+    - {fileID: -6426763303402088333, guid: e3610507a87978e4a912eafede1ad265, type: 3}
+    - {fileID: -7757979929132966860, guid: e3610507a87978e4a912eafede1ad265, type: 3}
+    - {fileID: 958363649074086265, guid: e3610507a87978e4a912eafede1ad265, type: 3}
+    - {fileID: -2895208986303146524, guid: e3610507a87978e4a912eafede1ad265, type: 3}
+    - {fileID: -6948543507334689795, guid: e3610507a87978e4a912eafede1ad265, type: 3}
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e3610507a87978e4a912eafede1ad265, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7495523234228679367}
   m_SourcePrefab: {fileID: 100100000, guid: e3610507a87978e4a912eafede1ad265, type: 3}
+--- !u!23 &4548178517992359003 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -3268296367251271774, guid: e3610507a87978e4a912eafede1ad265, type: 3}
+  m_PrefabInstance: {fileID: 7906858075015252985}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7024388737496495784 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e3610507a87978e4a912eafede1ad265, type: 3}
+  m_PrefabInstance: {fileID: 7906858075015252985}
+  m_PrefabAsset: {fileID: 0}
+--- !u!205 &7495523234228679367
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7024388737496495784}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0, y: 0.10838185, z: 0}
+  m_Size: 0.4756973
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 4548178517992359003}
+  m_Enabled: 1
