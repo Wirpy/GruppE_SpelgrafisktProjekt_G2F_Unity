@@ -53,7 +53,51 @@ PrefabInstance:
       value: GrassClump_011
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 2890997863173467749, guid: cb1a6b17d3f80db46ad0315b3a46b1b9, type: 3}
+    - {fileID: 7424679844619869145, guid: cb1a6b17d3f80db46ad0315b3a46b1b9, type: 3}
+    - {fileID: -6801982384923463922, guid: cb1a6b17d3f80db46ad0315b3a46b1b9, type: 3}
+    - {fileID: -3240995198037691008, guid: cb1a6b17d3f80db46ad0315b3a46b1b9, type: 3}
+    - {fileID: -182458381674380658, guid: cb1a6b17d3f80db46ad0315b3a46b1b9, type: 3}
+    - {fileID: -4137891484125877075, guid: cb1a6b17d3f80db46ad0315b3a46b1b9, type: 3}
+    - {fileID: -1382833592967563419, guid: cb1a6b17d3f80db46ad0315b3a46b1b9, type: 3}
+    - {fileID: -8927982044948592946, guid: cb1a6b17d3f80db46ad0315b3a46b1b9, type: 3}
+    - {fileID: -2053625616029742757, guid: cb1a6b17d3f80db46ad0315b3a46b1b9, type: 3}
+    - {fileID: -714385221669440136, guid: cb1a6b17d3f80db46ad0315b3a46b1b9, type: 3}
+    - {fileID: -6281833807376280529, guid: cb1a6b17d3f80db46ad0315b3a46b1b9, type: 3}
+    - {fileID: 4986986516821625097, guid: cb1a6b17d3f80db46ad0315b3a46b1b9, type: 3}
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: cb1a6b17d3f80db46ad0315b3a46b1b9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3964615884308876423}
   m_SourcePrefab: {fileID: 100100000, guid: cb1a6b17d3f80db46ad0315b3a46b1b9, type: 3}
+--- !u!23 &5033001344764559954 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 1985629972869912187, guid: cb1a6b17d3f80db46ad0315b3a46b1b9, type: 3}
+  m_PrefabInstance: {fileID: 6797779009595167785}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &5951478525831407992 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: cb1a6b17d3f80db46ad0315b3a46b1b9, type: 3}
+  m_PrefabInstance: {fileID: 6797779009595167785}
+  m_PrefabAsset: {fileID: 0}
+--- !u!205 &3964615884308876423
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5951478525831407992}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0, y: 0.08454789, z: 0}
+  m_Size: 0.49226376
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 5033001344764559954}
+  m_Enabled: 1

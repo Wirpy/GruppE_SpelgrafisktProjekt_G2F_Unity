@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0692d8ac7060e49efaaef61c71aec33e, type: 3}
+  m_Name: Kantareller
+  m_EditorClassIdentifier: JBooth.MicroVerseCore::JBooth.MicroVerseCore.DetailPrototypeSettings
+  prototype:
+    prototype: {fileID: 2171292872904820138, guid: 6a99569d23cc75442b36baaea355d417, type: 3}
+    alignToGround: 0.75
+    density: 0.5
+    dryColor: {r: 1, g: 1, b: 1, a: 1}
+    healthyColor: {r: 1, g: 1, b: 1, a: 1}
+    holeEdgePadding: 0
+    minWidth: 0.25
+    maxWidth: 0.35
+    minHeight: 0.25
+    maxHeight: 0.35
+    noiseSeed: 0
+    noiseSpread: 1
+    positionJitter: 0
+    prototypeTexture: {fileID: 0}
+    renderMode: 1
+    targetCoverage: 0
+    useInstancing: 1
+    useDensityScaling: 1
+    usePrototypeMesh: 1
