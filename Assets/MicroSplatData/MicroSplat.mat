@@ -43,6 +43,26 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _DecalAlbedo:
+        m_Texture: {fileID: 18700000, guid: 1f5f8281f61a3274c8ac12b3081f1f78, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DecalControl:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DecalNormalSAO:
+        m_Texture: {fileID: 18700000, guid: 4e9f3e50a457be4439b6b836b0603f92, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DecalSplats:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DecalStaticData:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _DetailNoise:
         m_Texture: {fileID: 2800000, guid: c3e57cb2426d34f64af1fc986aa89fcf, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -136,7 +156,7 @@ Material:
     - _AlphaToMask: 0
     - _AlphaToMaskInspectorValue: 0
     - _BlendMode: 0
-    - _Contrast: 0.65
+    - _Contrast: 0.904
     - _CullMode: 2
     - _CullModeForward: 2
     - _DepthOffsetEnable: 0
@@ -147,7 +167,7 @@ Material:
     - _EnableFogOnTransparent: 1
     - _GeoHeightContrast: 10
     - _GeoNormalStrength: 0.786
-    - _HybridHeightBlendDistance: 100
+    - _HybridHeightBlendDistance: 157
     - _OpaqueCullMode: 2
     - _PCLayerCount: 4
     - _PCShowProceduralIndex: 0
