@@ -12,9 +12,10 @@ GameObject:
   - component: {fileID: 2431662036384604905}
   - component: {fileID: 3936672215688788925}
   - component: {fileID: 239523933456423318}
+  - component: {fileID: 5782034830507219056}
   m_Layer: 0
   m_Name: Camera3rd
-  m_TagString: Untagged
+  m_TagString: 3rdCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27,13 +28,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8800640950622061536}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.04512654, y: -0.87083346, z: 0.081515774, w: 0.4826674}
+  m_LocalRotation: {x: 0.0451213, y: -0.8708345, z: 0.08151516, w: 0.48266622}
   m_LocalPosition: {x: 5.195898, y: 3.130554, z: 3.779705}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 10.692, y: -122.004, z: 0.006}
 --- !u!20 &2431662036384604905
 Camera:
   m_ObjectHideFlags: 0
@@ -232,3 +233,25 @@ MonoBehaviour:
       enableFptlForForwardOpaque: 0
       enableBigTilePrepass: 0
       isFptlEnabled: 0
+--- !u!95 &5782034830507219056
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8800640950622061536}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
