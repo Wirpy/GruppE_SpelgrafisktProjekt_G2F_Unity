@@ -3094,6 +3094,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3347835219294395048, guid: ce1ff21170a3d7d48bd71a1786fc3e0d, type: 3}
+      propertyPath: m_UseContactShadow.m_Override
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7336802135073643473, guid: ce1ff21170a3d7d48bd71a1786fc3e0d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1127.8724
@@ -3385,17 +3389,9 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2249834884295522487, guid: d60188fcea70f6c488224f5a72a33dd7, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 5905084423305936895, guid: d60188fcea70f6c488224f5a72a33dd7, type: 3}
       propertyPath: m_Name
       value: Sky and Fog Global Volume
-      objectReference: {fileID: 0}
-    - target: {fileID: 5905084423305936895, guid: d60188fcea70f6c488224f5a72a33dd7, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9167749228960976959, guid: d60188fcea70f6c488224f5a72a33dd7, type: 3}
       propertyPath: m_LocalPosition.x
