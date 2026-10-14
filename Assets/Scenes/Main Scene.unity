@@ -1348,10 +1348,11 @@ Transform:
   - {fileID: 1071412079}
   - {fileID: 1925348147}
   - {fileID: 1748407900}
-  - {fileID: 1935317388}
+  - {fileID: 3770487235675163987}
   - {fileID: 267847033}
   - {fileID: 110954838}
   - {fileID: 528131570}
+  - {fileID: 2081375890}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &81330369
@@ -2566,428 +2567,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 09729129390b5a544829999c19310a7d, type: 3}
---- !u!1 &509115582
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 509115583}
-  - component: {fileID: 509115584}
-  m_Layer: 0
-  m_Name: Sand
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &509115583
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 509115582}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 3809045124745207750}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &509115584
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 509115582}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0831c3e870e54ea3bdaa25211b0c9218, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: JBooth.MicroVerseCore::JBooth.MicroVerseCore.TextureStamp
-  stampVersion: 1
-  layer: {fileID: 8574412962073106934, guid: e6b21613b46284740ab686e516dbe860, type: 2}
-  filterSet:
-    falloffFilter:
-      filterType: 0
-      texture: {fileID: 0}
-      textureChannel: 0
-      textureParams: {x: 1, y: 0}
-      textureRotationScale: {x: 0, y: 1, z: 0, w: 0}
-      clampTexture: 0
-      splineArea: {fileID: 0}
-      splineAreaFalloff: 0
-      splineAreaFalloffBoost: 0
-      paintArea: {fileID: 0}
-      easing:
-        blend: 0
-      noise:
-        noiseType: 0
-        noiseSpace: 0
-        frequency: 2
-        amplitude: 1
-        offset: 0
-        balance: 0
-        texture: {fileID: 0}
-        textureST: {x: 1, y: 1, z: 0, w: 0}
-        channel: 0
-        displayGamma: 0
-      falloffRange: {x: 0.8, y: 1}
-      paintMask:
-        bytes: 
-        size: 256
-        updateMode: 0
-    weight: 1
-    weightNoise:
-      noiseType: 0
-      noiseSpace: 0
-      frequency: 2
-      amplitude: 1
-      offset: 0
-      balance: 0
-      texture: {fileID: 0}
-      textureST: {x: 1, y: 1, z: 0, w: 0}
-      channel: 0
-      displayGamma: 0
-    weight2Noise:
-      noiseType: 0
-      noiseSpace: 0
-      frequency: 2
-      amplitude: 1
-      offset: 0
-      balance: 0
-      texture: {fileID: 0}
-      textureST: {x: 1, y: 1, z: 0, w: 0}
-      channel: 0
-      displayGamma: 0
-    weight3Noise:
-      noiseType: 0
-      noiseSpace: 0
-      frequency: 2
-      amplitude: 1
-      offset: 0
-      balance: 0
-      texture: {fileID: 0}
-      textureST: {x: 1, y: 1, z: 0, w: 0}
-      channel: 0
-      displayGamma: 0
-    weight2NoiseOp: 0
-    weight3NoiseOp: 0
-    version: 2
-    heightFilter:
-      enabled: 1
-      filterType: 0
-      weight: 1
-      range: {x: 0, y: 90}
-      smoothness: {x: 5, y: 5}
-      noise:
-        noiseType: 0
-        noiseSpace: 0
-        frequency: 2
-        amplitude: 1
-        offset: 0
-        balance: 0
-        texture: {fileID: 0}
-        textureST: {x: 1, y: 1, z: 0, w: 0}
-        channel: 0
-        displayGamma: 0
-      mipBias: 0
-      curve:
-        serializedVersion: 2
-        m_Curve:
-        - serializedVersion: 3
-          time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-          tangentMode: 0
-          weightedMode: 0
-          inWeight: 0
-          outWeight: 0
-        - serializedVersion: 3
-          time: 0.25
-          value: 1
-          inSlope: 0
-          outSlope: 0
-          tangentMode: 0
-          weightedMode: 0
-          inWeight: 0
-          outWeight: 0
-        - serializedVersion: 3
-          time: 0.75
-          value: 1
-          inSlope: 0
-          outSlope: 0
-          tangentMode: 0
-          weightedMode: 0
-          inWeight: 0
-          outWeight: 0
-        - serializedVersion: 3
-          time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
-          tangentMode: 0
-          weightedMode: 0
-          inWeight: 0
-          outWeight: 0
-        m_PreInfinity: 2
-        m_PostInfinity: 2
-        m_RotationOrder: 4
-      _curveTexture: {fileID: 0}
-    slopeFilter:
-      enabled: 0
-      filterType: 0
-      weight: 1
-      range: {x: 47.076923, y: 90}
-      smoothness: {x: 6.3157897, y: 6.3157897}
-      noise:
-        noiseType: 0
-        noiseSpace: 0
-        frequency: 2
-        amplitude: 1
-        offset: 0
-        balance: 0
-        texture: {fileID: 0}
-        textureST: {x: 1, y: 1, z: 0, w: 0}
-        channel: 0
-        displayGamma: 0
-      mipBias: 0
-      curve:
-        serializedVersion: 2
-        m_Curve:
-        - serializedVersion: 3
-          time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-          tangentMode: 0
-          weightedMode: 0
-          inWeight: 0
-          outWeight: 0
-        - serializedVersion: 3
-          time: 0.25
-          value: 1
-          inSlope: 0
-          outSlope: 0
-          tangentMode: 0
-          weightedMode: 0
-          inWeight: 0
-          outWeight: 0
-        - serializedVersion: 3
-          time: 0.75
-          value: 1
-          inSlope: 0
-          outSlope: 0
-          tangentMode: 0
-          weightedMode: 0
-          inWeight: 0
-          outWeight: 0
-        - serializedVersion: 3
-          time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
-          tangentMode: 0
-          weightedMode: 0
-          inWeight: 0
-          outWeight: 0
-        m_PreInfinity: 2
-        m_PostInfinity: 2
-        m_RotationOrder: 4
-      _curveTexture: {fileID: 0}
-    angleFilter:
-      enabled: 0
-      filterType: 0
-      weight: 1
-      range: {x: 0, y: 90}
-      smoothness: {x: 12, y: 12}
-      noise:
-        noiseType: 0
-        noiseSpace: 0
-        frequency: 2
-        amplitude: 1
-        offset: 0
-        balance: 0
-        texture: {fileID: 0}
-        textureST: {x: 1, y: 1, z: 0, w: 0}
-        channel: 0
-        displayGamma: 0
-      mipBias: 0
-      curve:
-        serializedVersion: 2
-        m_Curve:
-        - serializedVersion: 3
-          time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-          tangentMode: 0
-          weightedMode: 0
-          inWeight: 0
-          outWeight: 0
-        - serializedVersion: 3
-          time: 0.25
-          value: 1
-          inSlope: 0
-          outSlope: 0
-          tangentMode: 0
-          weightedMode: 0
-          inWeight: 0
-          outWeight: 0
-        - serializedVersion: 3
-          time: 0.75
-          value: 1
-          inSlope: 0
-          outSlope: 0
-          tangentMode: 0
-          weightedMode: 0
-          inWeight: 0
-          outWeight: 0
-        - serializedVersion: 3
-          time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
-          tangentMode: 0
-          weightedMode: 0
-          inWeight: 0
-          outWeight: 0
-        m_PreInfinity: 2
-        m_PostInfinity: 2
-        m_RotationOrder: 4
-      _curveTexture: {fileID: 0}
-    curvatureFilter:
-      enabled: 0
-      filterType: 0
-      weight: 1
-      range: {x: 0.6, y: 1}
-      smoothness: {x: 0.1, y: 0.1}
-      noise:
-        noiseType: 0
-        noiseSpace: 0
-        frequency: 2
-        amplitude: 1
-        offset: 0
-        balance: 0
-        texture: {fileID: 0}
-        textureST: {x: 1, y: 1, z: 0, w: 0}
-        channel: 0
-        displayGamma: 0
-      mipBias: 0
-      curve:
-        serializedVersion: 2
-        m_Curve:
-        - serializedVersion: 3
-          time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-          tangentMode: 0
-          weightedMode: 0
-          inWeight: 0
-          outWeight: 0
-        - serializedVersion: 3
-          time: 0.25
-          value: 1
-          inSlope: 0
-          outSlope: 0
-          tangentMode: 0
-          weightedMode: 0
-          inWeight: 0
-          outWeight: 0
-        - serializedVersion: 3
-          time: 0.75
-          value: 1
-          inSlope: 0
-          outSlope: 0
-          tangentMode: 0
-          weightedMode: 0
-          inWeight: 0
-          outWeight: 0
-        - serializedVersion: 3
-          time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
-          tangentMode: 0
-          weightedMode: 0
-          inWeight: 0
-          outWeight: 0
-        m_PreInfinity: 2
-        m_PostInfinity: 2
-        m_RotationOrder: 4
-      _curveTexture: {fileID: 0}
-    flowFilter:
-      enabled: 0
-      filterType: 0
-      weight: 1
-      range: {x: 0.6, y: 1}
-      smoothness: {x: 0.1, y: 0.1}
-      noise:
-        noiseType: 0
-        noiseSpace: 0
-        frequency: 2
-        amplitude: 1
-        offset: 0
-        balance: 0
-        texture: {fileID: 0}
-        textureST: {x: 1, y: 1, z: 0, w: 0}
-        channel: 0
-        displayGamma: 0
-      mipBias: 0
-      curve:
-        serializedVersion: 2
-        m_Curve:
-        - serializedVersion: 3
-          time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-          tangentMode: 0
-          weightedMode: 0
-          inWeight: 0
-          outWeight: 0
-        - serializedVersion: 3
-          time: 0.25
-          value: 1
-          inSlope: 0
-          outSlope: 0
-          tangentMode: 0
-          weightedMode: 0
-          inWeight: 0
-          outWeight: 0
-        - serializedVersion: 3
-          time: 0.75
-          value: 1
-          inSlope: 0
-          outSlope: 0
-          tangentMode: 0
-          weightedMode: 0
-          inWeight: 0
-          outWeight: 0
-        - serializedVersion: 3
-          time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
-          tangentMode: 0
-          weightedMode: 0
-          inWeight: 0
-          outWeight: 0
-        m_PreInfinity: 2
-        m_PostInfinity: 2
-        m_RotationOrder: 4
-      _curveTexture: {fileID: 0}
-    textureFilterEnabled: 0
-    otherTextureWeight: 1
-    textureFilters: []
-  ignoreOcclusion: 0
 --- !u!1 &511641912
 GameObject:
   m_ObjectHideFlags: 0
@@ -76934,7 +76513,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1925348146}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2500, y: 0, z: 2500}
   m_LocalScale: {x: 5000, y: 500, z: 5000}
   m_ConstrainProportionsScale: 0
@@ -77051,11 +76630,6 @@ MonoBehaviour:
   pixelQuantization: 1
   heightStamp: {fileID: 1925348148}
   version: 2
---- !u!4 &1935317388 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 40255826007364246, guid: 927ec9a02bff7e74fb4ef3c50bbb7c4e, type: 3}
-  m_PrefabInstance: {fileID: 3809045124745207749}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1962804174
 GameObject:
   m_ObjectHideFlags: 0
@@ -77768,6 +77342,149 @@ MonoBehaviour:
   tiltScaleZ: 0
   mipBias: 0
   version: 2
+--- !u!1 &2081375889
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2081375890}
+  - component: {fileID: 2081375892}
+  - component: {fileID: 2081375891}
+  m_Layer: 0
+  m_Name: CopyPaste Stamp
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2081375890
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2081375889}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3138, y: -27, z: 2722}
+  m_LocalScale: {x: 638.6105, y: 210.68736, z: 707.0145}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 71130368}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2081375891
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2081375889}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46dcf383b4434ac0a71a028e5ff4cad2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JBooth.MicroVerseCore::JBooth.MicroVerseCore.HeightStamp
+  stampVersion: 1
+  stamp: {fileID: 0}
+  mode: 1
+  falloff:
+    filterType: 1
+    texture: {fileID: 0}
+    textureChannel: 0
+    textureParams: {x: 1, y: 0}
+    textureRotationScale: {x: 0, y: 1, z: 0, w: 0}
+    clampTexture: 0
+    splineArea: {fileID: 0}
+    splineAreaFalloff: 0
+    splineAreaFalloffBoost: 0
+    paintArea: {fileID: 0}
+    easing:
+      blend: 0
+    noise:
+      noiseType: 0
+      noiseSpace: 0
+      frequency: 10
+      amplitude: 1
+      offset: 0
+      balance: 0
+      texture: {fileID: 0}
+      textureST: {x: 1, y: 1, z: 0, w: 0}
+      channel: 0
+      displayGamma: 0
+    falloffRange: {x: 0.8, y: 1}
+    paintMask:
+      bytes: 
+      size: 256
+      updateMode: 0
+  twist: 0
+  erosion: 0
+  erosionSize: 4
+  power: 1
+  invert: 0
+  useHeightRemap: 0
+  remapCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  blend: 1
+  remapRange: {x: 0, y: 1}
+  scaleOffset: {x: 1, y: 1, z: 0, w: 0}
+  tiltX: 0
+  tiltZ: 0
+  tiltScaleX: 0
+  tiltScaleZ: 0
+  mipBias: 0
+  version: 2
+--- !u!114 &2081375892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2081375889}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12994c2ad718e45a6b1b954a4537b778, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JBooth.MicroVerseCore::JBooth.MicroVerseCore.CopyPasteStamp
+  stampVersion: 1
+  stamp: {fileID: 11400000, guid: f36fd29f302fdbb48bc631c9dd9b1beb, type: 2}
+  copyHeights: 1
+  copyTexturing: 1
+  copyTrees: 1
+  copyDetails: 1
+  copyHoles: 1
+  applyHeights: 1
+  applyTexturing: 1
+  applyTrees: 0
+  applyDetails: 0
+  applyHoles: 0
+  pixelQuantization: 0
+  heightStamp: {fileID: 2081375891}
+  version: 2
 --- !u!1 &2090079303
 GameObject:
   m_ObjectHideFlags: 0
@@ -78119,7 +77836,11 @@ MonoBehaviour:
   occludeTextureSmoothness: 3
   splineWidthEasing:
     blend: 0
-  splineWidths: []
+  splineWidths:
+  - widthData:
+      m_IndexUnit: 1
+      m_DefaultValue: 0
+      m_DataPoints: []
 --- !u!114 &2097085177
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -80088,74 +79809,10 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 55e156522a716274b869ac94cda82a0d, type: 3}
---- !u!1001 &3809045124745207749
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 71130368}
-    m_Modifications:
-    - target: {fileID: 40255826007364246, guid: 927ec9a02bff7e74fb4ef3c50bbb7c4e, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 40255826007364246, guid: 927ec9a02bff7e74fb4ef3c50bbb7c4e, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 40255826007364246, guid: 927ec9a02bff7e74fb4ef3c50bbb7c4e, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 40255826007364246, guid: 927ec9a02bff7e74fb4ef3c50bbb7c4e, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 40255826007364246, guid: 927ec9a02bff7e74fb4ef3c50bbb7c4e, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 40255826007364246, guid: 927ec9a02bff7e74fb4ef3c50bbb7c4e, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 40255826007364246, guid: 927ec9a02bff7e74fb4ef3c50bbb7c4e, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 40255826007364246, guid: 927ec9a02bff7e74fb4ef3c50bbb7c4e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 40255826007364246, guid: 927ec9a02bff7e74fb4ef3c50bbb7c4e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 40255826007364246, guid: 927ec9a02bff7e74fb4ef3c50bbb7c4e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4026603193761190473, guid: 927ec9a02bff7e74fb4ef3c50bbb7c4e, type: 3}
-      propertyPath: m_Name
-      value: Texture Painting
-      objectReference: {fileID: 0}
-    - target: {fileID: 5913074881584776946, guid: 927ec9a02bff7e74fb4ef3c50bbb7c4e, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 7032954160311137664, guid: 927ec9a02bff7e74fb4ef3c50bbb7c4e, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 509115583}
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 927ec9a02bff7e74fb4ef3c50bbb7c4e, type: 3}
---- !u!4 &3809045124745207750 stripped
+--- !u!4 &3770487235675163987 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 7032954160311137664, guid: 927ec9a02bff7e74fb4ef3c50bbb7c4e, type: 3}
-  m_PrefabInstance: {fileID: 3809045124745207749}
+  m_CorrespondingSourceObject: {fileID: 7619051072711490747, guid: d058d2ca7f74a254db10fc3e4e495829, type: 3}
+  m_PrefabInstance: {fileID: 8001990458146836015}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4099944848090351114
 PrefabInstance:
@@ -80442,6 +80099,64 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cbba26572d029ad4f9cedcff3ee9e92d, type: 3}
+--- !u!1001 &8001990458146836015
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 71130368}
+    m_Modifications:
+    - target: {fileID: 2333646915407107806, guid: d058d2ca7f74a254db10fc3e4e495829, type: 3}
+      propertyPath: m_Name
+      value: Texture Painting
+      objectReference: {fileID: 0}
+    - target: {fileID: 7619051072711490747, guid: d058d2ca7f74a254db10fc3e4e495829, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7619051072711490747, guid: d058d2ca7f74a254db10fc3e4e495829, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7619051072711490747, guid: d058d2ca7f74a254db10fc3e4e495829, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7619051072711490747, guid: d058d2ca7f74a254db10fc3e4e495829, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7619051072711490747, guid: d058d2ca7f74a254db10fc3e4e495829, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7619051072711490747, guid: d058d2ca7f74a254db10fc3e4e495829, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7619051072711490747, guid: d058d2ca7f74a254db10fc3e4e495829, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7619051072711490747, guid: d058d2ca7f74a254db10fc3e4e495829, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7619051072711490747, guid: d058d2ca7f74a254db10fc3e4e495829, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7619051072711490747, guid: d058d2ca7f74a254db10fc3e4e495829, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects:
+    - {fileID: 5253768538944680135, guid: d058d2ca7f74a254db10fc3e4e495829, type: 3}
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d058d2ca7f74a254db10fc3e4e495829, type: 3}
 --- !u!1001 &8113710480238523618
 PrefabInstance:
   m_ObjectHideFlags: 0
