@@ -11,7 +11,7 @@
 ////////////////////////////////////////
 
 
-Shader "Hidden/Parent_Terrain_Base289562758"
+Shader "Hidden/Parent_Terrain_Base-890918530"
 {
    Properties
    {
@@ -229,7 +229,6 @@ Shader "Hidden/Parent_Terrain_Base289562758"
       #define _HYBRIDHEIGHTBLEND 1
       #define _SURFACENORMALS 1
       #define _USEGRADMIP 1
-      #define _PERTEXTINT 1
       #define _BRANCHSAMPLES 1
       #define _BRANCHSAMPLESAGR 1
       #define _DECAL 1
@@ -239,6 +238,7 @@ Shader "Hidden/Parent_Terrain_Base289562758"
       #define _NORMALNOISE 1
       #define _STOCHASTIC 1
       #define _TRIPLANAR 1
+      #define _TRIPLANARHEIGHTBLEND 1
       #define _MSRENDERLOOP_UNITYHDRP6P3 1
       #define _MICROSPLATBASEMAP 1
       #define _MSRENDERLOOP_UNITYHD 1
@@ -7625,7 +7625,6 @@ float3 GetTessFactors ()
       #define _HYBRIDHEIGHTBLEND 1
       #define _SURFACENORMALS 1
       #define _USEGRADMIP 1
-      #define _PERTEXTINT 1
       #define _BRANCHSAMPLES 1
       #define _BRANCHSAMPLESAGR 1
       #define _DECAL 1
@@ -7635,6 +7634,7 @@ float3 GetTessFactors ()
       #define _NORMALNOISE 1
       #define _STOCHASTIC 1
       #define _TRIPLANAR 1
+      #define _TRIPLANARHEIGHTBLEND 1
       #define _MSRENDERLOOP_UNITYHDRP6P3 1
       #define _MICROSPLATBASEMAP 1
       #define _MSRENDERLOOP_UNITYHD 1
@@ -14844,7 +14844,6 @@ float3 GetTessFactors ()
       #define _HYBRIDHEIGHTBLEND 1
       #define _SURFACENORMALS 1
       #define _USEGRADMIP 1
-      #define _PERTEXTINT 1
       #define _BRANCHSAMPLES 1
       #define _BRANCHSAMPLESAGR 1
       #define _DECAL 1
@@ -14854,6 +14853,7 @@ float3 GetTessFactors ()
       #define _NORMALNOISE 1
       #define _STOCHASTIC 1
       #define _TRIPLANAR 1
+      #define _TRIPLANARHEIGHTBLEND 1
       #define _MSRENDERLOOP_UNITYHDRP6P3 1
       #define _MICROSPLATBASEMAP 1
       #define _MSRENDERLOOP_UNITYHD 1
@@ -22145,7 +22145,6 @@ float3 GetTessFactors ()
       #define _HYBRIDHEIGHTBLEND 1
       #define _SURFACENORMALS 1
       #define _USEGRADMIP 1
-      #define _PERTEXTINT 1
       #define _BRANCHSAMPLES 1
       #define _BRANCHSAMPLESAGR 1
       #define _DECAL 1
@@ -22155,6 +22154,7 @@ float3 GetTessFactors ()
       #define _NORMALNOISE 1
       #define _STOCHASTIC 1
       #define _TRIPLANAR 1
+      #define _TRIPLANARHEIGHTBLEND 1
       #define _MSRENDERLOOP_UNITYHDRP6P3 1
       #define _MICROSPLATBASEMAP 1
       #define _MSRENDERLOOP_UNITYHD 1
@@ -29429,7 +29429,6 @@ float3 GetTessFactors ()
       #define _HYBRIDHEIGHTBLEND 1
       #define _SURFACENORMALS 1
       #define _USEGRADMIP 1
-      #define _PERTEXTINT 1
       #define _BRANCHSAMPLES 1
       #define _BRANCHSAMPLESAGR 1
       #define _DECAL 1
@@ -29439,6 +29438,7 @@ float3 GetTessFactors ()
       #define _NORMALNOISE 1
       #define _STOCHASTIC 1
       #define _TRIPLANAR 1
+      #define _TRIPLANARHEIGHTBLEND 1
       #define _MSRENDERLOOP_UNITYHDRP6P3 1
       #define _MICROSPLATBASEMAP 1
       #define _MSRENDERLOOP_UNITYHD 1
@@ -36655,7 +36655,6 @@ float3 GetTessFactors ()
       #define _HYBRIDHEIGHTBLEND 1
       #define _SURFACENORMALS 1
       #define _USEGRADMIP 1
-      #define _PERTEXTINT 1
       #define _BRANCHSAMPLES 1
       #define _BRANCHSAMPLESAGR 1
       #define _DECAL 1
@@ -36665,6 +36664,7 @@ float3 GetTessFactors ()
       #define _NORMALNOISE 1
       #define _STOCHASTIC 1
       #define _TRIPLANAR 1
+      #define _TRIPLANARHEIGHTBLEND 1
       #define _MSRENDERLOOP_UNITYHDRP6P3 1
       #define _MICROSPLATBASEMAP 1
       #define _MSRENDERLOOP_UNITYHD 1
@@ -43876,7 +43876,6 @@ float3 GetTessFactors ()
       #define _HYBRIDHEIGHTBLEND 1
       #define _SURFACENORMALS 1
       #define _USEGRADMIP 1
-      #define _PERTEXTINT 1
       #define _BRANCHSAMPLES 1
       #define _BRANCHSAMPLESAGR 1
       #define _DECAL 1
@@ -43886,6 +43885,7 @@ float3 GetTessFactors ()
       #define _NORMALNOISE 1
       #define _STOCHASTIC 1
       #define _TRIPLANAR 1
+      #define _TRIPLANARHEIGHTBLEND 1
       #define _MSRENDERLOOP_UNITYHDRP6P3 1
       #define _MICROSPLATBASEMAP 1
       #define _MSRENDERLOOP_UNITYHD 1
@@ -51122,7 +51122,6 @@ float3 GetTessFactors ()
       #define _HYBRIDHEIGHTBLEND 1
       #define _SURFACENORMALS 1
       #define _USEGRADMIP 1
-      #define _PERTEXTINT 1
       #define _BRANCHSAMPLES 1
       #define _BRANCHSAMPLESAGR 1
       #define _DECAL 1
@@ -51132,6 +51131,7 @@ float3 GetTessFactors ()
       #define _NORMALNOISE 1
       #define _STOCHASTIC 1
       #define _TRIPLANAR 1
+      #define _TRIPLANARHEIGHTBLEND 1
       #define _MSRENDERLOOP_UNITYHDRP6P3 1
       #define _MICROSPLATBASEMAP 1
       #define _MSRENDERLOOP_UNITYHD 1
@@ -58370,7 +58370,6 @@ float3 GetTessFactors ()
       #define _HYBRIDHEIGHTBLEND 1
       #define _SURFACENORMALS 1
       #define _USEGRADMIP 1
-      #define _PERTEXTINT 1
       #define _BRANCHSAMPLES 1
       #define _BRANCHSAMPLESAGR 1
       #define _DECAL 1
@@ -58380,6 +58379,7 @@ float3 GetTessFactors ()
       #define _NORMALNOISE 1
       #define _STOCHASTIC 1
       #define _TRIPLANAR 1
+      #define _TRIPLANARHEIGHTBLEND 1
       #define _MSRENDERLOOP_UNITYHDRP6P3 1
       #define _MICROSPLATBASEMAP 1
       #define _MSRENDERLOOP_UNITYHD 1
