@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 8187824600584837253}
   m_Layer: 0
   m_Name: CameraPOV
-  m_TagString: Untagged
+  m_TagString: CameraPOV
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27,8 +27,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6450725709162817174}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.04512654, y: -0.87083346, z: 0.081515774, w: 0.4826674}
-  m_LocalPosition: {x: 5.195898, y: 3.130554, z: 3.779705}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -65,7 +65,7 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 0.1
+  near clip plane: 0.01
   far clip plane: 10000
   field of view: 63
   orthographic: 0
