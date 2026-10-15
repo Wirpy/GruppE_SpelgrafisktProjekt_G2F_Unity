@@ -3574,7 +3574,7 @@ Terrain:
   m_DetailObjectDistance: 80
   m_DetailObjectDensity: 1
   m_HeightmapPixelError: 1
-  m_SplatMapDistance: 5
+  m_SplatMapDistance: 99999
   m_HeightmapMinimumLODSimplification: 0
   m_HeightmapMaximumLOD: 0
   m_ShadowCastingMode: 2
@@ -73550,7 +73550,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3147001038752905028, guid: 180d034026a3c134c9c545c993399c38, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3242403976920170382, guid: 180d034026a3c134c9c545c993399c38, type: 3}
       propertyPath: prototype.density
@@ -74269,7 +74269,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2131763270743202423, guid: a959176d8db49214b93f0631135323c4, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2479416918636593676, guid: a959176d8db49214b93f0631135323c4, type: 3}
       propertyPath: m_LocalPosition.x
