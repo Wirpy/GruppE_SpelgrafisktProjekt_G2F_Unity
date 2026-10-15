@@ -1,0 +1,178 @@
+﻿      
+   #if _MEGASPLATTEXTURE
+
+      TEXTURE2D(_MegaSplatTexture);
+      float4 _MegaSplatTexture_TexelSize;
+
+      void MegaSplatTextureSetup(float2 controlUV, out half4 weights, float2 uv, out Config config, float3 worldPos, DecalOutput decalOutput)
+      {
+         float2 texSize = _MegaSplatTexture_TexelSize.zw; // size of texture
+         float2 stp = _MegaSplatTexture_TexelSize.xy;     // size of texel
+
+         // create a virtual quad for the pixel
+         float2 stepped = controlUV * texSize;
+         float2 uvBottom = floor(stepped);
+         float2 uvFrac = frac(stepped);
+         uvBottom /= texSize;
+         uvBottom += stp * 0.5;
+         // select virtual triangle from virtual quad
+         float2 cuv0, cuv1, cuv2;
+         if (uvFrac.x > uvFrac.y)
+         {
+            cuv0 = uvBottom;
+            cuv1 = uvBottom + float2(stp.x, 0);
+            cuv2 = uvBottom + float2(stp.x, stp.y);
+         }
+         else
+         {
+            cuv0 = uvBottom;
+            cuv1 = uvBottom + float2(0, stp.y);
+            cuv2 = uvBottom + float2(stp.x, stp.y);
+         }
+         // our position in virtual triangle
+         float2 p = uvFrac * stp + uvBottom;
+         // generate barycentric coordinates
+         float2 v0 = cuv1 - cuv0;
+         float2 v1 = cuv2 - cuv0;
+         float2 v2 = p - cuv0;
+         float d00 = dot(v0, v0);
+         float d01 = dot(v0, v1);
+         float d11 = dot(v1, v1);
+         float d20 = dot(v2, v0);
+         float d21 = dot(v2, v1);
+         float denom = d00 * d11 - d01 * d01;
+         float v = (d11 * d20 - d01 * d21) / denom;
+         float w = (d00 * d21 - d01 * d20) / denom;
+         float u = 1.0f - v - w;
+
+         float3 bary = float3(u, v, w);
+
+
+         // sample and bary blend
+
+         half4 data0 = SAMPLE_TEXTURE2D_LOD(_MegaSplatTexture, shared_linear_clamp_sampler, cuv0, 0);
+         half4 data1 = SAMPLE_TEXTURE2D_LOD(_MegaSplatTexture, shared_linear_clamp_sampler, cuv1, 0);
+         half4 data2 = SAMPLE_TEXTURE2D_LOD(_MegaSplatTexture, shared_linear_clamp_sampler, cuv2, 0);
+
+         COUNTSAMPLE
+         COUNTSAMPLE
+         COUNTSAMPLE
+
+         config = (Config)0;
+         config.uv = uv;
+
+         #if _WORLDUV
+         uv = worldPos.xz * float2(-1,1);
+         #endif
+
+
+
+         half splats[6];
+         int entry[6];
+
+         entry[0] = round(data0.r * 255);
+         entry[1] = round(data1.r * 255);
+         entry[2] = round(data2.r * 255);
+         entry[3] = round(data0.g * 255);
+         entry[4] = round(data1.g * 255);
+         entry[5] = round(data2.g * 255);
+
+         splats[0] = (1.0 - data0.b) * bary.x;
+         splats[1] = (1.0 - data1.b) * bary.y;
+         splats[2] = (1.0 - data2.b) * bary.z;
+         splats[3] = data0.b * bary.x;
+         splats[4] = data1.b * bary.y;
+         splats[5] = data2.b * bary.z;
+
+         // compact the list, so we only have 1 of each index
+         int x = 0;
+         for (x = 0; x < 6; ++x)
+         {
+            fixed w = splats[x];
+            int index = entry[x];
+            for (int y = 5; y > x; --y)
+            {
+               if (index == entry[y])
+               {
+                  splats[x] += splats[y];
+                  splats[y] = 0;
+               }
+            }
+         }
+
+         
+         half4 indexes = 0;
+         weights[0] = 0;
+         weights[1] = 0;
+         weights[2] = 0;
+         weights[3] = 0;
+         indexes[0] = 0;
+         indexes[1] = 0;
+         indexes[2] = 0;
+         indexes[3] = 0;
+
+         for (x = 0; x < 6; ++x)
+         {
+            half w = splats[x];
+
+            if (w >= weights[0])
+            {
+               weights[3] = weights[2];
+               indexes[3] = indexes[2];
+               weights[2] = weights[1];
+               indexes[2] = indexes[1];
+               weights[1] = weights[0];
+               indexes[1] = indexes[0];
+               weights[0] = w;
+               indexes[0] = entry[x];
+            }
+            else if (w >= weights[1])
+            {
+               weights[3] = weights[2];
+               indexes[3] = indexes[2];
+               weights[2] = weights[1];
+               indexes[2] = indexes[1];
+               weights[1] = w;
+               indexes[1] = entry[x];
+            }
+            else if (w >= weights[2])
+            {
+               weights[3] = weights[2];
+               indexes[3] = indexes[2];
+               weights[2] = w;
+               indexes[2] = entry[x];
+            }
+            else if (w >= weights[3])
+            {
+               weights[3] = w;
+               indexes[3] = entry[x];
+            }
+         }
+
+         #if _DECAL_SPLAT
+            DoMergeDecalSplats(decalOutput.Weights, decalOutput.Indexes, weights, indexes); 
+         #endif
+
+         
+         // clamp and renormalize
+         #if _MAX2LAYER
+            weights.zw = 0;
+            weights.xy = TotalOne(weights.xy);
+         #elif _MAX3LAYER
+            weights.w = 0;
+            weights.xyz = TotalOne(weights.xyz);
+         #elif !_DISABLEHEIGHTBLENDING || _NORMALIZEWEIGHTS // prevents black when painting, which the unity shader does not prevent.
+            weights = normalize(weights);
+         #endif
+         
+         float2 scaledUV = uv * _UVScale.xy + _UVScale.zw;
+         config.uv0 = float3(scaledUV, indexes.x);
+         config.uv1 = float3(scaledUV, indexes.y);
+         config.uv2 = float3(scaledUV, indexes.z);
+         config.uv3 = float3(scaledUV, indexes.w);
+
+
+      }
+
+      
+   #endif

@@ -11,7 +11,7 @@
 ////////////////////////////////////////
 
 
-Shader "Hidden/Parent_Terrain_Base-196877761"
+Shader "Hidden/Parent_Terrain_Base-1461775880"
 {
    Properties
    {
@@ -36,6 +36,9 @@ Shader "Hidden/Parent_Terrain_Base-196877761"
       _TerrainHeightmapTexture("", 2D) = "black" {}
       _TerrainNormalmapTexture("", 2D) = "bump" {}
       _HybridHeightBlendDistance("Hybrid Blend Distance", Float) = 300
+      [NoScaleOffset]_NoiseUV ("Noise UV texture", 2D) = "grey" {}
+      _NoiseUVParams("Noise UV Params", Vector) = (1, 1, 0, 0)
+
 
 
 
@@ -216,6 +219,8 @@ Shader "Hidden/Parent_Terrain_Base-196877761"
       #define _HYBRIDHEIGHTBLEND 1
       #define _SURFACENORMALS 1
       #define _USEGRADMIP 1
+      #define _WORLDUV 1
+      #define _CONTROLNOISEUV 1
       #define _BRANCHSAMPLES 1
       #define _BRANCHSAMPLESAGR 1
       #define _STOCHASTIC 1
@@ -5669,6 +5674,8 @@ float3 GetTessFactors ()
       #define _HYBRIDHEIGHTBLEND 1
       #define _SURFACENORMALS 1
       #define _USEGRADMIP 1
+      #define _WORLDUV 1
+      #define _CONTROLNOISEUV 1
       #define _BRANCHSAMPLES 1
       #define _BRANCHSAMPLESAGR 1
       #define _STOCHASTIC 1
@@ -10945,6 +10952,8 @@ float3 GetTessFactors ()
       #define _HYBRIDHEIGHTBLEND 1
       #define _SURFACENORMALS 1
       #define _USEGRADMIP 1
+      #define _WORLDUV 1
+      #define _CONTROLNOISEUV 1
       #define _BRANCHSAMPLES 1
       #define _BRANCHSAMPLESAGR 1
       #define _STOCHASTIC 1
@@ -16303,6 +16312,8 @@ float3 GetTessFactors ()
       #define _HYBRIDHEIGHTBLEND 1
       #define _SURFACENORMALS 1
       #define _USEGRADMIP 1
+      #define _WORLDUV 1
+      #define _CONTROLNOISEUV 1
       #define _BRANCHSAMPLES 1
       #define _BRANCHSAMPLESAGR 1
       #define _STOCHASTIC 1
@@ -21644,6 +21655,8 @@ float3 GetTessFactors ()
       #define _HYBRIDHEIGHTBLEND 1
       #define _SURFACENORMALS 1
       #define _USEGRADMIP 1
+      #define _WORLDUV 1
+      #define _CONTROLNOISEUV 1
       #define _BRANCHSAMPLES 1
       #define _BRANCHSAMPLESAGR 1
       #define _STOCHASTIC 1
@@ -26927,6 +26940,8 @@ float3 GetTessFactors ()
       #define _HYBRIDHEIGHTBLEND 1
       #define _SURFACENORMALS 1
       #define _USEGRADMIP 1
+      #define _WORLDUV 1
+      #define _CONTROLNOISEUV 1
       #define _BRANCHSAMPLES 1
       #define _BRANCHSAMPLESAGR 1
       #define _STOCHASTIC 1
@@ -32205,6 +32220,8 @@ float3 GetTessFactors ()
       #define _HYBRIDHEIGHTBLEND 1
       #define _SURFACENORMALS 1
       #define _USEGRADMIP 1
+      #define _WORLDUV 1
+      #define _CONTROLNOISEUV 1
       #define _BRANCHSAMPLES 1
       #define _BRANCHSAMPLESAGR 1
       #define _STOCHASTIC 1
@@ -37508,6 +37525,8 @@ float3 GetTessFactors ()
       #define _HYBRIDHEIGHTBLEND 1
       #define _SURFACENORMALS 1
       #define _USEGRADMIP 1
+      #define _WORLDUV 1
+      #define _CONTROLNOISEUV 1
       #define _BRANCHSAMPLES 1
       #define _BRANCHSAMPLESAGR 1
       #define _STOCHASTIC 1
@@ -42813,6 +42832,8 @@ float3 GetTessFactors ()
       #define _HYBRIDHEIGHTBLEND 1
       #define _SURFACENORMALS 1
       #define _USEGRADMIP 1
+      #define _WORLDUV 1
+      #define _CONTROLNOISEUV 1
       #define _BRANCHSAMPLES 1
       #define _BRANCHSAMPLESAGR 1
       #define _STOCHASTIC 1

@@ -1,0 +1,63 @@
+﻿
+   void UnpackMegaSplat(inout Input i, ShaderData d)
+   {
+      i.layer0 =              d.extraV2F0;
+      i.layer1 =              d.extraV2F1;
+      i.baryWeights =         d.vertexColor.xyz;
+      %SCATTER% i.scatter0 =  d.extraV2F2;
+      %SCATTER2% i.scatter1 = d.extraV2F3;
+      %FX% i.fx =             d.extraV2F4;
+      %FX2% i.fx2 =           d.extraV2F5;   // snow min, snow max, empty (2)
+   }
+
+   void UnpackMegaSplat(VertexData v, inout Input i, ExtraV2F d)
+   {
+      i.layer0 =              d.extraV2F0;
+      i.layer1 =              d.extraV2F1;
+      i.baryWeights =         v.vertexColor.xyz;
+      %SCATTER% i.scatter0 =  d.extraV2F2;
+      %SCATTER2% i.scatter1 = d.extraV2F3;
+      %FX% i.fx =             d.extraV2F4;
+      %FX2% i.fx2 =           d.extraV2F5;
+   }
+
+   // input format
+   // R contains Bary
+   // G contains index0, index2, blend
+   // B contains scatter0, scatter weight0, scatter 1
+   // A containts scatter weights 1, fx.xy
+   // texcoord0.z for fx.zw
+   // texcoord0.w for fx2 xyzw
+   // texcoord1.z for starforce for UV blend
+   
+
+   void EncodeMegaSplatVertex(inout VertexData i, inout ExtraV2F d)
+   {
+      float3 bary = DecodeToFloat4(i.vertexColor.r).rgb;
+      float3 data1 = DecodeToFloat4(i.vertexColor.g).rgb;
+      float3 data2 = DecodeToFloat4(i.vertexColor.b).rgb;
+      float3 data3 = DecodeToFloat4(i.vertexColor.a).rgb;
+
+      // reuse vertex data to save interpolators
+      i.vertexColor.rgb = bary;
+
+      d.extraV2F0.xyz = bary * data1.r * 255;
+      d.extraV2F1.xyz = bary * data1.g * 255;  // second index
+      d.extraV2F0.w = data1.b;  // blend between indexes
+
+      %SCATTER% d.extraV2F2.xyz = bary * data2.r;
+      %SCATTER% d.extraV2F2.w = data2.g;
+
+      %SCATTER2% d.extraV2F3.xyz = bary * data2.b;
+      %SCATTER2% d.extraV2F3.w = data3.r;
+
+      float3 data4 = DecodeToFloat4(i.texcoord0.z);
+      %FX% d.extraV2F4 = float4(data3.g, data3.b, data4.r, data4.g);
+      %FX2% d.extraV2F5 = DecodeToFloat4(i.texcoord0.w);
+
+      #if _TRIPLANARFACEBLENDFROMUV // for starreach
+         float4 data5 = DecodeToFloat4(i.texcoord1.z);
+         i.texcoord0.zw = data5.xy; // reuse to save interpolators
+      #endif
+   }
+

@@ -1,0 +1,121 @@
+﻿      
+      #if _MEGASPLAT
+
+      
+      
+      void MegaSplatVertexSetup(Input i, out half4 weights, float2 uv, out Config config, float3 worldPos, DecalOutput decalOutput)
+      {
+         config = (Config)0;
+         half4 indexes = 0;
+
+         config.uv = uv;
+
+         #if _WORLDUV
+         uv = worldPos.xz;
+         #endif
+
+         #if _DISABLESPLATMAPS
+            return;
+         #else
+            float2 scaledUV = uv * _UVScale.xy + _UVScale.zw;
+         #endif
+         
+         fixed splats[6];
+         int entry[6];
+         
+
+         entry[0] = round(i.layer0.x / max(i.baryWeights.x, 0.00001));
+         entry[1] = round(i.layer0.y / max(i.baryWeights.y, 0.00001));
+         entry[2] = round(i.layer0.z / max(i.baryWeights.z, 0.00001));
+         entry[3] = round(i.layer1.x / max(i.baryWeights.x, 0.00001));
+         entry[4] = round(i.layer1.y / max(i.baryWeights.y, 0.00001));
+         entry[5] = round(i.layer1.z / max(i.baryWeights.z, 0.00001));
+
+         splats[0] = i.baryWeights.x * (1-i.layer0.a);
+         splats[1] = i.baryWeights.y * (1-i.layer0.a);
+         splats[2] = i.baryWeights.z * (1-i.layer0.a);
+         splats[3] = i.baryWeights.x * i.layer0.a;
+         splats[4] = i.baryWeights.y * i.layer0.a;
+         splats[5] = i.baryWeights.z * i.layer0.a;
+
+         // compact the list, so we only have 1 of each index
+         int x = 0;
+         for (x = 0; x < 6; ++x)
+         {
+            fixed w = splats[x];
+            int index = entry[x];
+            for (int y = 5; y > x; --y)
+            {
+               if (index == entry[y])
+               {
+                  splats[x] += splats[y];
+                  splats[y] = 0;
+               }
+            }
+         }
+
+         weights = 0;
+         indexes = 0;
+         
+         for (x = 0; x < 6; ++x)
+         {
+            fixed w = splats[x];
+
+            if (w >= weights[0])
+            {
+               weights[3] = weights[2];
+               indexes[3] = indexes[2];
+               weights[2] = weights[1];
+               indexes[2] = indexes[1];
+               weights[1] = weights[0];
+               indexes[1] = indexes[0];
+               weights[0] = w;
+               indexes[0] = entry[x];
+            }
+            else if (w >= weights[1])
+            {
+               weights[3] = weights[2];
+               indexes[3] = indexes[2];
+               weights[2] = weights[1];
+               indexes[2] = indexes[1];
+               weights[1] = w;
+               indexes[1] = entry[x];
+            }
+            else if (w >= weights[2])
+            {
+               weights[3] = weights[2];
+               indexes[3] = indexes[2];
+               weights[2] = w;
+               indexes[2] = entry[x];
+            }
+            else if (w >= weights[3])
+            {
+               weights[3] = w;
+               indexes[3] = entry[x];
+            }
+         }
+
+         #if _DECAL_SPLAT
+            DoMergeDecalSplats(decalOutput.Weights, decalOutput.Indexes, weights, indexes);  
+         #endif
+
+         // clamp and renormalize
+         #if _MAX2LAYER
+         weights.zw = 0;
+         weights.xy *= (1.0 / (weights.x + weights.y));
+         #endif
+         #if _MAX3LAYER
+         weights.w = 0;
+         weights.xyz *= (1.0 / (weights.x + weights.y + weights.z));
+         #else
+         //weights = TotalOne(weights);
+         #endif
+
+         config.uv0 = float3(scaledUV, indexes.x);
+         config.uv1 = float3(scaledUV, indexes.y);
+         config.uv2 = float3(scaledUV, indexes.z);
+         config.uv3 = float3(scaledUV, indexes.w);
+         
+
+      }
+      #endif
