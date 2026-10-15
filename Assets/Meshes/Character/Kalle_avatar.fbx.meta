@@ -7,6 +7,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Backpack_MAT
+    second: {fileID: 2100000, guid: ce4f9d92fc38f2c4fa301584d12e61e7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: CameraBase_MAT
     second: {fileID: 2100000, guid: 208b52444d35aa74cae3f7b1e068b5e3, type: 2}
   - first:

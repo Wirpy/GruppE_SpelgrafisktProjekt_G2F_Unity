@@ -3,7 +3,42 @@ guid: e6e9676e5e0c07a4ba725a019137f868
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Backpack_MAT
+    second: {fileID: 2100000, guid: ce4f9d92fc38f2c4fa301584d12e61e7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CameraBase_MAT
+    second: {fileID: -1375096404777955002, guid: bc4b1767fcbbea14ebb1c2517aabbcdf, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glas_MAT
+    second: {fileID: -2543931193289545682, guid: bc4b1767fcbbea14ebb1c2517aabbcdf, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kalle_Body_MAT
+    second: {fileID: 2100000, guid: da4d285374e39fe479d6747bf4da6fc0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kalle_Head_MAT
+    second: {fileID: 2100000, guid: da4d285374e39fe479d6747bf4da6fc0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Radio_MAT
+    second: {fileID: 2100000, guid: ace401f5bc71de340bc1d58eaaf41b42, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Radiostrap_MAT
+    second: {fileID: 2100000, guid: 84752b6ea0f809647a33d26098a4a255, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
