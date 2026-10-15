@@ -43,6 +43,22 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _CustomControl0:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CustomControl1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CustomControl2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CustomControl3:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _DecalAlbedo:
         m_Texture: {fileID: 18700000, guid: 1f5f8281f61a3274c8ac12b3081f1f78, type: 2}
         m_Scale: {x: 1, y: 1}
@@ -95,7 +111,15 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _MegaSplatTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _NoiseHeight:
+        m_Texture: {fileID: 2800000, guid: fb84fc5f3e7e14ae7be5bd45efc3d3c4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseUV:
         m_Texture: {fileID: 2800000, guid: fb84fc5f3e7e14ae7be5bd45efc3d3c4, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -107,6 +131,10 @@ Material:
         m_Texture: {fileID: 2800000, guid: 0dfc76f6aeb2a4b4ab78b17faf5a32ea, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _NormalNoise3:
+        m_Texture: {fileID: 2800000, guid: 993678365290144589d31930a617b969, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _NormalSAO:
         m_Texture: {fileID: 18700000, guid: b33e15a763c40d149836dfa8b2578655, type: 2}
         m_Scale: {x: 1, y: 1}
@@ -116,7 +144,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _PerTexProps:
-        m_Texture: {fileID: 5858807140828464373, guid: 1d554b143ae343042a6bea13fadf6cc4, type: 2}
+        m_Texture: {fileID: 697883843878192572, guid: 1d554b143ae343042a6bea13fadf6cc4, type: 2}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ProcTexCurves:
@@ -164,7 +192,7 @@ Material:
     - _AlphaToMask: 0
     - _AlphaToMaskInspectorValue: 0
     - _BlendMode: 0
-    - _Contrast: 0.927
+    - _Contrast: 0.617
     - _CullMode: 2
     - _CullModeForward: 2
     - _DepthOffsetEnable: 0
@@ -175,7 +203,7 @@ Material:
     - _EnableFogOnTransparent: 1
     - _GeoHeightContrast: 10
     - _GeoNormalStrength: 0.786
-    - _HybridHeightBlendDistance: 307
+    - _HybridHeightBlendDistance: 82
     - _OpaqueCullMode: 2
     - _PCLayerCount: 4
     - _PCShowProceduralIndex: 0
@@ -208,24 +236,27 @@ Material:
     - _TransparentSortPriority: 0
     - _TransparentWritingMotionVec: 0
     - _TransparentZWrite: 0
-    - _TriplanarContrast: 6.5
+    - _TriplanarContrast: 4
+    - _TriplanarFaceBlend: 0
     - _UseShadowThreshold: 0
     - _ZTestDepthEqualForOpaque: 4
     - _ZTestGBuffer: 4
     - _ZTestTransparent: 4
     - _ZWrite: 1
     m_Colors:
-    - _DetailNoiseScaleStrengthFade: {r: 4, g: 0.5, b: 5, a: 0}
+    - _DetailNoiseScaleStrengthFade: {r: 0, g: 0.25, b: 250, a: 0}
     - _DistanceNoiseScaleStrengthFade: {r: 0.25, g: 0.5, b: 100, a: 250}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _GeoCurveParams: {r: 250, g: 0, b: 0, a: 0}
     - _GeoParams: {r: 1, g: 0.01, b: 0, a: 0}
     - _GeoRange: {r: 1476.2, g: 1476.2, b: 101.4, a: 101.4}
-    - _NoiseHeightData: {r: 206.18, g: 2, b: 0, a: 0}
-    - _NormalNoiseScaleStrength: {r: 8, g: 0.25, b: 0, a: 0}
-    - _NormalNoiseScaleStrength2: {r: 16, g: 0.5, b: 0, a: 0}
-    - _TriplanarUVScale: {r: 2, g: 2, b: 0, a: 0}
-    - _UVScale: {r: 45, g: 45, b: 0, a: 0}
+    - _NoiseHeightData: {r: 1000, g: 0.45, b: 0, a: 0}
+    - _NoiseUVParams: {r: 2, g: 1.5, b: 0, a: 0}
+    - _NormalNoiseScaleStrength: {r: 1, g: 0.15, b: 0, a: 0}
+    - _NormalNoiseScaleStrength2: {r: 0.1, g: 0.03, b: 0, a: 0}
+    - _NormalNoiseScaleStrength3: {r: 0, g: 0.1, b: 0, a: 0}
+    - _TriplanarUVScale: {r: 8, g: 8, b: 0, a: 0}
+    - _UVScale: {r: 2000, g: 2000, b: 0, a: 0}
     - _WorldHeightRange: {r: 0, g: 500, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

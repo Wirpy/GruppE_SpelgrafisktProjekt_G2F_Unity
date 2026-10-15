@@ -111,9 +111,9 @@ MonoBehaviour:
   seed: 0
   poissonDisk: {fileID: 570998590550230969, guid: 1e884d56bc6f441a9a9553bc6b29638a, type: 3}
   poissonDiskStrength: 1
-  density: 20
+  density: 10
   occludeOthers: 1
-  occludedByOthers: 1
+  occludedByOthers: 0
   minDistanceFromTree: 0
   maxDistanceFromTree: 0
   minDistanceFromObject: 0

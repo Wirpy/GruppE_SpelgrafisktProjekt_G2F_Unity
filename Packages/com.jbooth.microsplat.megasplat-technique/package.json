@@ -1,0 +1,35 @@
+{
+  "name": "com.jbooth.microsplat.megasplat-technique",
+  "displayName": "MicroSplat-MegaSplatTechnique",
+  "version": "3.9.0",
+  "author": {
+    "name": "Jason Booth",
+    "email": "slipster216@gmail.com",
+    "url": "http://jdbtechservices.com/"
+  },
+  "unity": "2019.4",
+  "samples": [
+    {
+      "displayName": "MegaSplat Technique Terrain Example",
+      "description": "Example of a terrain using the technique",
+      "path": "Samples~/MegaSplatTerrain"
+    },
+    {
+      "displayName": "MegaSplat Technique Mesh Example",
+      "description": "Example of mesh using the technique",
+      "path": "Samples~/MegaSplatVertex"
+    }
+  ],
+  "dependencies": {
+    "com.jbooth.microsplat.core": "3.9.0"
+  },
+  "description": "The MegaSplat Technique module for MicroSplat adds the ability to use 256 textures on terrains a meshes",
+  "keywords": [
+    "MicroSplat",
+    "Terrain",
+    "Shader", 
+    "MegaSplat"
+  ],
+  "documentationUrl": "https://docs.google.com/document/d/1vD_LY5zxA_C78pDNdsC8xoA4HOezzPsVk9pz7ER9Gso/edit?usp=sharing",
+  "type": "tool"
+}
