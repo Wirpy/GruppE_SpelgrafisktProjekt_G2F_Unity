@@ -10,15 +10,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 2294ee51797e94040ab4b6d0d8ded9ba, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 2904.9414
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2294ee51797e94040ab4b6d0d8ded9ba, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 96.624466
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2294ee51797e94040ab4b6d0d8ded9ba, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 3047.6626
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2294ee51797e94040ab4b6d0d8ded9ba, type: 3}
       propertyPath: m_LocalRotation.w
@@ -49,13 +49,21 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 2294ee51797e94040ab4b6d0d8ded9ba, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 2294ee51797e94040ab4b6d0d8ded9ba, type: 3}
       propertyPath: m_StaticShadowCaster
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 2294ee51797e94040ab4b6d0d8ded9ba, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 096da945162879747ae2f92e6124bd20, type: 2}
+      objectReference: {fileID: 2100000, guid: 9d277465f0e3ea64c8a081300f2c5503, type: 2}
+    - target: {fileID: -264430861247414160, guid: 2294ee51797e94040ab4b6d0d8ded9ba, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 642106b9ccb078a46b3e289259919f75, type: 2}
     - target: {fileID: 919132149155446097, guid: 2294ee51797e94040ab4b6d0d8ded9ba, type: 3}
       propertyPath: m_Name
       value: Buske_01
