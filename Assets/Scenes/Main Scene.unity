@@ -952,8 +952,8 @@ MonoBehaviour:
       maxHeightSaveBackPerFrame: 1
       useSceneCulling: 0
       controllFoliageDraw: 1
-      sceneTerrainCullingDistance: 500
-      sceneVegetationCullingDistance: 200
+      sceneTerrainCullingDistance: 1000
+      sceneVegetationCullingDistance: 1000
       sceneCameraCullingDistance: 12000
       SyncHolesOnSave: 1
     colors:
@@ -525822,7 +525822,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6440037299764319870, guid: 549ffdb60317d6a48878e867ed02338e, type: 3}
       propertyPath: filterSet.textureFilters.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6440037299764319870, guid: 549ffdb60317d6a48878e867ed02338e, type: 3}
       propertyPath: filterSet.textureFilters.Array.data[0].layer
@@ -525833,12 +525833,20 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8574412962073106934, guid: 4db8ae7cf1b36284886b4495a07c8462, type: 2}
     - target: {fileID: 6440037299764319870, guid: 549ffdb60317d6a48878e867ed02338e, type: 3}
+      propertyPath: filterSet.textureFilters.Array.data[2].layer
+      value: 
+      objectReference: {fileID: 8574412962073106934, guid: e6b21613b46284740ab686e516dbe860, type: 2}
+    - target: {fileID: 6440037299764319870, guid: 549ffdb60317d6a48878e867ed02338e, type: 3}
       propertyPath: filterSet.textureFilters.Array.data[0].weight
       value: 0.54
       objectReference: {fileID: 0}
     - target: {fileID: 6440037299764319870, guid: 549ffdb60317d6a48878e867ed02338e, type: 3}
       propertyPath: filterSet.textureFilters.Array.data[1].weight
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6440037299764319870, guid: 549ffdb60317d6a48878e867ed02338e, type: 3}
+      propertyPath: filterSet.textureFilters.Array.data[2].weight
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 6440037299764319870, guid: 549ffdb60317d6a48878e867ed02338e, type: 3}
       propertyPath: filterSet.textureFilters.Array.data[1].balance
@@ -526108,7 +526116,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3047628578340058727, guid: a008ab050e9f09243828e7a90e60efd0, type: 3}
       propertyPath: filterSet.textureFilters.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3047628578340058727, guid: a008ab050e9f09243828e7a90e60efd0, type: 3}
       propertyPath: filterSet.textureFilters.Array.data[0].layer
@@ -526119,12 +526127,20 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8574412962073106934, guid: 6beeb06f840c6404c8e4d1c719c8eb3b, type: 2}
     - target: {fileID: 3047628578340058727, guid: a008ab050e9f09243828e7a90e60efd0, type: 3}
+      propertyPath: filterSet.textureFilters.Array.data[2].layer
+      value: 
+      objectReference: {fileID: 8574412962073106934, guid: e6b21613b46284740ab686e516dbe860, type: 2}
+    - target: {fileID: 3047628578340058727, guid: a008ab050e9f09243828e7a90e60efd0, type: 3}
       propertyPath: filterSet.textureFilters.Array.data[0].weight
       value: 0.73
       objectReference: {fileID: 0}
     - target: {fileID: 3047628578340058727, guid: a008ab050e9f09243828e7a90e60efd0, type: 3}
       propertyPath: filterSet.textureFilters.Array.data[1].weight
       value: 0.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 3047628578340058727, guid: a008ab050e9f09243828e7a90e60efd0, type: 3}
+      propertyPath: filterSet.textureFilters.Array.data[2].weight
+      value: -1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -529415,67 +529431,6 @@ MonoBehaviour:
   tiltScaleZ: 0
   mipBias: 0
   version: 2
---- !u!1001 &765775366
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 5574372453687203230, guid: 8b32ca552836c5e44956d130c969a291, type: 3}
-      propertyPath: 'm_Materials.Array.data[0]'
-      value: 
-      objectReference: {fileID: 2100000, guid: 9d277465f0e3ea64c8a081300f2c5503, type: 2}
-    - target: {fileID: 6223088781131527243, guid: 8b32ca552836c5e44956d130c969a291, type: 3}
-      propertyPath: m_Name
-      value: Buske_01
-      objectReference: {fileID: 0}
-    - target: {fileID: 6707842174284754673, guid: 8b32ca552836c5e44956d130c969a291, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 2904.9414
-      objectReference: {fileID: 0}
-    - target: {fileID: 6707842174284754673, guid: 8b32ca552836c5e44956d130c969a291, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 96.624466
-      objectReference: {fileID: 0}
-    - target: {fileID: 6707842174284754673, guid: 8b32ca552836c5e44956d130c969a291, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 3047.6626
-      objectReference: {fileID: 0}
-    - target: {fileID: 6707842174284754673, guid: 8b32ca552836c5e44956d130c969a291, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6707842174284754673, guid: 8b32ca552836c5e44956d130c969a291, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6707842174284754673, guid: 8b32ca552836c5e44956d130c969a291, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6707842174284754673, guid: 8b32ca552836c5e44956d130c969a291, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6707842174284754673, guid: 8b32ca552836c5e44956d130c969a291, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6707842174284754673, guid: 8b32ca552836c5e44956d130c969a291, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6707842174284754673, guid: 8b32ca552836c5e44956d130c969a291, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 8b32ca552836c5e44956d130c969a291, type: 3}
 --- !u!1 &782852287
 GameObject:
   m_ObjectHideFlags: 0
@@ -530096,7 +530051,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4622644912837233239, guid: 43c59dde35202de47a2b492469ae072a, type: 3}
       propertyPath: filterSet.textureFilters.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4622644912837233239, guid: 43c59dde35202de47a2b492469ae072a, type: 3}
       propertyPath: filterSet.textureFilters.Array.data[0].layer
@@ -530107,12 +530062,20 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8574412962073106934, guid: 6beeb06f840c6404c8e4d1c719c8eb3b, type: 2}
     - target: {fileID: 4622644912837233239, guid: 43c59dde35202de47a2b492469ae072a, type: 3}
+      propertyPath: filterSet.textureFilters.Array.data[2].layer
+      value: 
+      objectReference: {fileID: 8574412962073106934, guid: e6b21613b46284740ab686e516dbe860, type: 2}
+    - target: {fileID: 4622644912837233239, guid: 43c59dde35202de47a2b492469ae072a, type: 3}
       propertyPath: filterSet.textureFilters.Array.data[0].weight
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4622644912837233239, guid: 43c59dde35202de47a2b492469ae072a, type: 3}
       propertyPath: filterSet.textureFilters.Array.data[1].weight
       value: 0.16
+      objectReference: {fileID: 0}
+    - target: {fileID: 4622644912837233239, guid: 43c59dde35202de47a2b492469ae072a, type: 3}
+      propertyPath: filterSet.textureFilters.Array.data[2].weight
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 4622644912837233239, guid: 43c59dde35202de47a2b492469ae072a, type: 3}
       propertyPath: filterSet.textureFilters.Array.data[0].balance
@@ -530123,11 +530086,19 @@ PrefabInstance:
       value: 0.66
       objectReference: {fileID: 0}
     - target: {fileID: 4622644912837233239, guid: 43c59dde35202de47a2b492469ae072a, type: 3}
+      propertyPath: filterSet.textureFilters.Array.data[2].balance
+      value: 0.66
+      objectReference: {fileID: 0}
+    - target: {fileID: 4622644912837233239, guid: 43c59dde35202de47a2b492469ae072a, type: 3}
       propertyPath: filterSet.textureFilters.Array.data[0].amplitude
       value: 1.03
       objectReference: {fileID: 0}
     - target: {fileID: 4622644912837233239, guid: 43c59dde35202de47a2b492469ae072a, type: 3}
       propertyPath: filterSet.textureFilters.Array.data[1].amplitude
+      value: 0.54
+      objectReference: {fileID: 0}
+    - target: {fileID: 4622644912837233239, guid: 43c59dde35202de47a2b492469ae072a, type: 3}
+      propertyPath: filterSet.textureFilters.Array.data[2].amplitude
       value: 0.54
       objectReference: {fileID: 0}
     - target: {fileID: 8718111751408113096, guid: 43c59dde35202de47a2b492469ae072a, type: 3}
@@ -531484,10 +531455,10 @@ MonoBehaviour:
     weight3NoiseOp: 0
     version: 2
     heightFilter:
-      enabled: 0
+      enabled: 1
       filterType: 0
       weight: 1
-      range: {x: 0, y: 500}
+      range: {x: 107, y: 2000}
       smoothness: {x: 20, y: 20}
       noise:
         noiseType: 0
@@ -532797,7 +532768,7 @@ Terrain:
   m_Enabled: 1
   serializedVersion: 6
   m_TerrainData: {fileID: 15600000, guid: d952560746584464394a089d5e26b0d5, type: 2}
-  m_TreeDistance: 208
+  m_TreeDistance: 1000
   m_TreeBillboardDistance: 50
   m_TreeCrossFadeLength: 5
   m_TreeMaximumFullLODCount: 50
@@ -601646,6 +601617,14 @@ PrefabInstance:
       value: 0.15
       objectReference: {fileID: 0}
     - target: {fileID: 8233399528520322480, guid: 9516892a8bbcb40478c02368f0bc1f58, type: 3}
+      propertyPath: filterSet.heightFilter.enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8233399528520322480, guid: 9516892a8bbcb40478c02368f0bc1f58, type: 3}
+      propertyPath: filterSet.heightFilter.range.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8233399528520322480, guid: 9516892a8bbcb40478c02368f0bc1f58, type: 3}
       propertyPath: filterSet.textureFilterEnabled
       value: 1
       objectReference: {fileID: 0}
@@ -601663,7 +601642,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8233399528520322480, guid: 9516892a8bbcb40478c02368f0bc1f58, type: 3}
       propertyPath: randomizations.Array.data[0].flags
-      value: 26
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8233399528520322480, guid: 9516892a8bbcb40478c02368f0bc1f58, type: 3}
       propertyPath: randomizations.Array.data[1].flags
@@ -601679,7 +601658,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8233399528520322480, guid: 9516892a8bbcb40478c02368f0bc1f58, type: 3}
       propertyPath: filterSet.textureFilters.Array.size
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8233399528520322480, guid: 9516892a8bbcb40478c02368f0bc1f58, type: 3}
       propertyPath: filterSet.textureFilters.Array.data[0].layer
@@ -601692,6 +601671,10 @@ PrefabInstance:
     - target: {fileID: 8233399528520322480, guid: 9516892a8bbcb40478c02368f0bc1f58, type: 3}
       propertyPath: filterSet.textureFilters.Array.data[2].layer
       value: 
+      objectReference: {fileID: 8574412962073106934, guid: e6b21613b46284740ab686e516dbe860, type: 2}
+    - target: {fileID: 8233399528520322480, guid: 9516892a8bbcb40478c02368f0bc1f58, type: 3}
+      propertyPath: filterSet.textureFilters.Array.data[3].layer
+      value: 
       objectReference: {fileID: 8574412962073106934, guid: 751d14a11ea2512458771ddfbf6f423d, type: 2}
     - target: {fileID: 8233399528520322480, guid: 9516892a8bbcb40478c02368f0bc1f58, type: 3}
       propertyPath: filterSet.textureFilters.Array.data[0].weight
@@ -601699,10 +601682,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8233399528520322480, guid: 9516892a8bbcb40478c02368f0bc1f58, type: 3}
       propertyPath: filterSet.textureFilters.Array.data[1].weight
-      value: 0.1
+      value: 0.35
       objectReference: {fileID: 0}
     - target: {fileID: 8233399528520322480, guid: 9516892a8bbcb40478c02368f0bc1f58, type: 3}
       propertyPath: filterSet.textureFilters.Array.data[2].weight
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8233399528520322480, guid: 9516892a8bbcb40478c02368f0bc1f58, type: 3}
+      propertyPath: filterSet.textureFilters.Array.data[3].weight
       value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 8233399528520322480, guid: 9516892a8bbcb40478c02368f0bc1f58, type: 3}
@@ -602365,10 +602352,10 @@ MonoBehaviour:
     weight3NoiseOp: 0
     version: 2
     heightFilter:
-      enabled: 0
+      enabled: 1
       filterType: 0
       weight: 1
-      range: {x: 0, y: 500}
+      range: {x: 90, y: 500}
       smoothness: {x: 20, y: 20}
       noise:
         noiseType: 0
@@ -607212,4 +607199,3 @@ SceneRoots:
   - {fileID: 225750498}
   - {fileID: 583790702}
   - {fileID: 99758181}
-  - {fileID: 765775366}
