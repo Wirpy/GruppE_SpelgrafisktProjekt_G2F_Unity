@@ -333,6 +333,68 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a7631eb1f69a8346bf68fc55d82f181, type: 3}
+--- !u!1 &100946756
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 100946757}
+  - component: {fileID: 100946758}
+  m_Layer: 0
+  m_Name: Eye (34)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &100946757
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100946756}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.5882694, y: -0.5988951, z: -0.39235204, w: 0.37593034}
+  m_LocalPosition: {x: -8.123, y: 2.968, z: -1.969}
+  m_LocalScale: {x: 0.19336995, y: 0.19336995, z: 0.19336995}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 644871373}
+  m_LocalEulerAnglesHint: {x: -1.585, y: -114.182, z: -90}
+--- !u!114 &100946758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100946756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f19d9143a39eb3b46bc4563e9889cfbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.HighDefinition.Runtime::UnityEngine.Rendering.HighDefinition.DecalProjector
+  m_Material: {fileID: 2100000, guid: 77a0e091917d3a845af57c33eea8aa02, type: 2}
+  m_DrawDistance: 1000
+  m_FadeScale: 0.9
+  m_StartAngleFade: 180
+  m_EndAngleFade: 180
+  m_UVScale: {x: 1, y: 1}
+  m_UVBias: {x: 0, y: 0}
+  m_AffectsTransparency: 0
+  m_TransparentTextureResolution:
+    m_Override: 256
+    m_UseOverride: 1
+    m_Level: 0
+  m_DecalLayerMask: 1
+  m_ScaleMode: 1
+  m_Offset: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 1.82}
+  m_FadeFactor: 1
+  m_Version: 3
 --- !u!1001 &121236337
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -634,6 +696,130 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 43.696}
+--- !u!1 &193473391
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 193473392}
+  - component: {fileID: 193473393}
+  m_Layer: 0
+  m_Name: Eye (43)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &193473392
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 193473391}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.559091, y: -0.5469025, z: 0.43291757, w: -0.44821584}
+  m_LocalPosition: {x: -0.801, y: 1.572, z: -3.496}
+  m_LocalScale: {x: 0.17871764, y: 0.17871764, z: 0.17871764}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 644871373}
+  m_LocalEulerAnglesHint: {x: -1.585, y: -257.088, z: -90}
+--- !u!114 &193473393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 193473391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f19d9143a39eb3b46bc4563e9889cfbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.HighDefinition.Runtime::UnityEngine.Rendering.HighDefinition.DecalProjector
+  m_Material: {fileID: 2100000, guid: 77a0e091917d3a845af57c33eea8aa02, type: 2}
+  m_DrawDistance: 1000
+  m_FadeScale: 0.9
+  m_StartAngleFade: 180
+  m_EndAngleFade: 180
+  m_UVScale: {x: 1, y: 1}
+  m_UVBias: {x: 0, y: 0}
+  m_AffectsTransparency: 0
+  m_TransparentTextureResolution:
+    m_Override: 256
+    m_UseOverride: 1
+    m_Level: 0
+  m_DecalLayerMask: 1
+  m_ScaleMode: 1
+  m_Offset: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 2.1}
+  m_FadeFactor: 1
+  m_Version: 3
+--- !u!1 &196813667
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 196813668}
+  - component: {fileID: 196813669}
+  m_Layer: 0
+  m_Name: Eye (32)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &196813668
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 196813667}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.3851395, y: -0.4013942, z: -0.5930159, w: 0.58213615}
+  m_LocalPosition: {x: -4.376, y: 1.391, z: -0.353}
+  m_LocalScale: {x: 0.14571963, y: 0.14571963, z: 0.14571963}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 644871373}
+  m_LocalEulerAnglesHint: {x: -1.585, y: -67.589, z: -90}
+--- !u!114 &196813669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 196813667}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f19d9143a39eb3b46bc4563e9889cfbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.HighDefinition.Runtime::UnityEngine.Rendering.HighDefinition.DecalProjector
+  m_Material: {fileID: 2100000, guid: 77a0e091917d3a845af57c33eea8aa02, type: 2}
+  m_DrawDistance: 1000
+  m_FadeScale: 0.9
+  m_StartAngleFade: 180
+  m_EndAngleFade: 180
+  m_UVScale: {x: 1, y: 1}
+  m_UVBias: {x: 0, y: 0}
+  m_AffectsTransparency: 0
+  m_TransparentTextureResolution:
+    m_Override: 256
+    m_UseOverride: 1
+    m_Level: 0
+  m_DecalLayerMask: 1
+  m_ScaleMode: 1
+  m_Offset: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 1.82}
+  m_FadeFactor: 1
+  m_Version: 3
 --- !u!1001 &200916704
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -957,6 +1143,130 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a7631eb1f69a8346bf68fc55d82f181, type: 3}
+--- !u!1 &242669220
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 242669221}
+  - component: {fileID: 242669222}
+  m_Layer: 0
+  m_Name: Eye (61)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &242669221
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 242669220}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.70706, y: -0.7070146, z: -0.008154383, w: -0.011405041}
+  m_LocalPosition: {x: -3.034, y: 2.801, z: -9.9756}
+  m_LocalScale: {x: 0.1939395, y: 0.1939395, z: 0.1939395}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 644871373}
+  m_LocalEulerAnglesHint: {x: -1.585, y: -180.263, z: -90}
+--- !u!114 &242669222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 242669220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f19d9143a39eb3b46bc4563e9889cfbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.HighDefinition.Runtime::UnityEngine.Rendering.HighDefinition.DecalProjector
+  m_Material: {fileID: 2100000, guid: 77a0e091917d3a845af57c33eea8aa02, type: 2}
+  m_DrawDistance: 1000
+  m_FadeScale: 0.9
+  m_StartAngleFade: 180
+  m_EndAngleFade: 180
+  m_UVScale: {x: 1, y: 1}
+  m_UVBias: {x: 0, y: 0}
+  m_AffectsTransparency: 0
+  m_TransparentTextureResolution:
+    m_Override: 256
+    m_UseOverride: 1
+    m_Level: 0
+  m_DecalLayerMask: 1
+  m_ScaleMode: 1
+  m_Offset: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 1.48}
+  m_FadeFactor: 1
+  m_Version: 3
+--- !u!1 &249180889
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 249180890}
+  - component: {fileID: 249180891}
+  m_Layer: 0
+  m_Name: Eye (13)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &249180890
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 249180889}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.4798706, y: -0.4940508, z: -0.5193509, w: 0.50587827}
+  m_LocalPosition: {x: -1.704, y: 3.129, z: -3.698}
+  m_LocalScale: {x: 0.23892978, y: 0.23892978, z: 0.23892978}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 644871373}
+  m_LocalEulerAnglesHint: {x: -1.585, y: -87.06, z: -90}
+--- !u!114 &249180891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 249180889}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f19d9143a39eb3b46bc4563e9889cfbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.HighDefinition.Runtime::UnityEngine.Rendering.HighDefinition.DecalProjector
+  m_Material: {fileID: 2100000, guid: 77a0e091917d3a845af57c33eea8aa02, type: 2}
+  m_DrawDistance: 1000
+  m_FadeScale: 0.9
+  m_StartAngleFade: 180
+  m_EndAngleFade: 180
+  m_UVScale: {x: 1, y: 1}
+  m_UVBias: {x: 0, y: 0}
+  m_AffectsTransparency: 0
+  m_TransparentTextureResolution:
+    m_Override: 256
+    m_UseOverride: 1
+    m_Level: 0
+  m_DecalLayerMask: 1
+  m_ScaleMode: 1
+  m_Offset: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 2.56}
+  m_FadeFactor: 1
+  m_Version: 3
 --- !u!1001 &253172758
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1265,6 +1575,130 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7bc41a173f5b31f4ba473880e15262e7, type: 3}
+--- !u!1 &305239320
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 305239321}
+  - component: {fileID: 305239322}
+  m_Layer: 0
+  m_Name: Eye (30)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &305239321
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 305239320}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.6808999, y: -0.685914, z: -0.19072431, w: 0.17181821}
+  m_LocalPosition: {x: -4.308, y: 2.088, z: -0.193}
+  m_LocalScale: {x: 0.20908672, y: 0.20908672, z: 0.20908672}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 644871373}
+  m_LocalEulerAnglesHint: {x: -1.585, y: -150.289, z: -90}
+--- !u!114 &305239322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 305239320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f19d9143a39eb3b46bc4563e9889cfbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.HighDefinition.Runtime::UnityEngine.Rendering.HighDefinition.DecalProjector
+  m_Material: {fileID: 2100000, guid: 77a0e091917d3a845af57c33eea8aa02, type: 2}
+  m_DrawDistance: 1000
+  m_FadeScale: 0.9
+  m_StartAngleFade: 180
+  m_EndAngleFade: 180
+  m_UVScale: {x: 1, y: 1}
+  m_UVBias: {x: 0, y: 0}
+  m_AffectsTransparency: 0
+  m_TransparentTextureResolution:
+    m_Override: 256
+    m_UseOverride: 1
+    m_Level: 0
+  m_DecalLayerMask: 1
+  m_ScaleMode: 1
+  m_Offset: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 1.82}
+  m_FadeFactor: 1
+  m_Version: 3
+--- !u!1 &315441675
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 315441676}
+  - component: {fileID: 315441677}
+  m_Layer: 0
+  m_Name: Eye (16)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &315441676
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 315441675}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.7064964, y: -0.705411, z: 0.029398136, w: -0.048927788}
+  m_LocalPosition: {x: -3.314, y: 2.575, z: -5.211}
+  m_LocalScale: {x: 0.1382103, y: 0.1382103, z: 0.1382103}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 644871373}
+  m_LocalEulerAnglesHint: {x: -1.585, y: -186.35, z: -90}
+--- !u!114 &315441677
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 315441675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f19d9143a39eb3b46bc4563e9889cfbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.HighDefinition.Runtime::UnityEngine.Rendering.HighDefinition.DecalProjector
+  m_Material: {fileID: 2100000, guid: 77a0e091917d3a845af57c33eea8aa02, type: 2}
+  m_DrawDistance: 1000
+  m_FadeScale: 0.9
+  m_StartAngleFade: 180
+  m_EndAngleFade: 180
+  m_UVScale: {x: 1, y: 1}
+  m_UVBias: {x: 0, y: 0}
+  m_AffectsTransparency: 0
+  m_TransparentTextureResolution:
+    m_Override: 256
+    m_UseOverride: 1
+    m_Level: 0
+  m_DecalLayerMask: 1
+  m_ScaleMode: 1
+  m_Offset: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 2.56}
+  m_FadeFactor: 1
+  m_Version: 3
 --- !u!1001 &317208593
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1538,11 +1972,197 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7bc41a173f5b31f4ba473880e15262e7, type: 3}
+--- !u!1 &358092198
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 358092199}
+  - component: {fileID: 358092200}
+  m_Layer: 0
+  m_Name: Eye (54)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &358092199
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 358092198}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.5622073, y: -0.5738542, z: -0.42886218, w: 0.41314843}
+  m_LocalPosition: {x: -0.655, y: 2.574, z: -4.704}
+  m_LocalScale: {x: 0.16072242, y: 0.16072242, z: 0.16072242}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 644871373}
+  m_LocalEulerAnglesHint: {x: -1.585, y: -106.911, z: -90}
+--- !u!114 &358092200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 358092198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f19d9143a39eb3b46bc4563e9889cfbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.HighDefinition.Runtime::UnityEngine.Rendering.HighDefinition.DecalProjector
+  m_Material: {fileID: 2100000, guid: 77a0e091917d3a845af57c33eea8aa02, type: 2}
+  m_DrawDistance: 1000
+  m_FadeScale: 0.9
+  m_StartAngleFade: 180
+  m_EndAngleFade: 180
+  m_UVScale: {x: 1, y: 1}
+  m_UVBias: {x: 0, y: 0}
+  m_AffectsTransparency: 0
+  m_TransparentTextureResolution:
+    m_Override: 256
+    m_UseOverride: 1
+    m_Level: 0
+  m_DecalLayerMask: 1
+  m_ScaleMode: 1
+  m_Offset: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 1.48}
+  m_FadeFactor: 1
+  m_Version: 3
 --- !u!4 &371201901 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1522783343660514499, guid: 5a7631eb1f69a8346bf68fc55d82f181, type: 3}
   m_PrefabInstance: {fileID: 228039101}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &375844463
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 375844464}
+  - component: {fileID: 375844465}
+  m_Layer: 0
+  m_Name: Eye (15)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &375844464
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 375844463}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.66223955, y: -0.6688402, z: -0.24787122, w: 0.22945884}
+  m_LocalPosition: {x: -3.251, y: 2.09, z: -5.208}
+  m_LocalScale: {x: 0.20833899, y: 0.20833899, z: 0.20833899}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 644871373}
+  m_LocalEulerAnglesHint: {x: -1.585, y: -140.544, z: -90}
+--- !u!114 &375844465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 375844463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f19d9143a39eb3b46bc4563e9889cfbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.HighDefinition.Runtime::UnityEngine.Rendering.HighDefinition.DecalProjector
+  m_Material: {fileID: 2100000, guid: 77a0e091917d3a845af57c33eea8aa02, type: 2}
+  m_DrawDistance: 1000
+  m_FadeScale: 0.9
+  m_StartAngleFade: 180
+  m_EndAngleFade: 180
+  m_UVScale: {x: 1, y: 1}
+  m_UVBias: {x: 0, y: 0}
+  m_AffectsTransparency: 0
+  m_TransparentTextureResolution:
+    m_Override: 256
+    m_UseOverride: 1
+    m_Level: 0
+  m_DecalLayerMask: 1
+  m_ScaleMode: 1
+  m_Offset: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 2.56}
+  m_FadeFactor: 1
+  m_Version: 3
+--- !u!1 &378999212
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 378999213}
+  - component: {fileID: 378999214}
+  m_Layer: 0
+  m_Name: Eye (35)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &378999213
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 378999212}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.23056197, y: -0.24896199, z: -0.6684626, w: 0.66182846}
+  m_LocalPosition: {x: -8.19, y: 3.139, z: -2.168}
+  m_LocalScale: {x: 0.14994153, y: 0.14994153, z: 0.14994153}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 644871373}
+  m_LocalEulerAnglesHint: {x: -1.585, y: -39.645, z: -90}
+--- !u!114 &378999214
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 378999212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f19d9143a39eb3b46bc4563e9889cfbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.HighDefinition.Runtime::UnityEngine.Rendering.HighDefinition.DecalProjector
+  m_Material: {fileID: 2100000, guid: 77a0e091917d3a845af57c33eea8aa02, type: 2}
+  m_DrawDistance: 1000
+  m_FadeScale: 0.9
+  m_StartAngleFade: 180
+  m_EndAngleFade: 180
+  m_UVScale: {x: 1, y: 1}
+  m_UVBias: {x: 0, y: 0}
+  m_AffectsTransparency: 0
+  m_TransparentTextureResolution:
+    m_Override: 256
+    m_UseOverride: 1
+    m_Level: 0
+  m_DecalLayerMask: 1
+  m_ScaleMode: 1
+  m_Offset: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 1.82}
+  m_FadeFactor: 1
+  m_Version: 3
 --- !u!1001 &387883821
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1800,6 +2420,68 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 654dba1edc04a744d97578c847a0042e, type: 3}
+--- !u!1 &436369089
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 436369090}
+  - component: {fileID: 436369091}
+  m_Layer: 0
+  m_Name: Eye (25)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &436369090
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436369089}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.3393847, y: -0.3564124, z: -0.6203377, w: 0.6107122}
+  m_LocalPosition: {x: -3.151, y: 1.896, z: -3.023}
+  m_LocalScale: {x: 0.16409238, y: 0.16409238, z: 0.16409238}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 644871373}
+  m_LocalEulerAnglesHint: {x: -1.585, y: -58.951, z: -90}
+--- !u!114 &436369091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436369089}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f19d9143a39eb3b46bc4563e9889cfbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.HighDefinition.Runtime::UnityEngine.Rendering.HighDefinition.DecalProjector
+  m_Material: {fileID: 2100000, guid: 77a0e091917d3a845af57c33eea8aa02, type: 2}
+  m_DrawDistance: 1000
+  m_FadeScale: 0.9
+  m_StartAngleFade: 180
+  m_EndAngleFade: 180
+  m_UVScale: {x: 1, y: 1}
+  m_UVBias: {x: 0, y: 0}
+  m_AffectsTransparency: 0
+  m_TransparentTextureResolution:
+    m_Override: 256
+    m_UseOverride: 1
+    m_Level: 0
+  m_DecalLayerMask: 1
+  m_ScaleMode: 1
+  m_Offset: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 2.56}
+  m_FadeFactor: 1
+  m_Version: 3
 --- !u!4 &441105787 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1522783343660514499, guid: 5a7631eb1f69a8346bf68fc55d82f181, type: 3}
@@ -1978,6 +2660,68 @@ MonoBehaviour:
   m_ScaleMode: 1
   m_Offset: {x: 0, y: 0, z: 0}
   m_Size: {x: 1, y: 1, z: 4.42}
+  m_FadeFactor: 1
+  m_Version: 3
+--- !u!1 &464511844
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 464511845}
+  - component: {fileID: 464511846}
+  m_Layer: 0
+  m_Name: Eye (52)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &464511845
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 464511844}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.520344, y: -0.5069007, z: 0.47879332, w: -0.49300176}
+  m_LocalPosition: {x: -1.589, y: 2.121, z: -6.138}
+  m_LocalScale: {x: 0.22472672, y: 0.22472672, z: 0.22472672}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 644871373}
+  m_LocalEulerAnglesHint: {x: -1.585, y: -266.822, z: -90}
+--- !u!114 &464511846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 464511844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f19d9143a39eb3b46bc4563e9889cfbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.HighDefinition.Runtime::UnityEngine.Rendering.HighDefinition.DecalProjector
+  m_Material: {fileID: 2100000, guid: 77a0e091917d3a845af57c33eea8aa02, type: 2}
+  m_DrawDistance: 1000
+  m_FadeScale: 0.9
+  m_StartAngleFade: 180
+  m_EndAngleFade: 180
+  m_UVScale: {x: 1, y: 1}
+  m_UVBias: {x: 0, y: 0}
+  m_AffectsTransparency: 0
+  m_TransparentTextureResolution:
+    m_Override: 256
+    m_UseOverride: 1
+    m_Level: 0
+  m_DecalLayerMask: 1
+  m_ScaleMode: 1
+  m_Offset: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 2.1}
   m_FadeFactor: 1
   m_Version: 3
 --- !u!1001 &467290499
@@ -2454,6 +3198,68 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a7631eb1f69a8346bf68fc55d82f181, type: 3}
+--- !u!1 &513204499
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 513204500}
+  - component: {fileID: 513204501}
+  m_Layer: 0
+  m_Name: Eye (45)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &513204500
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 513204499}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.7053092, y: -0.70643276, z: -0.050390683, w: 0.030862965}
+  m_LocalPosition: {x: -0.6918, y: 0.9679, z: -3.39}
+  m_LocalScale: {x: 0.121026054, y: 0.121026054, z: 0.121026054}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 644871373}
+  m_LocalEulerAnglesHint: {x: -1.585, y: -173.412, z: -90}
+--- !u!114 &513204501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 513204499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f19d9143a39eb3b46bc4563e9889cfbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.HighDefinition.Runtime::UnityEngine.Rendering.HighDefinition.DecalProjector
+  m_Material: {fileID: 2100000, guid: 77a0e091917d3a845af57c33eea8aa02, type: 2}
+  m_DrawDistance: 1000
+  m_FadeScale: 0.9
+  m_StartAngleFade: 180
+  m_EndAngleFade: 180
+  m_UVScale: {x: 1, y: 1}
+  m_UVBias: {x: 0, y: 0}
+  m_AffectsTransparency: 0
+  m_TransparentTextureResolution:
+    m_Override: 256
+    m_UseOverride: 1
+    m_Level: 0
+  m_DecalLayerMask: 1
+  m_ScaleMode: 1
+  m_Offset: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 2.1}
+  m_FadeFactor: 1
+  m_Version: 3
 --- !u!4 &518322815 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4619134651356582633, guid: 7bc41a173f5b31f4ba473880e15262e7, type: 3}
@@ -3333,6 +4139,27 @@ Transform:
   - {fileID: 791256427}
   - {fileID: 1473162663}
   - {fileID: 1810381289}
+  - {fileID: 2035898027}
+  - {fileID: 193473392}
+  - {fileID: 1876447540}
+  - {fileID: 1312821065}
+  - {fileID: 840439676}
+  - {fileID: 464511845}
+  - {fileID: 1502549710}
+  - {fileID: 1274477147}
+  - {fileID: 513204500}
+  - {fileID: 1392651285}
+  - {fileID: 1398285944}
+  - {fileID: 358092199}
+  - {fileID: 1072584442}
+  - {fileID: 1712118467}
+  - {fileID: 1494273537}
+  - {fileID: 1642850160}
+  - {fileID: 896247254}
+  - {fileID: 1202023382}
+  - {fileID: 242669221}
+  - {fileID: 889083654}
+  - {fileID: 1352614003}
   - {fileID: 134687187}
   - {fileID: 463482335}
   - {fileID: 656276662}
@@ -3340,6 +4167,35 @@ Transform:
   - {fileID: 545489713}
   - {fileID: 922699975}
   - {fileID: 1696628111}
+  - {fileID: 1988092948}
+  - {fileID: 249180890}
+  - {fileID: 879424639}
+  - {fileID: 375844464}
+  - {fileID: 315441676}
+  - {fileID: 1415432929}
+  - {fileID: 1767468780}
+  - {fileID: 866574653}
+  - {fileID: 2037904437}
+  - {fileID: 2109210657}
+  - {fileID: 1954927632}
+  - {fileID: 1599252792}
+  - {fileID: 1561012244}
+  - {fileID: 436369090}
+  - {fileID: 2099956441}
+  - {fileID: 701850053}
+  - {fileID: 1972625649}
+  - {fileID: 827021544}
+  - {fileID: 305239321}
+  - {fileID: 1957012434}
+  - {fileID: 196813668}
+  - {fileID: 1464232045}
+  - {fileID: 100946757}
+  - {fileID: 1495586998}
+  - {fileID: 1994741896}
+  - {fileID: 1481717841}
+  - {fileID: 1854291771}
+  - {fileID: 2078965919}
+  - {fileID: 378999213}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &656276661
@@ -3427,7 +4283,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!81 &664410461
 AudioListener:
   m_ObjectHideFlags: 0
@@ -3814,6 +4670,68 @@ MonoBehaviour:
   m_ScaleMode: 1
   m_Offset: {x: 0, y: 0, z: 0}
   m_Size: {x: 1, y: 1, z: 4.42}
+  m_FadeFactor: 1
+  m_Version: 3
+--- !u!1 &701850052
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 701850053}
+  - component: {fileID: 701850054}
+  m_Layer: 0
+  m_Name: Eye (27)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &701850053
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 701850052}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.49919423, y: -0.5128546, z: -0.5008052, w: 0.48680538}
+  m_LocalPosition: {x: -3.151, y: 3.697, z: -2.9}
+  m_LocalScale: {x: 0.13779417, y: 0.13779417, z: 0.13779417}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 644871373}
+  m_LocalEulerAnglesHint: {x: -1.585, y: -91.4, z: -90}
+--- !u!114 &701850054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 701850052}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f19d9143a39eb3b46bc4563e9889cfbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.HighDefinition.Runtime::UnityEngine.Rendering.HighDefinition.DecalProjector
+  m_Material: {fileID: 2100000, guid: 77a0e091917d3a845af57c33eea8aa02, type: 2}
+  m_DrawDistance: 1000
+  m_FadeScale: 0.9
+  m_StartAngleFade: 180
+  m_EndAngleFade: 180
+  m_UVScale: {x: 1, y: 1}
+  m_UVBias: {x: 0, y: 0}
+  m_AffectsTransparency: 0
+  m_TransparentTextureResolution:
+    m_Override: 256
+    m_UseOverride: 1
+    m_Level: 0
+  m_DecalLayerMask: 1
+  m_ScaleMode: 1
+  m_Offset: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 2.56}
   m_FadeFactor: 1
   m_Version: 3
 --- !u!1001 &725326118
@@ -4248,6 +5166,68 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1522783343660514499, guid: 5a7631eb1f69a8346bf68fc55d82f181, type: 3}
   m_PrefabInstance: {fileID: 200916704}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &827021543
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 827021544}
+  - component: {fileID: 827021545}
+  m_Layer: 0
+  m_Name: Eye (29)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &827021544
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 827021543}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.009831667, y: -0.029384052, z: -0.70703894, w: 0.7064956}
+  m_LocalPosition: {x: -4.379, y: 3.07, z: -0.478}
+  m_LocalScale: {x: 0.23252235, y: 0.23252235, z: 0.23252235}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 644871373}
+  m_LocalEulerAnglesHint: {x: -1.585, y: -3.178, z: -90}
+--- !u!114 &827021545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 827021543}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f19d9143a39eb3b46bc4563e9889cfbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.HighDefinition.Runtime::UnityEngine.Rendering.HighDefinition.DecalProjector
+  m_Material: {fileID: 2100000, guid: 77a0e091917d3a845af57c33eea8aa02, type: 2}
+  m_DrawDistance: 1000
+  m_FadeScale: 0.9
+  m_StartAngleFade: 180
+  m_EndAngleFade: 180
+  m_UVScale: {x: 1, y: 1}
+  m_UVBias: {x: 0, y: 0}
+  m_AffectsTransparency: 0
+  m_TransparentTextureResolution:
+    m_Override: 256
+    m_UseOverride: 1
+    m_Level: 0
+  m_DecalLayerMask: 1
+  m_ScaleMode: 1
+  m_Offset: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 1.82}
+  m_FadeFactor: 1
+  m_Version: 3
 --- !u!1001 &839746274
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4488,6 +5468,68 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!1 &840439675
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 840439676}
+  - component: {fileID: 840439677}
+  m_Layer: 0
+  m_Name: Eye (50)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &840439676
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 840439675}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.5940965, y: -0.60447526, z: -0.38347083, w: 0.36689124}
+  m_LocalPosition: {x: -1.24, y: 1.922, z: -6.061}
+  m_LocalScale: {x: 0.24222887, y: 0.24222887, z: 0.24222887}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 644871373}
+  m_LocalEulerAnglesHint: {x: -1.585, y: -115.903, z: -90}
+--- !u!114 &840439677
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 840439675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f19d9143a39eb3b46bc4563e9889cfbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.HighDefinition.Runtime::UnityEngine.Rendering.HighDefinition.DecalProjector
+  m_Material: {fileID: 2100000, guid: 77a0e091917d3a845af57c33eea8aa02, type: 2}
+  m_DrawDistance: 1000
+  m_FadeScale: 0.9
+  m_StartAngleFade: 180
+  m_EndAngleFade: 180
+  m_UVScale: {x: 1, y: 1}
+  m_UVBias: {x: 0, y: 0}
+  m_AffectsTransparency: 0
+  m_TransparentTextureResolution:
+    m_Override: 256
+    m_UseOverride: 1
+    m_Level: 0
+  m_DecalLayerMask: 1
+  m_ScaleMode: 1
+  m_Offset: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 2.1}
+  m_FadeFactor: 1
+  m_Version: 3
 --- !u!1001 &860003245
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4549,6 +5591,68 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bf65f38d80439a544a8190b27799507b, type: 3}
+--- !u!1 &866574652
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 866574653}
+  - component: {fileID: 866574654}
+  m_Layer: 0
+  m_Name: Eye (19)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &866574653
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 866574652}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.6028117, y: -0.6128032, z: -0.36962038, w: 0.35280463}
+  m_LocalPosition: {x: -3.921, y: 2.976, z: -5.132}
+  m_LocalScale: {x: 0.14002147, y: 0.14002147, z: 0.14002147}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 644871373}
+  m_LocalEulerAnglesHint: {x: -1.585, y: -118.555, z: -90}
+--- !u!114 &866574654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 866574652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f19d9143a39eb3b46bc4563e9889cfbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.HighDefinition.Runtime::UnityEngine.Rendering.HighDefinition.DecalProjector
+  m_Material: {fileID: 2100000, guid: 77a0e091917d3a845af57c33eea8aa02, type: 2}
+  m_DrawDistance: 1000
+  m_FadeScale: 0.9
+  m_StartAngleFade: 180
+  m_EndAngleFade: 180
+  m_UVScale: {x: 1, y: 1}
+  m_UVBias: {x: 0, y: 0}
+  m_AffectsTransparency: 0
+  m_TransparentTextureResolution:
+    m_Override: 256
+    m_UseOverride: 1
+    m_Level: 0
+  m_DecalLayerMask: 1
+  m_ScaleMode: 1
+  m_Offset: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 2.56}
+  m_FadeFactor: 1
+  m_Version: 3
 --- !u!1 &867431571
 GameObject:
   m_ObjectHideFlags: 0
@@ -4626,6 +5730,192 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4619134651356582633, guid: 7bc41a173f5b31f4ba473880e15262e7, type: 3}
   m_PrefabInstance: {fileID: 1939184983}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &879424638
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 879424639}
+  - component: {fileID: 879424640}
+  m_Layer: 0
+  m_Name: Eye (14)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &879424639
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 879424638}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.7069919, y: -0.706366, z: 0.012791326, w: -0.03234111}
+  m_LocalPosition: {x: -1.878, y: 3.797, z: -3.61}
+  m_LocalScale: {x: 0.19458203, y: 0.19458203, z: 0.19458203}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 644871373}
+  m_LocalEulerAnglesHint: {x: -1.585, y: -183.658, z: -90}
+--- !u!114 &879424640
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 879424638}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f19d9143a39eb3b46bc4563e9889cfbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.HighDefinition.Runtime::UnityEngine.Rendering.HighDefinition.DecalProjector
+  m_Material: {fileID: 2100000, guid: 77a0e091917d3a845af57c33eea8aa02, type: 2}
+  m_DrawDistance: 1000
+  m_FadeScale: 0.9
+  m_StartAngleFade: 180
+  m_EndAngleFade: 180
+  m_UVScale: {x: 1, y: 1}
+  m_UVBias: {x: 0, y: 0}
+  m_AffectsTransparency: 0
+  m_TransparentTextureResolution:
+    m_Override: 256
+    m_UseOverride: 1
+    m_Level: 0
+  m_DecalLayerMask: 1
+  m_ScaleMode: 1
+  m_Offset: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 2.56}
+  m_FadeFactor: 1
+  m_Version: 3
+--- !u!1 &889083653
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 889083654}
+  - component: {fileID: 889083655}
+  m_Layer: 0
+  m_Name: Eye (47)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &889083654
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 889083653}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.6110594, y: -0.6206677, z: -0.35581744, w: 0.3387802}
+  m_LocalPosition: {x: -0.616, y: 2.856, z: -3.416}
+  m_LocalScale: {x: 0.07195823, y: 0.07195823, z: 0.07195823}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 644871373}
+  m_LocalEulerAnglesHint: {x: -1.585, y: -121.161, z: -90}
+--- !u!114 &889083655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 889083653}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f19d9143a39eb3b46bc4563e9889cfbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.HighDefinition.Runtime::UnityEngine.Rendering.HighDefinition.DecalProjector
+  m_Material: {fileID: 2100000, guid: 77a0e091917d3a845af57c33eea8aa02, type: 2}
+  m_DrawDistance: 1000
+  m_FadeScale: 0.9
+  m_StartAngleFade: 180
+  m_EndAngleFade: 180
+  m_UVScale: {x: 1, y: 1}
+  m_UVBias: {x: 0, y: 0}
+  m_AffectsTransparency: 0
+  m_TransparentTextureResolution:
+    m_Override: 256
+    m_UseOverride: 1
+    m_Level: 0
+  m_DecalLayerMask: 1
+  m_ScaleMode: 1
+  m_Offset: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 1.48}
+  m_FadeFactor: 1
+  m_Version: 3
+--- !u!1 &896247253
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 896247254}
+  - component: {fileID: 896247255}
+  m_Layer: 0
+  m_Name: Eye (59)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &896247254
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 896247253}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.6970419, y: -0.6934868, z: 0.11888174, w: -0.1381154}
+  m_LocalPosition: {x: -2.291, y: 1.262, z: -7.685}
+  m_LocalScale: {x: 0.17135793, y: 0.17135793, z: 0.17135793}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 644871373}
+  m_LocalEulerAnglesHint: {x: -1.585, y: -200.942, z: -90}
+--- !u!114 &896247255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 896247253}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f19d9143a39eb3b46bc4563e9889cfbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.HighDefinition.Runtime::UnityEngine.Rendering.HighDefinition.DecalProjector
+  m_Material: {fileID: 2100000, guid: 77a0e091917d3a845af57c33eea8aa02, type: 2}
+  m_DrawDistance: 1000
+  m_FadeScale: 0.9
+  m_StartAngleFade: 180
+  m_EndAngleFade: 180
+  m_UVScale: {x: 1, y: 1}
+  m_UVBias: {x: 0, y: 0}
+  m_AffectsTransparency: 0
+  m_TransparentTextureResolution:
+    m_Override: 256
+    m_UseOverride: 1
+    m_Level: 0
+  m_DecalLayerMask: 1
+  m_ScaleMode: 1
+  m_Offset: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 1.48}
+  m_FadeFactor: 1
+  m_Version: 3
 --- !u!1001 &910514421
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9739,6 +11029,68 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4619134651356582633, guid: 7bc41a173f5b31f4ba473880e15262e7, type: 3}
   m_PrefabInstance: {fileID: 121236337}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1072584441
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1072584442}
+  - component: {fileID: 1072584443}
+  m_Layer: 0
+  m_Name: Eye (55)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1072584442
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1072584441}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.5622073, y: -0.5738542, z: -0.42886218, w: 0.41314843}
+  m_LocalPosition: {x: -0.614, y: 3.747, z: -4.715}
+  m_LocalScale: {x: 0.18455133, y: 0.18455133, z: 0.18455133}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 644871373}
+  m_LocalEulerAnglesHint: {x: -1.585, y: -106.911, z: -90}
+--- !u!114 &1072584443
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1072584441}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f19d9143a39eb3b46bc4563e9889cfbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.HighDefinition.Runtime::UnityEngine.Rendering.HighDefinition.DecalProjector
+  m_Material: {fileID: 2100000, guid: 77a0e091917d3a845af57c33eea8aa02, type: 2}
+  m_DrawDistance: 1000
+  m_FadeScale: 0.9
+  m_StartAngleFade: 180
+  m_EndAngleFade: 180
+  m_UVScale: {x: 1, y: 1}
+  m_UVBias: {x: 0, y: 0}
+  m_AffectsTransparency: 0
+  m_TransparentTextureResolution:
+    m_Override: 256
+    m_UseOverride: 1
+    m_Level: 0
+  m_DecalLayerMask: 1
+  m_ScaleMode: 1
+  m_Offset: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 1.48}
+  m_FadeFactor: 1
+  m_Version: 3
 --- !u!1001 &1075919525
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10256,6 +11608,130 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f56311e3fb686de40a57c1431d7059cc, type: 3}
+--- !u!1 &1202023381
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1202023382}
+  - component: {fileID: 1202023383}
+  m_Layer: 0
+  m_Name: Eye (60)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1202023382
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202023381}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.70663786, y: -0.70707935, z: -0.02575572, w: 0.006201232}
+  m_LocalPosition: {x: -2.9954, y: 1.7662, z: -9.9756}
+  m_LocalScale: {x: 0.22588402, y: 0.22588402, z: 0.22588402}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 644871373}
+  m_LocalEulerAnglesHint: {x: -1.585, y: -177.41, z: -90}
+--- !u!114 &1202023383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202023381}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f19d9143a39eb3b46bc4563e9889cfbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.HighDefinition.Runtime::UnityEngine.Rendering.HighDefinition.DecalProjector
+  m_Material: {fileID: 2100000, guid: 77a0e091917d3a845af57c33eea8aa02, type: 2}
+  m_DrawDistance: 1000
+  m_FadeScale: 0.9
+  m_StartAngleFade: 180
+  m_EndAngleFade: 180
+  m_UVScale: {x: 1, y: 1}
+  m_UVBias: {x: 0, y: 0}
+  m_AffectsTransparency: 0
+  m_TransparentTextureResolution:
+    m_Override: 256
+    m_UseOverride: 1
+    m_Level: 0
+  m_DecalLayerMask: 1
+  m_ScaleMode: 1
+  m_Offset: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 1.48}
+  m_FadeFactor: 1
+  m_Version: 3
+--- !u!1 &1274477146
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1274477147}
+  - component: {fileID: 1274477148}
+  m_Layer: 0
+  m_Name: Eye (44)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1274477147
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1274477146}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.7053092, y: -0.70643276, z: -0.050390683, w: 0.030862965}
+  m_LocalPosition: {x: -0.682, y: 1.41, z: -3.39}
+  m_LocalScale: {x: 0.05510767, y: 0.05510767, z: 0.05510767}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 644871373}
+  m_LocalEulerAnglesHint: {x: -1.585, y: -173.412, z: -90}
+--- !u!114 &1274477148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1274477146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f19d9143a39eb3b46bc4563e9889cfbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.HighDefinition.Runtime::UnityEngine.Rendering.HighDefinition.DecalProjector
+  m_Material: {fileID: 2100000, guid: 77a0e091917d3a845af57c33eea8aa02, type: 2}
+  m_DrawDistance: 1000
+  m_FadeScale: 0.9
+  m_StartAngleFade: 180
+  m_EndAngleFade: 180
+  m_UVScale: {x: 1, y: 1}
+  m_UVBias: {x: 0, y: 0}
+  m_AffectsTransparency: 0
+  m_TransparentTextureResolution:
+    m_Override: 256
+    m_UseOverride: 1
+    m_Level: 0
+  m_DecalLayerMask: 1
+  m_ScaleMode: 1
+  m_Offset: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 2.1}
+  m_FadeFactor: 1
+  m_Version: 3
 --- !u!1001 &1278097891
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10402,6 +11878,68 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 654dba1edc04a744d97578c847a0042e, type: 3}
+--- !u!1 &1312821064
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1312821065}
+  - component: {fileID: 1312821066}
+  m_Layer: 0
+  m_Name: Eye (49)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1312821065
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1312821064}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.5940965, y: -0.60447526, z: -0.38347083, w: 0.36689124}
+  m_LocalPosition: {x: -1.24, y: 2.971, z: -6.061}
+  m_LocalScale: {x: 0.180136, y: 0.180136, z: 0.180136}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 644871373}
+  m_LocalEulerAnglesHint: {x: -1.585, y: -115.903, z: -90}
+--- !u!114 &1312821066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1312821064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f19d9143a39eb3b46bc4563e9889cfbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.HighDefinition.Runtime::UnityEngine.Rendering.HighDefinition.DecalProjector
+  m_Material: {fileID: 2100000, guid: 77a0e091917d3a845af57c33eea8aa02, type: 2}
+  m_DrawDistance: 1000
+  m_FadeScale: 0.9
+  m_StartAngleFade: 180
+  m_EndAngleFade: 180
+  m_UVScale: {x: 1, y: 1}
+  m_UVBias: {x: 0, y: 0}
+  m_AffectsTransparency: 0
+  m_TransparentTextureResolution:
+    m_Override: 256
+    m_UseOverride: 1
+    m_Level: 0
+  m_DecalLayerMask: 1
+  m_ScaleMode: 1
+  m_Offset: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 2.1}
+  m_FadeFactor: 1
+  m_Version: 3
 --- !u!1 &1318324913
 GameObject:
   m_ObjectHideFlags: 0
@@ -10639,6 +12177,68 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1168919760957797554, guid: a95d1e79fbb60634889eb556c59c584c, type: 3}
   m_PrefabInstance: {fileID: 1351462896}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1352614002
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1352614003}
+  - component: {fileID: 1352614004}
+  m_Layer: 0
+  m_Name: Eye (42)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1352614003
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1352614002}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.54908246, y: -0.5365489, z: 0.44554314, w: -0.4605595}
+  m_LocalPosition: {x: -0.398, y: 0.945, z: -1.712}
+  m_LocalScale: {x: 0.11054875, y: 0.11054875, z: 0.11054875}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 644871373}
+  m_LocalEulerAnglesHint: {x: -1.585, y: -259.699, z: -90}
+--- !u!114 &1352614004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1352614002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f19d9143a39eb3b46bc4563e9889cfbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.HighDefinition.Runtime::UnityEngine.Rendering.HighDefinition.DecalProjector
+  m_Material: {fileID: 2100000, guid: 77a0e091917d3a845af57c33eea8aa02, type: 2}
+  m_DrawDistance: 1000
+  m_FadeScale: 0.9
+  m_StartAngleFade: 180
+  m_EndAngleFade: 180
+  m_UVScale: {x: 1, y: 1}
+  m_UVBias: {x: 0, y: 0}
+  m_AffectsTransparency: 0
+  m_TransparentTextureResolution:
+    m_Override: 256
+    m_UseOverride: 1
+    m_Level: 0
+  m_DecalLayerMask: 1
+  m_ScaleMode: 1
+  m_Offset: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 2.1}
+  m_FadeFactor: 1
+  m_Version: 3
 --- !u!1001 &1360553448
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10890,6 +12490,130 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 072de13551dbbd94d9b3b69328191a27, type: 3}
+--- !u!1 &1392651284
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1392651285}
+  - component: {fileID: 1392651286}
+  m_Layer: 0
+  m_Name: Eye (46)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1392651285
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1392651284}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.54525506, y: -0.5574993, z: -0.45021862, w: 0.43496522}
+  m_LocalPosition: {x: -0.616, y: 2.42, z: -3.454}
+  m_LocalScale: {x: 0.18872805, y: 0.18872805, z: 0.18872805}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 644871373}
+  m_LocalEulerAnglesHint: {x: -1.585, y: -102.492, z: -90}
+--- !u!114 &1392651286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1392651284}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f19d9143a39eb3b46bc4563e9889cfbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.HighDefinition.Runtime::UnityEngine.Rendering.HighDefinition.DecalProjector
+  m_Material: {fileID: 2100000, guid: 77a0e091917d3a845af57c33eea8aa02, type: 2}
+  m_DrawDistance: 1000
+  m_FadeScale: 0.9
+  m_StartAngleFade: 180
+  m_EndAngleFade: 180
+  m_UVScale: {x: 1, y: 1}
+  m_UVBias: {x: 0, y: 0}
+  m_AffectsTransparency: 0
+  m_TransparentTextureResolution:
+    m_Override: 256
+    m_UseOverride: 1
+    m_Level: 0
+  m_DecalLayerMask: 1
+  m_ScaleMode: 1
+  m_Offset: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 1.48}
+  m_FadeFactor: 1
+  m_Version: 3
+--- !u!1 &1398285943
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1398285944}
+  - component: {fileID: 1398285945}
+  m_Layer: 0
+  m_Name: Eye (53)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1398285944
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1398285943}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.4662441, y: -0.48077005, z: -0.5316165, w: 0.5185177}
+  m_LocalPosition: {x: -0.678, y: 2.087, z: -4.757}
+  m_LocalScale: {x: 0.20426017, y: 0.20426017, z: 0.20426017}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 644871373}
+  m_LocalEulerAnglesHint: {x: -1.585, y: -84.088, z: -90}
+--- !u!114 &1398285945
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1398285943}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f19d9143a39eb3b46bc4563e9889cfbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.HighDefinition.Runtime::UnityEngine.Rendering.HighDefinition.DecalProjector
+  m_Material: {fileID: 2100000, guid: 77a0e091917d3a845af57c33eea8aa02, type: 2}
+  m_DrawDistance: 1000
+  m_FadeScale: 0.9
+  m_StartAngleFade: 180
+  m_EndAngleFade: 180
+  m_UVScale: {x: 1, y: 1}
+  m_UVBias: {x: 0, y: 0}
+  m_AffectsTransparency: 0
+  m_TransparentTextureResolution:
+    m_Override: 256
+    m_UseOverride: 1
+    m_Level: 0
+  m_DecalLayerMask: 1
+  m_ScaleMode: 1
+  m_Offset: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 1.48}
+  m_FadeFactor: 1
+  m_Version: 3
 --- !u!1 &1413530814
 GameObject:
   m_ObjectHideFlags: 0
@@ -11130,6 +12854,68 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 3.901, y: 437.191, z: 97.919}
+--- !u!1 &1415432928
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1415432929}
+  - component: {fileID: 1415432930}
+  m_Layer: 0
+  m_Name: Eye (17)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1415432929
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1415432928}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.7065364, y: -0.7070502, z: -0.028420398, w: 0.008867366}
+  m_LocalPosition: {x: -3.286, y: 3.757, z: -5.211}
+  m_LocalScale: {x: 0.14664192, y: 0.14664192, z: 0.14664192}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 644871373}
+  m_LocalEulerAnglesHint: {x: -1.585, y: -176.978, z: -90}
+--- !u!114 &1415432930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1415432928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f19d9143a39eb3b46bc4563e9889cfbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.HighDefinition.Runtime::UnityEngine.Rendering.HighDefinition.DecalProjector
+  m_Material: {fileID: 2100000, guid: 77a0e091917d3a845af57c33eea8aa02, type: 2}
+  m_DrawDistance: 1000
+  m_FadeScale: 0.9
+  m_StartAngleFade: 180
+  m_EndAngleFade: 180
+  m_UVScale: {x: 1, y: 1}
+  m_UVBias: {x: 0, y: 0}
+  m_AffectsTransparency: 0
+  m_TransparentTextureResolution:
+    m_Override: 256
+    m_UseOverride: 1
+    m_Level: 0
+  m_DecalLayerMask: 1
+  m_ScaleMode: 1
+  m_Offset: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 2.56}
+  m_FadeFactor: 1
+  m_Version: 3
 --- !u!1001 &1440298058
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16023,6 +17809,68 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!1 &1464232044
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1464232045}
+  - component: {fileID: 1464232046}
+  m_Layer: 0
+  m_Name: Eye (33)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1464232045
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1464232044}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.70328087, y: -0.7050424, z: -0.0734639, w: 0.053983845}
+  m_LocalPosition: {x: -4.396, y: 2.565, z: -0.145}
+  m_LocalScale: {x: 0.14571963, y: 0.14571963, z: 0.14571963}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 644871373}
+  m_LocalEulerAnglesHint: {x: -1.585, y: -169.658, z: -90}
+--- !u!114 &1464232046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1464232044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f19d9143a39eb3b46bc4563e9889cfbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.HighDefinition.Runtime::UnityEngine.Rendering.HighDefinition.DecalProjector
+  m_Material: {fileID: 2100000, guid: 77a0e091917d3a845af57c33eea8aa02, type: 2}
+  m_DrawDistance: 1000
+  m_FadeScale: 0.9
+  m_StartAngleFade: 180
+  m_EndAngleFade: 180
+  m_UVScale: {x: 1, y: 1}
+  m_UVBias: {x: 0, y: 0}
+  m_AffectsTransparency: 0
+  m_TransparentTextureResolution:
+    m_Override: 256
+    m_UseOverride: 1
+    m_Level: 0
+  m_DecalLayerMask: 1
+  m_ScaleMode: 1
+  m_Offset: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 1.82}
+  m_FadeFactor: 1
+  m_Version: 3
 --- !u!1 &1465875846
 GameObject:
   m_ObjectHideFlags: 0
@@ -16255,6 +18103,254 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e51d1444244dd534ebd82f6493aad04e, type: 3}
+--- !u!1 &1481717840
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1481717841}
+  - component: {fileID: 1481717842}
+  m_Layer: 0
+  m_Name: Eye (38)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1481717841
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1481717840}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.4574739, y: -0.47221112, z: -0.5391831, w: 0.526323}
+  m_LocalPosition: {x: -12.5634, y: 1.0288, z: -2.6108}
+  m_LocalScale: {x: 0.11770969, y: 0.11770969, z: 0.11770969}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 644871373}
+  m_LocalEulerAnglesHint: {x: -1.585, y: -82.211, z: -90}
+--- !u!114 &1481717842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1481717840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f19d9143a39eb3b46bc4563e9889cfbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.HighDefinition.Runtime::UnityEngine.Rendering.HighDefinition.DecalProjector
+  m_Material: {fileID: 2100000, guid: 77a0e091917d3a845af57c33eea8aa02, type: 2}
+  m_DrawDistance: 1000
+  m_FadeScale: 0.9
+  m_StartAngleFade: 180
+  m_EndAngleFade: 180
+  m_UVScale: {x: 1, y: 1}
+  m_UVBias: {x: 0, y: 0}
+  m_AffectsTransparency: 0
+  m_TransparentTextureResolution:
+    m_Override: 256
+    m_UseOverride: 1
+    m_Level: 0
+  m_DecalLayerMask: 1
+  m_ScaleMode: 1
+  m_Offset: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 1.82}
+  m_FadeFactor: 1
+  m_Version: 3
+--- !u!1 &1494273536
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1494273537}
+  - component: {fileID: 1494273538}
+  m_Layer: 0
+  m_Name: Eye (57)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1494273537
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1494273536}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.5631681, y: -0.5747796, z: -0.42759976, w: 0.41185987}
+  m_LocalPosition: {x: -2.157, y: 3.702, z: -7.895}
+  m_LocalScale: {x: 0.13826865, y: 0.13826865, z: 0.13826865}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 644871373}
+  m_LocalEulerAnglesHint: {x: -1.585, y: -107.168, z: -90}
+--- !u!114 &1494273538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1494273536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f19d9143a39eb3b46bc4563e9889cfbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.HighDefinition.Runtime::UnityEngine.Rendering.HighDefinition.DecalProjector
+  m_Material: {fileID: 2100000, guid: 77a0e091917d3a845af57c33eea8aa02, type: 2}
+  m_DrawDistance: 1000
+  m_FadeScale: 0.9
+  m_StartAngleFade: 180
+  m_EndAngleFade: 180
+  m_UVScale: {x: 1, y: 1}
+  m_UVBias: {x: 0, y: 0}
+  m_AffectsTransparency: 0
+  m_TransparentTextureResolution:
+    m_Override: 256
+    m_UseOverride: 1
+    m_Level: 0
+  m_DecalLayerMask: 1
+  m_ScaleMode: 1
+  m_Offset: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 1.48}
+  m_FadeFactor: 1
+  m_Version: 3
+--- !u!1 &1495586997
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1495586998}
+  - component: {fileID: 1495586999}
+  m_Layer: 0
+  m_Name: Eye (36)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1495586998
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1495586997}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.5882694, y: -0.5988951, z: -0.39235204, w: 0.37593034}
+  m_LocalPosition: {x: -8.119, y: 1.924, z: -1.988}
+  m_LocalScale: {x: 0.2251955, y: 0.2251955, z: 0.2251955}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 644871373}
+  m_LocalEulerAnglesHint: {x: -1.585, y: -114.182, z: -90}
+--- !u!114 &1495586999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1495586997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f19d9143a39eb3b46bc4563e9889cfbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.HighDefinition.Runtime::UnityEngine.Rendering.HighDefinition.DecalProjector
+  m_Material: {fileID: 2100000, guid: 77a0e091917d3a845af57c33eea8aa02, type: 2}
+  m_DrawDistance: 1000
+  m_FadeScale: 0.9
+  m_StartAngleFade: 180
+  m_EndAngleFade: 180
+  m_UVScale: {x: 1, y: 1}
+  m_UVBias: {x: 0, y: 0}
+  m_AffectsTransparency: 0
+  m_TransparentTextureResolution:
+    m_Override: 256
+    m_UseOverride: 1
+    m_Level: 0
+  m_DecalLayerMask: 1
+  m_ScaleMode: 1
+  m_Offset: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 1.82}
+  m_FadeFactor: 1
+  m_Version: 3
+--- !u!1 &1502549709
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1502549710}
+  - component: {fileID: 1502549711}
+  m_Layer: 0
+  m_Name: Eye (51)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1502549710
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1502549709}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.683321, y: -0.68808955, z: -0.18185858, w: 0.16288863}
+  m_LocalPosition: {x: -1.326, y: 1.1112, z: -5.878}
+  m_LocalScale: {x: 0.11646241, y: 0.11646241, z: 0.11646241}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 644871373}
+  m_LocalEulerAnglesHint: {x: -1.585, y: -151.779, z: -90}
+--- !u!114 &1502549711
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1502549709}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f19d9143a39eb3b46bc4563e9889cfbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.HighDefinition.Runtime::UnityEngine.Rendering.HighDefinition.DecalProjector
+  m_Material: {fileID: 2100000, guid: 77a0e091917d3a845af57c33eea8aa02, type: 2}
+  m_DrawDistance: 1000
+  m_FadeScale: 0.9
+  m_StartAngleFade: 180
+  m_EndAngleFade: 180
+  m_UVScale: {x: 1, y: 1}
+  m_UVBias: {x: 0, y: 0}
+  m_AffectsTransparency: 0
+  m_TransparentTextureResolution:
+    m_Override: 256
+    m_UseOverride: 1
+    m_Level: 0
+  m_DecalLayerMask: 1
+  m_ScaleMode: 1
+  m_Offset: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 2.1}
+  m_FadeFactor: 1
+  m_Version: 3
 --- !u!4 &1502723729 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4619134651356582633, guid: 7bc41a173f5b31f4ba473880e15262e7, type: 3}
@@ -16594,6 +18690,68 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!1 &1561012243
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1561012244}
+  - component: {fileID: 1561012245}
+  m_Layer: 0
+  m_Name: Eye (24)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1561012244
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1561012243}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.3393847, y: -0.3564124, z: -0.6203377, w: 0.6107122}
+  m_LocalPosition: {x: -3.151, y: 1.104, z: -3.023}
+  m_LocalScale: {x: 0.16409238, y: 0.16409238, z: 0.16409238}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 644871373}
+  m_LocalEulerAnglesHint: {x: -1.585, y: -58.951, z: -90}
+--- !u!114 &1561012245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1561012243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f19d9143a39eb3b46bc4563e9889cfbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.HighDefinition.Runtime::UnityEngine.Rendering.HighDefinition.DecalProjector
+  m_Material: {fileID: 2100000, guid: 77a0e091917d3a845af57c33eea8aa02, type: 2}
+  m_DrawDistance: 1000
+  m_FadeScale: 0.9
+  m_StartAngleFade: 180
+  m_EndAngleFade: 180
+  m_UVScale: {x: 1, y: 1}
+  m_UVBias: {x: 0, y: 0}
+  m_AffectsTransparency: 0
+  m_TransparentTextureResolution:
+    m_Override: 256
+    m_UseOverride: 1
+    m_Level: 0
+  m_DecalLayerMask: 1
+  m_ScaleMode: 1
+  m_Offset: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 2.56}
+  m_FadeFactor: 1
+  m_Version: 3
 --- !u!4 &1561463940 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1522783343660514499, guid: 5a7631eb1f69a8346bf68fc55d82f181, type: 3}
@@ -16604,6 +18762,68 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4619134651356582633, guid: 7bc41a173f5b31f4ba473880e15262e7, type: 3}
   m_PrefabInstance: {fileID: 477872403}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1599252791
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1599252792}
+  - component: {fileID: 1599252793}
+  m_Layer: 0
+  m_Name: Eye (23)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1599252792
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1599252791}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.70480406, y: -0.70295507, z: 0.05703158, w: -0.07650416}
+  m_LocalPosition: {x: -3.345, y: 1.263, z: -2.859}
+  m_LocalScale: {x: 0.16409238, y: 0.16409238, z: 0.16409238}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 644871373}
+  m_LocalEulerAnglesHint: {x: -1.585, y: -190.837, z: -90}
+--- !u!114 &1599252793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1599252791}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f19d9143a39eb3b46bc4563e9889cfbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.HighDefinition.Runtime::UnityEngine.Rendering.HighDefinition.DecalProjector
+  m_Material: {fileID: 2100000, guid: 77a0e091917d3a845af57c33eea8aa02, type: 2}
+  m_DrawDistance: 1000
+  m_FadeScale: 0.9
+  m_StartAngleFade: 180
+  m_EndAngleFade: 180
+  m_UVScale: {x: 1, y: 1}
+  m_UVBias: {x: 0, y: 0}
+  m_AffectsTransparency: 0
+  m_TransparentTextureResolution:
+    m_Override: 256
+    m_UseOverride: 1
+    m_Level: 0
+  m_DecalLayerMask: 1
+  m_ScaleMode: 1
+  m_Offset: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 2.56}
+  m_FadeFactor: 1
+  m_Version: 3
 --- !u!1 &1607894503
 GameObject:
   m_ObjectHideFlags: 0
@@ -16989,6 +19209,68 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 84.251}
+--- !u!1 &1642850159
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1642850160}
+  - component: {fileID: 1642850161}
+  m_Layer: 0
+  m_Name: Eye (58)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1642850160
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1642850159}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.7033233, y: -0.70103353, z: 0.07305164, w: -0.09247658}
+  m_LocalPosition: {x: -2.256, y: 2.1474, z: -7.692}
+  m_LocalScale: {x: 0.18797284, y: 0.18797284, z: 0.18797284}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 644871373}
+  m_LocalEulerAnglesHint: {x: -1.585, y: -193.445, z: -90}
+--- !u!114 &1642850161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1642850159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f19d9143a39eb3b46bc4563e9889cfbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.HighDefinition.Runtime::UnityEngine.Rendering.HighDefinition.DecalProjector
+  m_Material: {fileID: 2100000, guid: 77a0e091917d3a845af57c33eea8aa02, type: 2}
+  m_DrawDistance: 1000
+  m_FadeScale: 0.9
+  m_StartAngleFade: 180
+  m_EndAngleFade: 180
+  m_UVScale: {x: 1, y: 1}
+  m_UVBias: {x: 0, y: 0}
+  m_AffectsTransparency: 0
+  m_TransparentTextureResolution:
+    m_Override: 256
+    m_UseOverride: 1
+    m_Level: 0
+  m_DecalLayerMask: 1
+  m_ScaleMode: 1
+  m_Offset: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 1.48}
+  m_FadeFactor: 1
+  m_Version: 3
 --- !u!1001 &1691583143
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17113,6 +19395,68 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4619134651356582633, guid: 7bc41a173f5b31f4ba473880e15262e7, type: 3}
   m_PrefabInstance: {fileID: 1831722705}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1712118466
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1712118467}
+  - component: {fileID: 1712118468}
+  m_Layer: 0
+  m_Name: Eye (56)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1712118467
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1712118466}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.69540894, y: -0.69868535, z: -0.12808849, w: 0.108805455}
+  m_LocalPosition: {x: -1.434, y: 4.224, z: -6.022}
+  m_LocalScale: {x: 0.1444465, y: 0.1444465, z: 0.1444465}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 644871373}
+  m_LocalEulerAnglesHint: {x: -1.585, y: -160.712, z: -90}
+--- !u!114 &1712118468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1712118466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f19d9143a39eb3b46bc4563e9889cfbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.HighDefinition.Runtime::UnityEngine.Rendering.HighDefinition.DecalProjector
+  m_Material: {fileID: 2100000, guid: 77a0e091917d3a845af57c33eea8aa02, type: 2}
+  m_DrawDistance: 1000
+  m_FadeScale: 0.9
+  m_StartAngleFade: 180
+  m_EndAngleFade: 180
+  m_UVScale: {x: 1, y: 1}
+  m_UVBias: {x: 0, y: 0}
+  m_AffectsTransparency: 0
+  m_TransparentTextureResolution:
+    m_Override: 256
+    m_UseOverride: 1
+    m_Level: 0
+  m_DecalLayerMask: 1
+  m_ScaleMode: 1
+  m_Offset: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 1.48}
+  m_FadeFactor: 1
+  m_Version: 3
 --- !u!4 &1721737518 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4619134651356582633, guid: 7bc41a173f5b31f4ba473880e15262e7, type: 3}
@@ -17123,6 +19467,68 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4619134651356582633, guid: 7bc41a173f5b31f4ba473880e15262e7, type: 3}
   m_PrefabInstance: {fileID: 725326118}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1767468779
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1767468780}
+  - component: {fileID: 1767468781}
+  m_Layer: 0
+  m_Name: Eye (18)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1767468780
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1767468779}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.54115534, y: -0.55353594, z: -0.4551396, w: 0.43999642}
+  m_LocalPosition: {x: -3.89, y: 3.796, z: -5.266}
+  m_LocalScale: {x: 0.16478154, y: 0.16478154, z: 0.16478154}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 644871373}
+  m_LocalEulerAnglesHint: {x: -1.585, y: -101.454, z: -90}
+--- !u!114 &1767468781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1767468779}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f19d9143a39eb3b46bc4563e9889cfbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.HighDefinition.Runtime::UnityEngine.Rendering.HighDefinition.DecalProjector
+  m_Material: {fileID: 2100000, guid: 77a0e091917d3a845af57c33eea8aa02, type: 2}
+  m_DrawDistance: 1000
+  m_FadeScale: 0.9
+  m_StartAngleFade: 180
+  m_EndAngleFade: 180
+  m_UVScale: {x: 1, y: 1}
+  m_UVBias: {x: 0, y: 0}
+  m_AffectsTransparency: 0
+  m_TransparentTextureResolution:
+    m_Override: 256
+    m_UseOverride: 1
+    m_Level: 0
+  m_DecalLayerMask: 1
+  m_ScaleMode: 1
+  m_Offset: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 2.56}
+  m_FadeFactor: 1
+  m_Version: 3
 --- !u!1001 &1779666646
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17894,6 +20300,130 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!1 &1854291770
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1854291771}
+  - component: {fileID: 1854291772}
+  m_Layer: 0
+  m_Name: Eye (39)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1854291771
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1854291770}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.5059087, y: -0.5193784, z: -0.49402133, w: 0.47983897}
+  m_LocalPosition: {x: -12.5634, y: 1.927, z: -2.553}
+  m_LocalScale: {x: 0.21878843, y: 0.21878843, z: 0.21878843}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 644871373}
+  m_LocalEulerAnglesHint: {x: -1.585, y: -92.947, z: -90}
+--- !u!114 &1854291772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1854291770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f19d9143a39eb3b46bc4563e9889cfbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.HighDefinition.Runtime::UnityEngine.Rendering.HighDefinition.DecalProjector
+  m_Material: {fileID: 2100000, guid: 77a0e091917d3a845af57c33eea8aa02, type: 2}
+  m_DrawDistance: 1000
+  m_FadeScale: 0.9
+  m_StartAngleFade: 180
+  m_EndAngleFade: 180
+  m_UVScale: {x: 1, y: 1}
+  m_UVBias: {x: 0, y: 0}
+  m_AffectsTransparency: 0
+  m_TransparentTextureResolution:
+    m_Override: 256
+    m_UseOverride: 1
+    m_Level: 0
+  m_DecalLayerMask: 1
+  m_ScaleMode: 1
+  m_Offset: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 1.82}
+  m_FadeFactor: 1
+  m_Version: 3
+--- !u!1 &1876447539
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1876447540}
+  - component: {fileID: 1876447541}
+  m_Layer: 0
+  m_Name: Eye (48)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1876447540
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1876447539}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.48393384, y: -0.46948835, z: 0.51556593, w: -0.5287537}
+  m_LocalPosition: {x: -0.7785, y: 3.0032, z: -3.5075}
+  m_LocalScale: {x: 0.15186353, y: 0.15186353, z: 0.15186353}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 644871373}
+  m_LocalEulerAnglesHint: {x: -1.585, y: -275.21, z: -90}
+--- !u!114 &1876447541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1876447539}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f19d9143a39eb3b46bc4563e9889cfbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.HighDefinition.Runtime::UnityEngine.Rendering.HighDefinition.DecalProjector
+  m_Material: {fileID: 2100000, guid: 77a0e091917d3a845af57c33eea8aa02, type: 2}
+  m_DrawDistance: 1000
+  m_FadeScale: 0.9
+  m_StartAngleFade: 180
+  m_EndAngleFade: 180
+  m_UVScale: {x: 1, y: 1}
+  m_UVBias: {x: 0, y: 0}
+  m_AffectsTransparency: 0
+  m_TransparentTextureResolution:
+    m_Override: 256
+    m_UseOverride: 1
+    m_Level: 0
+  m_DecalLayerMask: 1
+  m_ScaleMode: 1
+  m_Offset: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 2.1}
+  m_FadeFactor: 1
+  m_Version: 3
 --- !u!1001 &1879959210
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18438,6 +20968,130 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a7631eb1f69a8346bf68fc55d82f181, type: 3}
+--- !u!1 &1954927631
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1954927632}
+  - component: {fileID: 1954927633}
+  m_Layer: 0
+  m_Name: Eye (22)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1954927632
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1954927631}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.70710415, y: -0.70689356, z: -0.0022293762, w: -0.017329672}
+  m_LocalPosition: {x: -3.309, y: 2.149, z: -2.864}
+  m_LocalScale: {x: 0.17491432, y: 0.17491432, z: 0.17491432}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 644871373}
+  m_LocalEulerAnglesHint: {x: -1.585, y: -181.224, z: -90}
+--- !u!114 &1954927633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1954927631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f19d9143a39eb3b46bc4563e9889cfbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.HighDefinition.Runtime::UnityEngine.Rendering.HighDefinition.DecalProjector
+  m_Material: {fileID: 2100000, guid: 77a0e091917d3a845af57c33eea8aa02, type: 2}
+  m_DrawDistance: 1000
+  m_FadeScale: 0.9
+  m_StartAngleFade: 180
+  m_EndAngleFade: 180
+  m_UVScale: {x: 1, y: 1}
+  m_UVBias: {x: 0, y: 0}
+  m_AffectsTransparency: 0
+  m_TransparentTextureResolution:
+    m_Override: 256
+    m_UseOverride: 1
+    m_Level: 0
+  m_DecalLayerMask: 1
+  m_ScaleMode: 1
+  m_Offset: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 2.56}
+  m_FadeFactor: 1
+  m_Version: 3
+--- !u!1 &1957012433
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1957012434}
+  - component: {fileID: 1957012435}
+  m_Layer: 0
+  m_Name: Eye (31)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1957012434
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1957012433}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.6808999, y: -0.685914, z: -0.19072431, w: 0.17181821}
+  m_LocalPosition: {x: -4.339, y: 0.952, z: -0.194}
+  m_LocalScale: {x: 0.19211194, y: 0.19211194, z: 0.19211194}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 644871373}
+  m_LocalEulerAnglesHint: {x: -1.585, y: -150.289, z: -90}
+--- !u!114 &1957012435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1957012433}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f19d9143a39eb3b46bc4563e9889cfbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.HighDefinition.Runtime::UnityEngine.Rendering.HighDefinition.DecalProjector
+  m_Material: {fileID: 2100000, guid: 77a0e091917d3a845af57c33eea8aa02, type: 2}
+  m_DrawDistance: 1000
+  m_FadeScale: 0.9
+  m_StartAngleFade: 180
+  m_EndAngleFade: 180
+  m_UVScale: {x: 1, y: 1}
+  m_UVBias: {x: 0, y: 0}
+  m_AffectsTransparency: 0
+  m_TransparentTextureResolution:
+    m_Override: 256
+    m_UseOverride: 1
+    m_Level: 0
+  m_DecalLayerMask: 1
+  m_ScaleMode: 1
+  m_Offset: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 1.82}
+  m_FadeFactor: 1
+  m_Version: 3
 --- !u!1 &1967200172
 GameObject:
   m_ObjectHideFlags: 0
@@ -18551,11 +21205,135 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 43.696}
+--- !u!1 &1972625648
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1972625649}
+  - component: {fileID: 1972625650}
+  m_Layer: 0
+  m_Name: Eye (28)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1972625649
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1972625648}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.69595295, y: -0.6991455, z: -0.12510237, w: 0.1058045}
+  m_LocalPosition: {x: -4.3863, y: 3.7534, z: -0.237}
+  m_LocalScale: {x: 0.18508506, y: 0.18508506, z: 0.18508506}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 644871373}
+  m_LocalEulerAnglesHint: {x: -1.585, y: -161.204, z: -90}
+--- !u!114 &1972625650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1972625648}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f19d9143a39eb3b46bc4563e9889cfbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.HighDefinition.Runtime::UnityEngine.Rendering.HighDefinition.DecalProjector
+  m_Material: {fileID: 2100000, guid: 77a0e091917d3a845af57c33eea8aa02, type: 2}
+  m_DrawDistance: 1000
+  m_FadeScale: 0.9
+  m_StartAngleFade: 180
+  m_EndAngleFade: 180
+  m_UVScale: {x: 1, y: 1}
+  m_UVBias: {x: 0, y: 0}
+  m_AffectsTransparency: 0
+  m_TransparentTextureResolution:
+    m_Override: 256
+    m_UseOverride: 1
+    m_Level: 0
+  m_DecalLayerMask: 1
+  m_ScaleMode: 1
+  m_Offset: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 1.72}
+  m_FadeFactor: 1
+  m_Version: 3
 --- !u!4 &1985768044 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4619134651356582633, guid: 7bc41a173f5b31f4ba473880e15262e7, type: 3}
   m_PrefabInstance: {fileID: 839746274}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1988092947
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1988092948}
+  - component: {fileID: 1988092949}
+  m_Layer: 0
+  m_Name: Eye (12)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1988092948
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1988092947}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.67947084, y: -0.6737954, z: 0.19575533, w: -0.21447374}
+  m_LocalPosition: {x: -2.121, y: 2.972, z: -3.413}
+  m_LocalScale: {x: 0.12586947, y: 0.12586947, z: 0.12586947}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 644871373}
+  m_LocalEulerAnglesHint: {x: -1.585, y: -213.728, z: -90}
+--- !u!114 &1988092949
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1988092947}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f19d9143a39eb3b46bc4563e9889cfbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.HighDefinition.Runtime::UnityEngine.Rendering.HighDefinition.DecalProjector
+  m_Material: {fileID: 2100000, guid: 77a0e091917d3a845af57c33eea8aa02, type: 2}
+  m_DrawDistance: 1000
+  m_FadeScale: 0.9
+  m_StartAngleFade: 180
+  m_EndAngleFade: 180
+  m_UVScale: {x: 1, y: 1}
+  m_UVBias: {x: 0, y: 0}
+  m_AffectsTransparency: 0
+  m_TransparentTextureResolution:
+    m_Override: 256
+    m_UseOverride: 1
+    m_Level: 0
+  m_DecalLayerMask: 1
+  m_ScaleMode: 1
+  m_Offset: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 4.42}
+  m_FadeFactor: 1
+  m_Version: 3
 --- !u!1001 &1993441953
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18629,6 +21407,68 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 06b7b427eba72f143a6eacfebf3cb1c5, type: 3}
+--- !u!1 &1994741895
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1994741896}
+  - component: {fileID: 1994741897}
+  m_Layer: 0
+  m_Name: Eye (37)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1994741896
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1994741895}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.4574739, y: -0.47221112, z: -0.5391831, w: 0.526323}
+  m_LocalPosition: {x: -8.0149, y: 1.0288, z: -2.037}
+  m_LocalScale: {x: 0.11770969, y: 0.11770969, z: 0.11770969}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 644871373}
+  m_LocalEulerAnglesHint: {x: -1.585, y: -82.211, z: -90}
+--- !u!114 &1994741897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1994741895}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f19d9143a39eb3b46bc4563e9889cfbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.HighDefinition.Runtime::UnityEngine.Rendering.HighDefinition.DecalProjector
+  m_Material: {fileID: 2100000, guid: 77a0e091917d3a845af57c33eea8aa02, type: 2}
+  m_DrawDistance: 1000
+  m_FadeScale: 0.9
+  m_StartAngleFade: 180
+  m_EndAngleFade: 180
+  m_UVScale: {x: 1, y: 1}
+  m_UVBias: {x: 0, y: 0}
+  m_AffectsTransparency: 0
+  m_TransparentTextureResolution:
+    m_Override: 256
+    m_UseOverride: 1
+    m_Level: 0
+  m_DecalLayerMask: 1
+  m_ScaleMode: 1
+  m_Offset: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 1.82}
+  m_FadeFactor: 1
+  m_Version: 3
 --- !u!1001 &2003058081
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18907,6 +21747,130 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2035898026
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2035898027}
+  - component: {fileID: 2035898028}
+  m_Layer: 0
+  m_Name: Eye (41)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2035898027
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2035898026}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.68319625, y: -0.6778914, z: 0.1823275, w: -0.20115416}
+  m_LocalPosition: {x: -0.254, y: 1.763, z: -1.471}
+  m_LocalScale: {x: 0.22683647, y: 0.22683647, z: 0.22683647}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 644871373}
+  m_LocalEulerAnglesHint: {x: -1.585, y: -211.47, z: -90}
+--- !u!114 &2035898028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2035898026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f19d9143a39eb3b46bc4563e9889cfbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.HighDefinition.Runtime::UnityEngine.Rendering.HighDefinition.DecalProjector
+  m_Material: {fileID: 2100000, guid: 77a0e091917d3a845af57c33eea8aa02, type: 2}
+  m_DrawDistance: 1000
+  m_FadeScale: 0.9
+  m_StartAngleFade: 180
+  m_EndAngleFade: 180
+  m_UVScale: {x: 1, y: 1}
+  m_UVBias: {x: 0, y: 0}
+  m_AffectsTransparency: 0
+  m_TransparentTextureResolution:
+    m_Override: 256
+    m_UseOverride: 1
+    m_Level: 0
+  m_DecalLayerMask: 1
+  m_ScaleMode: 1
+  m_Offset: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 2.1}
+  m_FadeFactor: 1
+  m_Version: 3
+--- !u!1 &2037904436
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2037904437}
+  - component: {fileID: 2037904438}
+  m_Layer: 0
+  m_Name: Eye (20)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2037904437
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2037904436}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.7031769, y: -0.7049654, z: -0.07445542, w: 0.054977167}
+  m_LocalPosition: {x: -4.107, y: 2.806, z: -5.04}
+  m_LocalScale: {x: 0.17467678, y: 0.17467678, z: 0.17467678}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 644871373}
+  m_LocalEulerAnglesHint: {x: -1.585, y: -169.497, z: -90}
+--- !u!114 &2037904438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2037904436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f19d9143a39eb3b46bc4563e9889cfbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.HighDefinition.Runtime::UnityEngine.Rendering.HighDefinition.DecalProjector
+  m_Material: {fileID: 2100000, guid: 77a0e091917d3a845af57c33eea8aa02, type: 2}
+  m_DrawDistance: 1000
+  m_FadeScale: 0.9
+  m_StartAngleFade: 180
+  m_EndAngleFade: 180
+  m_UVScale: {x: 1, y: 1}
+  m_UVBias: {x: 0, y: 0}
+  m_AffectsTransparency: 0
+  m_TransparentTextureResolution:
+    m_Override: 256
+    m_UseOverride: 1
+    m_Level: 0
+  m_DecalLayerMask: 1
+  m_ScaleMode: 1
+  m_Offset: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 2.56}
+  m_FadeFactor: 1
+  m_Version: 3
 --- !u!4 &2053778886 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1522783343660514499, guid: 5a7631eb1f69a8346bf68fc55d82f181, type: 3}
@@ -18979,11 +21943,197 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1168919760957797554, guid: a95d1e79fbb60634889eb556c59c584c, type: 3}
   m_PrefabInstance: {fileID: 2075519476}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2078965918
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2078965919}
+  - component: {fileID: 2078965920}
+  m_Layer: 0
+  m_Name: Eye (40)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2078965919
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2078965918}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.5059087, y: -0.5193784, z: -0.49402133, w: 0.47983897}
+  m_LocalPosition: {x: -12.5634, y: 2.967, z: -2.55}
+  m_LocalScale: {x: 0.18978146, y: 0.18978146, z: 0.18978146}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 644871373}
+  m_LocalEulerAnglesHint: {x: -1.585, y: -92.947, z: -90}
+--- !u!114 &2078965920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2078965918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f19d9143a39eb3b46bc4563e9889cfbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.HighDefinition.Runtime::UnityEngine.Rendering.HighDefinition.DecalProjector
+  m_Material: {fileID: 2100000, guid: 77a0e091917d3a845af57c33eea8aa02, type: 2}
+  m_DrawDistance: 1000
+  m_FadeScale: 0.9
+  m_StartAngleFade: 180
+  m_EndAngleFade: 180
+  m_UVScale: {x: 1, y: 1}
+  m_UVBias: {x: 0, y: 0}
+  m_AffectsTransparency: 0
+  m_TransparentTextureResolution:
+    m_Override: 256
+    m_UseOverride: 1
+    m_Level: 0
+  m_DecalLayerMask: 1
+  m_ScaleMode: 1
+  m_Offset: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 1.82}
+  m_FadeFactor: 1
+  m_Version: 3
 --- !u!4 &2089145241 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1522783343660514499, guid: 5a7631eb1f69a8346bf68fc55d82f181, type: 3}
   m_PrefabInstance: {fileID: 1540740572}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2099956440
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2099956441}
+  - component: {fileID: 2099956442}
+  m_Layer: 0
+  m_Name: Eye (26)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2099956441
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2099956440}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.49919423, y: -0.5128546, z: -0.5008052, w: 0.48680538}
+  m_LocalPosition: {x: -3.151, y: 2.855, z: -2.9}
+  m_LocalScale: {x: 0.10523459, y: 0.10523459, z: 0.10523459}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 644871373}
+  m_LocalEulerAnglesHint: {x: -1.585, y: -91.4, z: -90}
+--- !u!114 &2099956442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2099956440}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f19d9143a39eb3b46bc4563e9889cfbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.HighDefinition.Runtime::UnityEngine.Rendering.HighDefinition.DecalProjector
+  m_Material: {fileID: 2100000, guid: 77a0e091917d3a845af57c33eea8aa02, type: 2}
+  m_DrawDistance: 1000
+  m_FadeScale: 0.9
+  m_StartAngleFade: 180
+  m_EndAngleFade: 180
+  m_UVScale: {x: 1, y: 1}
+  m_UVBias: {x: 0, y: 0}
+  m_AffectsTransparency: 0
+  m_TransparentTextureResolution:
+    m_Override: 256
+    m_UseOverride: 1
+    m_Level: 0
+  m_DecalLayerMask: 1
+  m_ScaleMode: 1
+  m_Offset: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 2.56}
+  m_FadeFactor: 1
+  m_Version: 3
+--- !u!1 &2109210656
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2109210657}
+  - component: {fileID: 2109210658}
+  m_Layer: 0
+  m_Name: Eye (21)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2109210657
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2109210656}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.7031769, y: -0.7049654, z: -0.07445542, w: 0.054977167}
+  m_LocalPosition: {x: -4.107, y: 1.753, z: -5.04}
+  m_LocalScale: {x: 0.21678235, y: 0.21678235, z: 0.21678235}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 644871373}
+  m_LocalEulerAnglesHint: {x: -1.585, y: -169.497, z: -90}
+--- !u!114 &2109210658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2109210656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f19d9143a39eb3b46bc4563e9889cfbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.HighDefinition.Runtime::UnityEngine.Rendering.HighDefinition.DecalProjector
+  m_Material: {fileID: 2100000, guid: 77a0e091917d3a845af57c33eea8aa02, type: 2}
+  m_DrawDistance: 1000
+  m_FadeScale: 0.9
+  m_StartAngleFade: 180
+  m_EndAngleFade: 180
+  m_UVScale: {x: 1, y: 1}
+  m_UVBias: {x: 0, y: 0}
+  m_AffectsTransparency: 0
+  m_TransparentTextureResolution:
+    m_Override: 256
+    m_UseOverride: 1
+    m_Level: 0
+  m_DecalLayerMask: 1
+  m_ScaleMode: 1
+  m_Offset: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 2.56}
+  m_FadeFactor: 1
+  m_Version: 3
 --- !u!1 &2115487175
 GameObject:
   m_ObjectHideFlags: 0
