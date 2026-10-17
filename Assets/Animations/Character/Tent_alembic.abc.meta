@@ -2,7 +2,42 @@ fileFormatVersion: 2
 guid: c92e238c5ba17ab44ad4431dc198e3af
 ScriptedImporter:
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'bed/new_bed/new_bedShape:000:'
+    second: {fileID: 2100000, guid: 3f343d0548b02cc45bd981760966ff6b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tent_geo/arrows_ctrl/zipper_ctrl_grp/zipper3/zipper3Shape:000:initialShadingGroup
+    second: {fileID: 2100000, guid: 69ba7a4d8a15f624b90125383ae6b2ec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'tent_geo/l_cloth/outputCloth4:000:'
+    second: {fileID: 2100000, guid: 269542e719f48c04394b37a9db698290, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'tent_geo/r_cloth/outputCloth5:000:'
+    second: {fileID: 2100000, guid: 269542e719f48c04394b37a9db698290, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'tent_geo/strings/stringsShape:000:'
+    second: {fileID: 2100000, guid: 45f73d1e631b850479f73d2d91282885, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'tent_geo/tent_bot/tent_botShape:000:'
+    second: {fileID: 2100000, guid: 45f73d1e631b850479f73d2d91282885, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'tent_geo/top/topShape:000:'
+    second: {fileID: 2100000, guid: 45f73d1e631b850479f73d2d91282885, type: 2}
   serializedVersion: 2
   userData: 
   assetBundleName: 
