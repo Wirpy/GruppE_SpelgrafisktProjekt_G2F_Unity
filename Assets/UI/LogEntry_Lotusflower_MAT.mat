@@ -44,7 +44,7 @@ Material:
   - TransparentBackface
   - RayTracingPrepass
   - MOTIONVECTORS
-  m_LockedProperties: 
+  m_LockedProperties: _NoiseScale
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -87,7 +87,7 @@ Material:
     - _MaterialID: 1
     - _MaterialTypeMask: 2
     - _NoiseScale: 10
-    - _NoiseStrength: 1
+    - _NoiseStrength: 2
     - _OpaqueCullMode: 2
     - _PerPixelSorting: 0
     - _RayTracing: 0
