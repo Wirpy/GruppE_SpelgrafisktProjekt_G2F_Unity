@@ -10190,7 +10190,7 @@ Light:
   serializedVersion: 12
   m_Type: 3
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 0.053968504
+  m_Intensity: 0.022807766
   m_Range: 4.09
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -10231,11 +10231,11 @@ Light:
   m_RenderingLayerMask: 1
   m_Lightmapping: 4
   m_LightShadowCasterMode: 2
-  m_AreaSize: {x: 3.1089838, y: 4.0131044}
+  m_AreaSize: {x: 3.1089838, y: 14.675552}
   m_BounceIntensity: 1
-  m_ColorTemperature: 20000
+  m_ColorTemperature: 7051
   m_UseColorTemperature: 1
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 6.6282473}
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 11.590628}
   m_UseBoundingSphereOverride: 1
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -10924,6 +10924,18 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 3530445318821478635, guid: 87f18bd3ebca4014fb6f58b7ba325a9a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 3530445318821478635, guid: 87f18bd3ebca4014fb6f58b7ba325a9a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 18.38
+      objectReference: {fileID: 0}
+    - target: {fileID: 3530445318821478635, guid: 87f18bd3ebca4014fb6f58b7ba325a9a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.23
+      objectReference: {fileID: 0}
     - target: {fileID: 4664759975415383948, guid: 87f18bd3ebca4014fb6f58b7ba325a9a, type: 3}
       propertyPath: flickerSpeed
       value: 2
@@ -10944,13 +10956,29 @@ PrefabInstance:
       propertyPath: flickerAmount
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 5118480473603916478, guid: 87f18bd3ebca4014fb6f58b7ba325a9a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.002
+      objectReference: {fileID: 0}
+    - target: {fileID: 5118480473603916478, guid: 87f18bd3ebca4014fb6f58b7ba325a9a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.094
+      objectReference: {fileID: 0}
     - target: {fileID: 5473813200934731980, guid: 87f18bd3ebca4014fb6f58b7ba325a9a, type: 3}
       propertyPath: m_Range
-      value: 4.66
+      value: 5.83
       objectReference: {fileID: 0}
     - target: {fileID: 5473813200934731980, guid: 87f18bd3ebca4014fb6f58b7ba325a9a, type: 3}
       propertyPath: m_Intensity
       value: 0.081098296
+      objectReference: {fileID: 0}
+    - target: {fileID: 5473813200934731980, guid: 87f18bd3ebca4014fb6f58b7ba325a9a, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5473813200934731980, guid: 87f18bd3ebca4014fb6f58b7ba325a9a, type: 3}
+      propertyPath: m_ColorTemperature
+      value: 7741
       objectReference: {fileID: 0}
     - target: {fileID: 5996115936219573950, guid: 87f18bd3ebca4014fb6f58b7ba325a9a, type: 3}
       propertyPath: m_Name
@@ -10967,6 +10995,10 @@ PrefabInstance:
     - target: {fileID: 6969592252630054158, guid: 87f18bd3ebca4014fb6f58b7ba325a9a, type: 3}
       propertyPath: m_Mesh
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7463189244144143640, guid: 87f18bd3ebca4014fb6f58b7ba325a9a, type: 3}
+      propertyPath: m_Intensity
+      value: 48.97074
       objectReference: {fileID: 0}
     - target: {fileID: 7778934471119712692, guid: 87f18bd3ebca4014fb6f58b7ba325a9a, type: 3}
       propertyPath: m_Mesh
@@ -12002,7 +12034,7 @@ Light:
   m_LightShadowCasterMode: 2
   m_AreaSize: {x: 11.56256, y: 18.21217}
   m_BounceIntensity: 1
-  m_ColorTemperature: 10554
+  m_ColorTemperature: 7851
   m_UseColorTemperature: 1
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 20.986286}
   m_UseBoundingSphereOverride: 1
