@@ -226,7 +226,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: cb1530ceb125ffa4292ef9852bbc6d8f, type: 3}
       propertyPath: m_Name
-      value: Kalle_avatar
+      value: Kalle_avatar 1
       objectReference: {fileID: 0}
     - target: {fileID: 3585597051458206567, guid: cb1530ceb125ffa4292ef9852bbc6d8f, type: 3}
       propertyPath: m_UpdateWhenOffscreen
@@ -1660,6 +1660,63 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 03c1db2894ed7574fa9aa0ad7b582626, type: 3}
+--- !u!1001 &6102018534219559946
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8374665748011131429, guid: c046306fe1ff2264e89987f39bed962b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.106
+      objectReference: {fileID: 0}
+    - target: {fileID: 8374665748011131429, guid: c046306fe1ff2264e89987f39bed962b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.31093
+      objectReference: {fileID: 0}
+    - target: {fileID: 8374665748011131429, guid: c046306fe1ff2264e89987f39bed962b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.382
+      objectReference: {fileID: 0}
+    - target: {fileID: 8374665748011131429, guid: c046306fe1ff2264e89987f39bed962b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8374665748011131429, guid: c046306fe1ff2264e89987f39bed962b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8374665748011131429, guid: c046306fe1ff2264e89987f39bed962b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8374665748011131429, guid: c046306fe1ff2264e89987f39bed962b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8374665748011131429, guid: c046306fe1ff2264e89987f39bed962b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8374665748011131429, guid: c046306fe1ff2264e89987f39bed962b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8374665748011131429, guid: c046306fe1ff2264e89987f39bed962b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9183713257568204959, guid: c046306fe1ff2264e89987f39bed962b, type: 3}
+      propertyPath: m_Name
+      value: Kalle_avatar
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c046306fe1ff2264e89987f39bed962b, type: 3}
 --- !u!1001 &7931155693605580985
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1737,3 +1794,4 @@ SceneRoots:
   - {fileID: 7931155693605580985}
   - {fileID: 4012221219465614381}
   - {fileID: 1271466622}
+  - {fileID: 6102018534219559946}
