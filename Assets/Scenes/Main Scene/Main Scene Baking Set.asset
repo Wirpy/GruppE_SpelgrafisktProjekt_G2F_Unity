@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4881f9a2c4d568047b316028d20a8dca, type: 3}
   m_Name: Main Scene Baking Set
   m_EditorClassIdentifier: Unity.RenderPipelines.Core.Runtime::UnityEngine.Rendering.ProbeVolumeBakingSet
-  singleSceneMode: 1
+  singleSceneMode: 0
   dialogNoProbeVolumeInSetShown: 1
   settings:
     m_Version: 1
@@ -33,6 +33,7 @@ MonoBehaviour:
         m_Bits: 4294967291
   m_SceneGUIDs:
   - 305af2a496b782048adeb0887fca21b0
+  - 389a667e5d0ad1447b36ad482c9a6205
   obsoleteScenesToNotBake: []
   m_LightingScenarios:
   - Default
@@ -121,9 +122,15 @@ MonoBehaviour:
   m_SceneBakeData:
     m_Keys:
     - 305af2a496b782048adeb0887fca21b0
+    - 389a667e5d0ad1447b36ad482c9a6205
     m_Values:
     - hasProbeVolume: 1
       bakeScene: 1
       bounds:
         m_Center: {x: 2470.5, y: 405, z: 2470.5}
         m_Extent: {x: 2551.5, y: 405, z: 2551.5}
+    - hasProbeVolume: 0
+      bakeScene: 1
+      bounds:
+        m_Center: {x: 0, y: 0, z: 0}
+        m_Extent: {x: 0, y: 0, z: 0}
