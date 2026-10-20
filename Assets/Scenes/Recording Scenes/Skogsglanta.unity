@@ -12193,7 +12193,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!95 &716532620
 Animator:
   serializedVersion: 7
@@ -17160,71 +17160,71 @@ MonoBehaviour:
       TangentIn:
         x: -0
         y: -0
-        z: -1.5006652
+        z: -1.4617715
       TangentOut:
         x: 0
         y: 0
-        z: 1.2182955
+        z: 1.221928
       Rotation:
         value:
-          x: 0.6151228
-          y: 0.61032265
-          z: 0.40118426
-          w: 0.2969535
+          x: 0.6429107
+          y: 0.6265443
+          z: 0.3439737
+          w: 0.2753
     - Position:
-        x: 8.961426
-        y: 0.9300003
-        z: -4.4677734
+        x: 8.393066
+        y: 0.60899353
+        z: -5.2070312
       TangentIn:
         x: -0
         y: -0
-        z: -0.97190934
+        z: -1.0324076
       TangentOut:
         x: 0
         y: 0
-        z: 0.7532631
+        z: 0.77719706
       Rotation:
         value:
-          x: 0.049687423
-          y: 0.9567271
-          z: 0.11224982
-          w: 0.2638266
+          x: 0.051042173
+          y: 0.97403395
+          z: 0.080528565
+          w: 0.20534801
     - Position:
-        x: 9.6015625
-        y: 1.3499985
-        z: -6.3779297
+        x: 9.034912
+        y: 1.0289993
+        z: -7.1171875
       TangentIn:
         x: -0
         y: -0
-        z: -0.72349864
+        z: -0.69609493
       TangentOut:
         x: 0
         y: 0
-        z: 0.82917273
+        z: 0.7860982
       Rotation:
         value:
-          x: 0.042634692
-          y: 0.9633124
-          z: 0.1394464
-          w: 0.2253134
+          x: 0.035680175
+          y: 0.94246423
+          z: 0.18340622
+          w: 0.2772187
     - Position:
-        x: 11.141602
+        x: 10.906006
         y: 2.1299973
-        z: -8.457764
+        z: -8.593018
       TangentIn:
         x: -0
         y: -0
-        z: -0.76519793
+        z: -0.75940436
       TangentOut:
         x: 0
         y: 0
-        z: 0.56623703
+        z: 0.5858027
       Rotation:
         value:
-          x: 0.03438832
-          y: 0.9313479
-          z: 0.16398278
-          w: 0.32329273
+          x: 0.031800404
+          y: 0.8862052
+          z: 0.20785834
+          w: 0.41282454
     - Position:
         x: 12.111572
         y: 2.5399933
@@ -17232,17 +17232,17 @@ MonoBehaviour:
       TangentIn:
         x: -0
         y: -0
-        z: -0.43988988
+        z: -0.47708505
       TangentOut:
         x: 0
         y: 0
-        z: 0.46844256
+        z: 0.49453497
       Rotation:
         value:
-          x: 0.69387645
-          y: -0.37977293
-          z: 0.35582796
-          w: -0.49768916
+          x: 0.6665312
+          y: -0.37703598
+          z: 0.38539752
+          w: -0.5148288
     - Position:
         x: 13.541504
         y: 3.2949982
@@ -19162,6 +19162,8 @@ PlayableDirector:
   m_SceneBindings:
   - key: {fileID: 761853604627331897, guid: 4a4c78e189144954583da697e7a62d02, type: 2}
     value: {fileID: 1132288549}
+  - key: {fileID: 2346861770265881541, guid: 4a4c78e189144954583da697e7a62d02, type: 2}
+    value: {fileID: 716532619}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &1088808857
@@ -24692,7 +24694,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3630282588755532534, guid: 23b665013c5b56247a187e3a2e9f2a7f, type: 3}
       propertyPath: EmissionModule.rateOverDistance.scalar
-      value: 15
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 3630282588755532534, guid: 23b665013c5b56247a187e3a2e9f2a7f, type: 3}
       propertyPath: ColorModule.gradient.maxGradient.atime1
@@ -27001,6 +27003,10 @@ PrefabInstance:
     - target: {fileID: 6606924908931625790, guid: 23b665013c5b56247a187e3a2e9f2a7f, type: 3}
       propertyPath: m_Name
       value: Leaf_following_ParticleSystem
+      objectReference: {fileID: 0}
+    - target: {fileID: 6606924908931625790, guid: 23b665013c5b56247a187e3a2e9f2a7f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
