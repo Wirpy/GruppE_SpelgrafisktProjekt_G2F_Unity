@@ -93,7 +93,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 112000002, guid: 019f6003b93b26d43a503ddfecbaa7e1, type: 2}
+  m_LightingDataAsset: {fileID: 112000004, guid: 019f6003b93b26d43a503ddfecbaa7e1, type: 2}
   m_LightingSettings: {fileID: 4890085278179872738, guid: a08dbf541e4f1e146bd8f7d2f96699ff, type: 2}
 --- !u!196 &4
 NavMeshSettings:
@@ -531534,31 +531534,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7336802135073643473, guid: ce1ff21170a3d7d48bd71a1786fc3e0d, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.60686564
+      value: 0.64140064
       objectReference: {fileID: 0}
     - target: {fileID: 7336802135073643473, guid: ce1ff21170a3d7d48bd71a1786fc3e0d, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.2801482
+      value: 0.3177255
       objectReference: {fileID: 0}
     - target: {fileID: 7336802135073643473, guid: ce1ff21170a3d7d48bd71a1786fc3e0d, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.5099725
+      value: 0.4657929
       objectReference: {fileID: 0}
     - target: {fileID: 7336802135073643473, guid: ce1ff21170a3d7d48bd71a1786fc3e0d, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.5414418
+      value: 0.52028143
       objectReference: {fileID: 0}
     - target: {fileID: 7336802135073643473, guid: ce1ff21170a3d7d48bd71a1786fc3e0d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -12.252
+      value: -4.422
       objectReference: {fileID: 0}
     - target: {fileID: 7336802135073643473, guid: ce1ff21170a3d7d48bd71a1786fc3e0d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 70.706
+      value: 68.576
       objectReference: {fileID: 0}
     - target: {fileID: 7336802135073643473, guid: ce1ff21170a3d7d48bd71a1786fc3e0d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 74.77
+      value: 75.079
       objectReference: {fileID: 0}
     - target: {fileID: 8698434272722159476, guid: ce1ff21170a3d7d48bd71a1786fc3e0d, type: 3}
       propertyPath: m_Name
@@ -531566,7 +531566,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8698434272722159476, guid: ce1ff21170a3d7d48bd71a1786fc3e0d, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
