@@ -12225,7 +12225,7 @@ Transform:
   m_GameObject: {fileID: 716532619}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3125.2085, y: 100.23, z: 3340.3079}
+  m_LocalPosition: {x: 3125.208, y: 100.23, z: 3340.308}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -24692,7 +24692,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3630282588755532534, guid: 23b665013c5b56247a187e3a2e9f2a7f, type: 3}
       propertyPath: EmissionModule.rateOverDistance.scalar
-      value: 5
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 3630282588755532534, guid: 23b665013c5b56247a187e3a2e9f2a7f, type: 3}
       propertyPath: ColorModule.gradient.maxGradient.atime1
@@ -26760,7 +26760,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -7136228254017681358, guid: 23b665013c5b56247a187e3a2e9f2a7f, type: 3}
       propertyPath: m_Method
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -7136228254017681358, guid: 23b665013c5b56247a187e3a2e9f2a7f, type: 3}
       propertyPath: m_Target
