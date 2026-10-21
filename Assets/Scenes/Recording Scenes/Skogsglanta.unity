@@ -19300,8 +19300,8 @@ Light:
   m_Enabled: 1
   serializedVersion: 12
   m_Type: 1
-  m_Color: {r: 0.7529621, g: 0, b: 1, a: 1}
-  m_Intensity: 66388.88
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 1192.5907
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -19344,7 +19344,7 @@ Light:
   m_LightShadowCasterMode: 2
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
-  m_ColorTemperature: 4262
+  m_ColorTemperature: 3842
   m_UseColorTemperature: 1
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 8.522241e-33}
   m_UseBoundingSphereOverride: 0
@@ -19363,13 +19363,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1095638739}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.9164242, y: -0.24444461, z: 0.26204237, w: 0.17817779}
+  m_LocalRotation: {x: 0.94467723, y: 0.00027915864, z: 0.20642877, w: 0.25489643}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 387.045, y: 513.804, z: -516.53503}
+  m_LocalEulerAnglesHint: {x: 388.782, y: 513.567, z: -546.931}
 --- !u!114 &1095638742
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24674,6 +24674,10 @@ PrefabInstance:
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 3630282588755532534, guid: 23b665013c5b56247a187e3a2e9f2a7f, type: 3}
+      propertyPath: InitialModule.maxNumParticles
+      value: 10000
+      objectReference: {fileID: 0}
+    - target: {fileID: 3630282588755532534, guid: 23b665013c5b56247a187e3a2e9f2a7f, type: 3}
       propertyPath: InitialModule.startSize.scalar
       value: 1.2
       objectReference: {fileID: 0}
@@ -24687,7 +24691,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3630282588755532534, guid: 23b665013c5b56247a187e3a2e9f2a7f, type: 3}
       propertyPath: EmissionModule.rateOverDistance.scalar
-      value: 40
+      value: 70
       objectReference: {fileID: 0}
     - target: {fileID: 3630282588755532534, guid: 23b665013c5b56247a187e3a2e9f2a7f, type: 3}
       propertyPath: ColorModule.gradient.maxGradient.atime1
