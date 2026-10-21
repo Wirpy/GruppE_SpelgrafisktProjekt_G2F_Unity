@@ -30901,7 +30901,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3182806857403340187, guid: e9599b5f7894a8947a6d59d7993ad10e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 99.43
+      value: 99.5
       objectReference: {fileID: 0}
     - target: {fileID: 3182806857403340187, guid: e9599b5f7894a8947a6d59d7993ad10e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -30938,6 +30938,14 @@ PrefabInstance:
     - target: {fileID: 7960149979589773888, guid: e9599b5f7894a8947a6d59d7993ad10e, type: 3}
       propertyPath: m_Name
       value: Mist_VFX (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7960149979589773888, guid: e9599b5f7894a8947a6d59d7993ad10e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8640198490849049876, guid: e9599b5f7894a8947a6d59d7993ad10e, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
