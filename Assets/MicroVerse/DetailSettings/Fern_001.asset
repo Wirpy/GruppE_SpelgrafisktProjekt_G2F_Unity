@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0692d8ac7060e49efaaef61c71aec33e, type: 3}
+  m_Name: Fern_001
+  m_EditorClassIdentifier: JBooth.MicroVerseCore::JBooth.MicroVerseCore.DetailPrototypeSettings
+  prototype:
+    prototype: {fileID: 6450220683942782645, guid: 68259ab862a2fd94db026dde3b98b8e3, type: 3}
+    alignToGround: 0
+    density: 0.25
+    dryColor: {r: 1, g: 1, b: 1, a: 1}
+    healthyColor: {r: 1, g: 1, b: 1, a: 1}
+    holeEdgePadding: 0
+    minWidth: 0.25
+    maxWidth: 1
+    minHeight: 0.25
+    maxHeight: 1
+    noiseSeed: 0
+    noiseSpread: 1
+    positionJitter: 0
+    prototypeTexture: {fileID: 0}
+    renderMode: 1
+    targetCoverage: 0
+    useInstancing: 1
+    useDensityScaling: 1
+    usePrototypeMesh: 1

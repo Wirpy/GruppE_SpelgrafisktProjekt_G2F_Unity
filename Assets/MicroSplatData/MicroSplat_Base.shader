@@ -11,7 +11,7 @@
 ////////////////////////////////////////
 
 
-Shader "Hidden/Parent_Terrain_Base-1461775880"
+Shader "Hidden/Parent_Terrain_Base834891453"
 {
    Properties
    {
@@ -220,6 +220,7 @@ Shader "Hidden/Parent_Terrain_Base-1461775880"
       #define _SURFACENORMALS 1
       #define _USEGRADMIP 1
       #define _WORLDUV 1
+      #define _PERTEXTINT 1
       #define _CONTROLNOISEUV 1
       #define _BRANCHSAMPLES 1
       #define _BRANCHSAMPLESAGR 1
@@ -5675,6 +5676,7 @@ float3 GetTessFactors ()
       #define _SURFACENORMALS 1
       #define _USEGRADMIP 1
       #define _WORLDUV 1
+      #define _PERTEXTINT 1
       #define _CONTROLNOISEUV 1
       #define _BRANCHSAMPLES 1
       #define _BRANCHSAMPLESAGR 1
@@ -10953,6 +10955,7 @@ float3 GetTessFactors ()
       #define _SURFACENORMALS 1
       #define _USEGRADMIP 1
       #define _WORLDUV 1
+      #define _PERTEXTINT 1
       #define _CONTROLNOISEUV 1
       #define _BRANCHSAMPLES 1
       #define _BRANCHSAMPLESAGR 1
@@ -16313,6 +16316,7 @@ float3 GetTessFactors ()
       #define _SURFACENORMALS 1
       #define _USEGRADMIP 1
       #define _WORLDUV 1
+      #define _PERTEXTINT 1
       #define _CONTROLNOISEUV 1
       #define _BRANCHSAMPLES 1
       #define _BRANCHSAMPLESAGR 1
@@ -21656,6 +21660,7 @@ float3 GetTessFactors ()
       #define _SURFACENORMALS 1
       #define _USEGRADMIP 1
       #define _WORLDUV 1
+      #define _PERTEXTINT 1
       #define _CONTROLNOISEUV 1
       #define _BRANCHSAMPLES 1
       #define _BRANCHSAMPLESAGR 1
@@ -26941,6 +26946,7 @@ float3 GetTessFactors ()
       #define _SURFACENORMALS 1
       #define _USEGRADMIP 1
       #define _WORLDUV 1
+      #define _PERTEXTINT 1
       #define _CONTROLNOISEUV 1
       #define _BRANCHSAMPLES 1
       #define _BRANCHSAMPLESAGR 1
@@ -32221,6 +32227,7 @@ float3 GetTessFactors ()
       #define _SURFACENORMALS 1
       #define _USEGRADMIP 1
       #define _WORLDUV 1
+      #define _PERTEXTINT 1
       #define _CONTROLNOISEUV 1
       #define _BRANCHSAMPLES 1
       #define _BRANCHSAMPLESAGR 1
@@ -37526,6 +37533,7 @@ float3 GetTessFactors ()
       #define _SURFACENORMALS 1
       #define _USEGRADMIP 1
       #define _WORLDUV 1
+      #define _PERTEXTINT 1
       #define _CONTROLNOISEUV 1
       #define _BRANCHSAMPLES 1
       #define _BRANCHSAMPLESAGR 1
@@ -42833,6 +42841,7 @@ float3 GetTessFactors ()
       #define _SURFACENORMALS 1
       #define _USEGRADMIP 1
       #define _WORLDUV 1
+      #define _PERTEXTINT 1
       #define _CONTROLNOISEUV 1
       #define _BRANCHSAMPLES 1
       #define _BRANCHSAMPLESAGR 1
