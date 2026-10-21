@@ -93,7 +93,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 112000002, guid: 0c43bd3fc0e4d894e980644e2c86ec4a, type: 2}
+  m_LightingDataAsset: {fileID: 112000002, guid: 62990a9dfe68e024bb776886e39d7cff, type: 2}
   m_LightingSettings: {fileID: 4890085278179872738, guid: a08dbf541e4f1e146bd8f7d2f96699ff, type: 2}
 --- !u!196 &4
 NavMeshSettings:
@@ -532113,6 +532113,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4056801138609528062, guid: ce1ff21170a3d7d48bd71a1786fc3e0d, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4056801138609528062, guid: ce1ff21170a3d7d48bd71a1786fc3e0d, type: 3}
       propertyPath: m_ColorTemperature
       value: 6695
       objectReference: {fileID: 0}
@@ -532122,15 +532126,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4056801138609528062, guid: ce1ff21170a3d7d48bd71a1786fc3e0d, type: 3}
       propertyPath: m_BoundingSphereOverride.w
-      value: 1.3667647e-15
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4056801138609528062, guid: ce1ff21170a3d7d48bd71a1786fc3e0d, type: 3}
       propertyPath: m_BoundingSphereOverride.x
-      value: 5.69e-43
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4056801138609528062, guid: ce1ff21170a3d7d48bd71a1786fc3e0d, type: 3}
       propertyPath: m_BoundingSphereOverride.y
-      value: 1.61e-43
+      value: 2.24e-43
       objectReference: {fileID: 0}
     - target: {fileID: 4056801138609528062, guid: ce1ff21170a3d7d48bd71a1786fc3e0d, type: 3}
       propertyPath: m_BoundingSphereOverride.z
@@ -532182,7 +532186,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8698434272722159476, guid: ce1ff21170a3d7d48bd71a1786fc3e0d, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
