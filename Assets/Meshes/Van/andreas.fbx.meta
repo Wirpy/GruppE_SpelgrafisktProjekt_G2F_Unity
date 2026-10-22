@@ -3,7 +3,22 @@ guid: 50f7a2c9416c06c4896d1561a64e81b4
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Van_interior
+    second: {fileID: 2100000, guid: 7e2bc2ca61931aa45bbea51938e2ae4f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Van_shell_inner
+    second: {fileID: 2100000, guid: 13468a14c22b2cd42a77e14365b05ef7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Van_shell_outer
+    second: {fileID: 2100000, guid: 13468a14c22b2cd42a77e14365b05ef7, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
