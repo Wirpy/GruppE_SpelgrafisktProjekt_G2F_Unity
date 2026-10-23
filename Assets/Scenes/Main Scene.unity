@@ -93,7 +93,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000002, guid: aa0a38dfad4fbf949b9de52089bb5091, type: 2}
   m_LightingSettings: {fileID: 4890085278179872738, guid: a08dbf541e4f1e146bd8f7d2f96699ff, type: 2}
 --- !u!196 &4
 NavMeshSettings:
@@ -545,7 +545,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 1
   m_IsActive: 1
 --- !u!4 &18180403
 Transform:
@@ -533550,7 +533550,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 1
   m_IsActive: 1
 --- !u!4 &443952133
 Transform:
@@ -534928,7 +534928,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7587729599936439119, guid: a140d73b3211b8b4a8ff5e8531ae2c16, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -544290,7 +544290,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 1
   m_IsActive: 1
 --- !u!4 &945003929
 Transform:
@@ -616803,7 +616803,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 1
   m_IsActive: 1
 --- !u!4 &1270428485
 Transform:
@@ -621057,7 +621057,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 1
   m_IsActive: 1
 --- !u!4 &1514573125
 Transform:
@@ -622306,7 +622306,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5503689044857632752, guid: 9516892a8bbcb40478c02368f0bc1f58, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8233399528520322480, guid: 9516892a8bbcb40478c02368f0bc1f58, type: 3}
       propertyPath: density
@@ -632691,7 +632691,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 1
   m_IsActive: 1
 --- !u!4 &3770487235675163987 stripped
 Transform:
@@ -633740,7 +633740,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 1
   m_IsActive: 1
 --- !u!4 &5840245763667510980
 Transform:
@@ -633844,7 +633844,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 1
   m_IsActive: 1
 --- !u!1 &7546877415500273656
 GameObject:
