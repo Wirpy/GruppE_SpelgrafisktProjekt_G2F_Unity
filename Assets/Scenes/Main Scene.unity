@@ -2214,6 +2214,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chair
       objectReference: {fileID: 0}
+    - target: {fileID: 4160785432743430634, guid: 8d1fac8b975e04b45bb4fbe670496ffd, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -532259,7 +532263,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2584453620336536718, guid: 73e21525f9553dc48a171e557267bb87, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -619137,7 +619141,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 09729129390b5a544829999c19310a7d, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -626077,6 +626081,10 @@ PrefabInstance:
     - target: {fileID: 2621052717743038940, guid: 05172c9e4c1ad9647b03e744502efc05, type: 3}
       propertyPath: m_Name
       value: Axe
+      objectReference: {fileID: 0}
+    - target: {fileID: 2621052717743038940, guid: 05172c9e4c1ad9647b03e744502efc05, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3392346468602166118, guid: 05172c9e4c1ad9647b03e744502efc05, type: 3}
       propertyPath: m_LocalScale.x
