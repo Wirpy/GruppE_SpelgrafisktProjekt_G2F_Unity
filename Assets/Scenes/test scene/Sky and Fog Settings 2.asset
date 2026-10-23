@@ -99,13 +99,13 @@ MonoBehaviour:
   active: 1
   postExposure:
     m_OverrideState: 1
-    m_Value: 2.06
+    m_Value: 0.98
   contrast:
     m_OverrideState: 1
     m_Value: 2
   colorFilter:
     m_OverrideState: 1
-    m_Value: {r: 0.7877358, g: 0.916235, b: 1, a: 1}
+    m_Value: {r: 1, g: 0.9370875, b: 0.9292453, a: 1}
   hueShift:
     m_OverrideState: 1
     m_Value: 0
@@ -130,7 +130,7 @@ MonoBehaviour:
     m_Value: 4
   cloudType:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 1
   skyAmbientMode:
     m_OverrideState: 1
     m_Value: 1
@@ -438,7 +438,7 @@ MonoBehaviour:
     m_Value: {r: 1, g: 1, b: 1, a: 1}
   maxFogDistance:
     m_OverrideState: 1
-    m_Value: 979.5
+    m_Value: 998
   mipFogMaxMip:
     m_OverrideState: 0
     m_Value: 0.5
@@ -450,13 +450,13 @@ MonoBehaviour:
     m_Value: 1000
   baseHeight:
     m_OverrideState: 1
-    m_Value: 15.4
+    m_Value: 4.2
   maximumHeight:
     m_OverrideState: 1
-    m_Value: 228.89
+    m_Value: 226.2
   meanFreePath:
     m_OverrideState: 1
-    m_Value: 9.53
+    m_Value: 7.05
   enableVolumetricFog:
     m_OverrideState: 1
     m_Value: 1
