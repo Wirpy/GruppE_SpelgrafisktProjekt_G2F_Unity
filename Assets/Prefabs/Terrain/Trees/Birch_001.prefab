@@ -15,7 +15,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 1
   m_IsActive: 1
 --- !u!4 &9089572980447941899
 Transform:
@@ -115,6 +115,10 @@ PrefabInstance:
     - target: {fileID: 4287529454161221167, guid: fe2ef57979094da4393b8e871baf6da8, type: 3}
       propertyPath: m_Name
       value: Birch_001 Mesh
+      objectReference: {fileID: 0}
+    - target: {fileID: 4287529454161221167, guid: fe2ef57979094da4393b8e871baf6da8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

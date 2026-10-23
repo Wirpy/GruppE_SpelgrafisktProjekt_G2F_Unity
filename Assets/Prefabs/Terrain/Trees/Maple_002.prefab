@@ -15,7 +15,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 1
   m_IsActive: 1
 --- !u!4 &6304051029315772401
 Transform:
@@ -71,6 +71,10 @@ PrefabInstance:
     - target: {fileID: 3485867240839730951, guid: 711d5d04614bcf04a96c07ebd81c111a, type: 3}
       propertyPath: m_Name
       value: Maple_002 Mesh
+      objectReference: {fileID: 0}
+    - target: {fileID: 3485867240839730951, guid: 711d5d04614bcf04a96c07ebd81c111a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4263670135515778493, guid: 711d5d04614bcf04a96c07ebd81c111a, type: 3}
       propertyPath: m_LocalPosition.x
